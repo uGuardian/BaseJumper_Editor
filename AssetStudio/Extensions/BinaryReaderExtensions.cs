@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Linq;
 
 namespace AssetStudio
 {
@@ -37,6 +38,10 @@ namespace AssetStudio
 
         public static string ReadStringToNull(this BinaryReader reader, int maxLength = 32767)
         {
+			return Encoding.UTF8.GetString(ReadBytesToNull(reader, maxLength).ToArray());
+        }
+        public static List<byte> ReadBytesToNull(this BinaryReader reader, int maxLength = 32767)
+        {
             var bytes = new List<byte>();
             int count = 0;
             while (reader.BaseStream.Position != reader.BaseStream.Length && count < maxLength)
@@ -49,7 +54,7 @@ namespace AssetStudio
                 bytes.Add(b);
                 count++;
             }
-            return Encoding.UTF8.GetString(bytes.ToArray());
+            return bytes;
         }
 
         public static Quaternion ReadQuaternion(this BinaryReader reader)

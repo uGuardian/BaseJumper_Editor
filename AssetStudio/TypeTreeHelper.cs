@@ -182,6 +182,33 @@ namespace AssetStudio
             return obj;
         }
 
+        public static ObjectData GetObjectData(Object obj)
+        {
+            var m_Types = obj.serializedType?.m_Type;
+            if (m_Types == null) {
+                return null;
+            }
+            var reader = obj.reader;
+            reader.Reset();
+            var m_Nodes = m_Types.m_Nodes;
+            var objData = new ObjectData(obj);
+            var dataList = objData.dataList;
+            for (int i = 1; i < m_Nodes.Count; i++)
+            {
+                var data = new ObjectData.TypeData();
+				data.m_Node = m_Nodes[i];
+                data.offset = reader.Position;
+                data.value = ReadValue(m_Nodes, reader, ref i);
+                dataList.Add(data);
+            }
+            var readed = reader.Position - reader.byteStart;
+            if (readed != reader.byteSize)
+            {
+                Logger.Info($"Error while read type, read {readed} bytes but expected {reader.byteSize} bytes");
+            }
+            return objData;
+        }
+
         private static object ReadValue(List<TypeTreeNode> m_Nodes, BinaryReader reader, ref int i)
         {
             var m_Node = m_Nodes[i];
@@ -303,6 +330,77 @@ namespace AssetStudio
             if (align)
                 reader.AlignStream();
             return value;
+        }
+
+		public static void WriteValue(TypeTreeNode m_Node, BinaryWriterVerbose writer, long offset, dynamic value) =>
+            WriteValue(m_Node.m_Type, (m_Node.m_MetaFlag & 0x4000) != 0, writer, offset, value);
+		public static void WriteValue(string varTypeStr, bool align, BinaryWriterVerbose writer, long offset, dynamic value)
+        {
+            writer.BaseStream.Position = offset;
+            switch (varTypeStr)
+            {
+                case "SInt8":
+                    writer.WriteSByte(value);
+                    break;
+                case "UInt8":
+                    writer.WriteByte(value);
+                    break;
+                case "char":
+                    if (value is char @char) {
+                        byte[] bytes;
+                        bytes = BitConverter.GetBytes(@char);
+                        writer.WriteBytes(bytes);
+                    } else {
+                        writer.WriteBytes(value);
+                    }
+                    break;
+                case "short":
+                case "SInt16":
+                    writer.WriteInt16(value);
+                    break;
+                case "UInt16":
+                case "unsigned short":
+                    writer.WriteUInt16(value);
+                    break;
+                case "int":
+                case "SInt32":
+                    writer.WriteInt32(value);
+                    break;
+                case "UInt32":
+                case "unsigned int":
+                case "Type*":
+                    writer.WriteUInt32(value);
+                    break;
+                case "long long":
+                case "SInt64":
+                    writer.WriteInt64(value);
+                    break;
+                case "UInt64":
+                case "unsigned long long":
+                case "FileSize":
+                    writer.WriteUInt64(value);
+                    break;
+                case "float":
+                    writer.WriteSingle(value);
+                    break;
+                case "double":
+                    writer.WriteDouble(value);
+                    break;
+                case "bool":
+                    writer.WriteBoolean(value);
+                    break;
+                case "string":
+                    throw new NotImplementedException("strings not supported yet");
+                case "map":
+                    goto default;
+                case "TypelessData":
+                default:
+                    {
+                        throw new NotSupportedException("Potentially nested types are not supported");
+                    }
+            }
+            if (align)
+                writer.AlignStream();
         }
 
         private static List<TypeTreeNode> GetNodes(List<TypeTreeNode> m_Nodes, int index)

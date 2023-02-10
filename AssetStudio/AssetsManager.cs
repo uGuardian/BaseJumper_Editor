@@ -5,10 +5,11 @@ using System.IO.Compression;
 using System.Linq;
 using System.Text;
 using static AssetStudio.ImportHelper;
+using BaseJumper.Editor;
 
 namespace AssetStudio
 {
-    public class AssetsManager
+    public class AssetsManager : IDisposable
     {
         public string SpecifyUnityVersion;
         public List<SerializedFile> assetsFileList = new List<SerializedFile>();
@@ -20,6 +21,13 @@ namespace AssetStudio
         private HashSet<string> importFilesHash = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         private HashSet<string> noexistFiles = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         private HashSet<string> assetsFileListHash = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        public string LoRPath {get; set;}
+        public Dictionary<BundleFile, FileReader[]> bundleFileSubReaders = new Dictionary<BundleFile, FileReader[]>();
+        public Dictionary<FileReader, StreamFile> readerStreamFiles = new Dictionary<FileReader, StreamFile>();
+        public Dictionary<FileReader, BundleFile> readerBundleFiles = new Dictionary<FileReader, BundleFile>();
+        public BaseJumper.Editor.Progress ProgressManager {get; set;}
+
 
         public void LoadFiles(params string[] files)
         {
@@ -45,13 +53,17 @@ namespace AssetStudio
                 importFilesHash.Add(Path.GetFileName(file));
             }
 
-            Progress.Reset();
+            var progress = new Progress(ProgressManager, "AssetStudio : Loading Files", "Loading file ");
+            ProgressManager.AddProgress(progress);
             //use a for loop because list size can change
             for (var i = 0; i < importFiles.Count; i++)
             {
-                LoadFile(importFiles[i]);
-                Progress.Report(i + 1, importFiles.Count);
+                var file = importFiles[i];
+                progress.messageIteration = file;
+                progress.Report(i, importFiles.Count);
+                LoadFile(file);
             }
+            progress.Finish();
 
             importFiles.Clear();
             importFilesHash.Clear();
@@ -117,6 +129,9 @@ namespace AssetStudio
                                 if (!File.Exists(sharedFilePath))
                                 {
                                     var findFiles = Directory.GetFiles(Path.GetDirectoryName(reader.FullPath), sharedFileName, SearchOption.AllDirectories);
+                                    if (findFiles.Length <= 0 && LoRPath != null) {
+                                        findFiles = Directory.GetFiles(LoRPath, sharedFileName, SearchOption.AllDirectories);
+                                    }
                                     if (findFiles.Length > 0)
                                     {
                                         sharedFilePath = findFiles[0];
@@ -180,10 +195,16 @@ namespace AssetStudio
             try
             {
                 var bundleFile = new BundleFile(reader);
-                foreach (var file in bundleFile.fileList)
+                var fileList = bundleFile.fileList;
+                var readerAry = new FileReader[fileList.Length];
+				for (int i = 0; i < fileList.Length; i++)
                 {
-                    var dummyPath = Path.Combine(Path.GetDirectoryName(reader.FullPath), file.fileName);
+					StreamFile file = fileList[i];
+					var dummyPath = Path.Combine(Path.GetDirectoryName(reader.FullPath), file.fileName);
                     var subReader = new FileReader(dummyPath, file.stream);
+                    readerAry[i] = subReader;
+                    readerStreamFiles.Add(subReader, file);
+                    readerBundleFiles.Add(subReader, bundleFile);
                     if (subReader.FileType == FileType.AssetsFile)
                     {
                         LoadAssetsFromMemory(subReader, originalPath ?? reader.FullPath, bundleFile.m_Header.unityRevision);
@@ -193,6 +214,7 @@ namespace AssetStudio
                         resourceFileReaders[file.fileName] = subReader; //TODO
                     }
                 }
+                bundleFileSubReaders.Add(bundleFile, readerAry);
             }
             catch (Exception e)
             {
@@ -202,9 +224,6 @@ namespace AssetStudio
                     str += $" from {Path.GetFileName(originalPath)}";
                 }
                 Logger.Error(str, e);
-            }
-            finally
-            {
                 reader.Dispose();
             }
         }
@@ -360,20 +379,29 @@ namespace AssetStudio
 
         public void Clear()
         {
+            Dispose();
+        }
+
+        public void Dispose() {
             foreach (var assetsFile in assetsFileList)
             {
                 assetsFile.Objects.Clear();
-                assetsFile.reader.Close();
+                assetsFile.reader.Dispose();
             }
             assetsFileList.Clear();
 
             foreach (var resourceFileReader in resourceFileReaders)
             {
-                resourceFileReader.Value.Close();
+                resourceFileReader.Value.Dispose();
             }
             resourceFileReaders.Clear();
 
             assetsFileIndexCache.Clear();
+
+            foreach (var entry in bundleFileSubReaders) {
+                var reader = entry.Key.reader;
+                reader.Dispose();
+            }
         }
 
         private void ReadAssets()
@@ -382,7 +410,8 @@ namespace AssetStudio
 
             var progressCount = assetsFileList.Sum(x => x.m_Objects.Count);
             int i = 0;
-            Progress.Reset();
+            var progress = new Progress(ProgressManager, "AssetStudio : Reading Files", "Reading Files... ");
+            ProgressManager.AddProgress(progress);
             foreach (var assetsFile in assetsFileList)
             {
                 foreach (var objectInfo in assetsFile.m_Objects)
@@ -495,9 +524,10 @@ namespace AssetStudio
                         Logger.Error(sb.ToString());
                     }
 
-                    Progress.Report(++i, progressCount);
+                    progress.Report(++i, progressCount);
                 }
             }
+            progress.Finish();
         }
 
         private void ProcessAssets()
@@ -506,58 +536,87 @@ namespace AssetStudio
 
             foreach (var assetsFile in assetsFileList)
             {
+                var containers = new List<(PPtr<Object>, string)>();
                 foreach (var obj in assetsFile.Objects)
                 {
-                    if (obj is GameObject m_GameObject)
-                    {
-                        foreach (var pptr in m_GameObject.m_Components)
-                        {
-                            if (pptr.TryGet(out var m_Component))
+                    switch (obj) {
+                        case GameObject m_GameObject:
+                            foreach (var pptr in m_GameObject.m_Components)
                             {
-                                switch (m_Component)
+                                if (pptr.TryGet(out var m_Component))
                                 {
-                                    case Transform m_Transform:
-                                        m_GameObject.m_Transform = m_Transform;
-                                        break;
-                                    case MeshRenderer m_MeshRenderer:
-                                        m_GameObject.m_MeshRenderer = m_MeshRenderer;
-                                        break;
-                                    case MeshFilter m_MeshFilter:
-                                        m_GameObject.m_MeshFilter = m_MeshFilter;
-                                        break;
-                                    case SkinnedMeshRenderer m_SkinnedMeshRenderer:
-                                        m_GameObject.m_SkinnedMeshRenderer = m_SkinnedMeshRenderer;
-                                        break;
-                                    case Animator m_Animator:
-                                        m_GameObject.m_Animator = m_Animator;
-                                        break;
-                                    case Animation m_Animation:
-                                        m_GameObject.m_Animation = m_Animation;
-                                        break;
-                                }
-                            }
-                        }
-                    }
-                    else if (obj is SpriteAtlas m_SpriteAtlas)
-                    {
-                        foreach (var m_PackedSprite in m_SpriteAtlas.m_PackedSprites)
-                        {
-                            if (m_PackedSprite.TryGet(out var m_Sprite))
-                            {
-                                if (m_Sprite.m_SpriteAtlas.IsNull)
-                                {
-                                    m_Sprite.m_SpriteAtlas.Set(m_SpriteAtlas);
-                                }
-                                else
-                                {
-                                    m_Sprite.m_SpriteAtlas.TryGet(out var m_SpriteAtlaOld);
-                                    if (m_SpriteAtlaOld.m_IsVariant)
+                                    switch (m_Component)
                                     {
-                                        m_Sprite.m_SpriteAtlas.Set(m_SpriteAtlas);
+                                        case Transform m_Transform:
+                                            m_GameObject.m_Transform = m_Transform;
+                                            break;
+                                        case MeshRenderer m_MeshRenderer:
+                                            m_GameObject.m_MeshRenderer = m_MeshRenderer;
+                                            break;
+                                        case MeshFilter m_MeshFilter:
+                                            m_GameObject.m_MeshFilter = m_MeshFilter;
+                                            break;
+                                        case SkinnedMeshRenderer m_SkinnedMeshRenderer:
+                                            m_GameObject.m_SkinnedMeshRenderer = m_SkinnedMeshRenderer;
+                                            break;
+                                        case Animator m_Animator:
+                                            m_GameObject.m_Animator = m_Animator;
+                                            break;
+                                        case Animation m_Animation:
+                                            m_GameObject.m_Animation = m_Animation;
+                                            break;
                                     }
                                 }
                             }
-                        }
+                            break;
+                        case AssetBundle m_AssetBundle:
+                            foreach (var m_Container in m_AssetBundle.m_Container)
+                            {
+                                var preloadIndex = m_Container.Value.preloadIndex;
+                                var preloadSize = m_Container.Value.preloadSize;
+                                var preloadEnd = preloadIndex + preloadSize;
+                                for (int k = preloadIndex; k < preloadEnd; k++)
+                                {
+                                    containers.Add((m_AssetBundle.m_PreloadTable[k], m_Container.Key));
+                                }
+                            }
+                            break;
+                        case ResourceManager m_ResourceManager:
+                            foreach (var m_Container in m_ResourceManager.m_Container)
+                            {
+                                containers.Add((m_Container.Value, m_Container.Key));
+                            }
+                            break;
+                        case SpriteAtlas m_SpriteAtlas:
+                            foreach (var m_PackedSprite in m_SpriteAtlas.m_PackedSprites)
+                            {
+                                if (m_PackedSprite.TryGet(out var m_Sprite))
+                                {
+                                    if (m_Sprite.m_SpriteAtlas.IsNull)
+                                    {
+                                        m_Sprite.m_SpriteAtlas.Set(m_SpriteAtlas);
+                                    }
+                                    else
+                                    {
+                                        m_Sprite.m_SpriteAtlas.TryGet(out var m_SpriteAtlaOld);
+                                        if (m_SpriteAtlaOld.m_IsVariant)
+                                        {
+                                            m_Sprite.m_SpriteAtlas.Set(m_SpriteAtlas);
+                                        }
+                                    }
+                                }
+                            }
+                            break;
+                    }
+                }
+                var nameDic = assetsFile.objectContainerNameDic;
+                var objDic = assetsFile.containerNameObjectDic;
+                foreach ((var pptr, var container) in containers)
+                {
+                    if (pptr.TryGet(out var obj))
+                    {
+                        nameDic[obj] = container;
+                        objDic[container] = obj;
                     }
                 }
             }

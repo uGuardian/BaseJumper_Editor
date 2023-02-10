@@ -14,7 +14,7 @@ namespace AssetStudio
         private static readonly byte[] zipMagic = { 0x50, 0x4B, 0x03, 0x04 };
         private static readonly byte[] zipSpannedMagic = { 0x50, 0x4B, 0x07, 0x08 };
 
-        public FileReader(string path) : this(path, File.Open(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)) { }
+        public FileReader(string path) : this(path, File.Open(path, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)) { }
 
         public FileReader(string path, Stream stream) : base(stream, EndianType.BigEndian)
         {
@@ -22,6 +22,13 @@ namespace AssetStudio
             FileName = Path.GetFileName(path);
             FileType = CheckFileType();
         }
+        public FileReader(FileWriter writer) : base(writer.BaseStream, EndianType.BigEndian)
+        {
+            FullPath = writer.FullPath;
+            FileName = writer.FileName;
+            FileType = writer.FileType;
+        }
+        public static implicit operator FileReader(FileWriter writer) => new FileReader(writer);
 
         private FileType CheckFileType()
         {

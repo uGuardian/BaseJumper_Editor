@@ -66,8 +66,13 @@ namespace AssetStudio
 
         public StreamFile[] fileList;
 
+        public readonly FileReader reader;
+        public long blocksStreamOffset;
+        public CompressionType compressionType;
+
         public BundleFile(FileReader reader)
         {
+            this.reader = reader;
             m_Header = new Header();
             m_Header.signature = reader.ReadStringToNull();
             m_Header.version = reader.ReadUInt32();
@@ -84,6 +89,7 @@ namespace AssetStudio
                         goto case "UnityFS";
                     }
                     ReadHeaderAndBlocksInfo(reader);
+                    blocksStreamOffset = reader.Position;
                     using (var blocksStream = CreateBlocksStream(reader.FullPath))
                     {
                         ReadBlocksAndDirectory(reader, blocksStream);
@@ -93,6 +99,7 @@ namespace AssetStudio
                 case "UnityFS":
                     ReadHeader(reader);
                     ReadBlocksInfoAndDirectory(reader);
+                    blocksStreamOffset = reader.Position;
                     using (var blocksStream = CreateBlocksStream(reader.FullPath))
                     {
                         ReadBlocks(reader, blocksStream);
@@ -209,7 +216,9 @@ namespace AssetStudio
                 {
                     file.stream = new MemoryStream((int)node.size);
                 }
-                blocksStream.Position = node.offset;
+                var offset = node.offset;
+                blocksStream.Position = offset;
+                file.offset = offset;
                 blocksStream.CopyTo(file.stream, node.size);
                 file.stream.Position = 0;
             }
@@ -247,7 +256,7 @@ namespace AssetStudio
             }
             MemoryStream blocksInfoUncompresseddStream;
             var uncompressedSize = m_Header.uncompressedBlocksInfoSize;
-            var compressionType = (CompressionType)(m_Header.flags & ArchiveFlags.CompressionTypeMask);
+            compressionType = (CompressionType)(m_Header.flags & ArchiveFlags.CompressionTypeMask);
             switch (compressionType)
             {
                 case CompressionType.None:
@@ -318,7 +327,7 @@ namespace AssetStudio
         {
             foreach (var blockInfo in m_BlocksInfo)
             {
-                var compressionType = (CompressionType)(blockInfo.flags & StorageBlockFlags.CompressionTypeMask);
+                compressionType = (CompressionType)(blockInfo.flags & StorageBlockFlags.CompressionTypeMask);
                 switch (compressionType)
                 {
                     case CompressionType.None:

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AssetStudio
 {
-    public class ObjectReader : EndianBinaryReader
+    public class ObjectWriter : EndianBinaryWriter
     {
         public SerializedFile assetsFile;
         public long m_PathID;
@@ -20,7 +20,7 @@ namespace AssetStudio
         public int[] version => assetsFile.version;
         public BuildType buildType => assetsFile.buildType;
 
-        public ObjectReader(EndianBinaryReader reader, SerializedFile assetsFile, ObjectInfo objectInfo) : base(reader.BaseStream, reader.Endian)
+        public ObjectWriter(EndianBinaryWriter writer, SerializedFile assetsFile, ObjectInfo objectInfo) : base(writer.BaseStream, writer.Endian)
         {
             this.assetsFile = assetsFile;
             m_PathID = objectInfo.m_PathID;
@@ -38,18 +38,18 @@ namespace AssetStudio
             platform = assetsFile.m_TargetPlatform;
             m_Version = assetsFile.header.m_Version;
         }
-        public ObjectReader(ObjectWriter writer) : base(writer.BaseStream, writer.Endian)
+        public ObjectWriter(ObjectReader reader) : base(reader.BaseStream, reader.Endian)
         {
-            assetsFile = writer.assetsFile;
-            m_PathID = writer.m_PathID;
-            byteStart = writer.byteStart;
-            byteSize = writer.byteSize;
-            type = writer.type;
-            serializedType = writer.serializedType;
-            platform = writer.platform;
-            m_Version = writer.m_Version;
+            assetsFile = reader.assetsFile;
+            m_PathID = reader.m_PathID;
+            byteStart = reader.byteStart;
+            byteSize = reader.byteSize;
+            type = reader.type;
+            serializedType = reader.serializedType;
+            platform = reader.platform;
+            m_Version = reader.m_Version;
         }
-        public static implicit operator ObjectReader(ObjectWriter writer) => new ObjectReader(writer);
+        public static implicit operator ObjectWriter(ObjectReader reader) => new ObjectWriter(reader);
 
         public void Reset()
         {

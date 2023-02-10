@@ -1,31 +1,75 @@
 ﻿using System;
+using BaseJumper.Editor;
 
 namespace AssetStudio
 {
-    public static class Progress
+    public class Progress : OnUpdateArgs, IBaseJumperProgress
     {
-        public static IProgress<int> Default = new Progress<int>();
-        private static int preValue;
-
-        public static void Reset()
-        {
-            preValue = 0;
-            Default.Report(0);
+        public IProgress<IOnUpdateArgs> Parent {get; set;}
+        public static IProgress<IOnUpdateArgs> Dummy = new Progress<IOnUpdateArgs>();
+        private int preValue;
+        public bool IsFinished {get; set;}
+        public string messagePre;
+        public string messageIteration;
+        public string messagePost;
+        public override string Message {
+            get {
+                string iteration = messageIteration;
+                if (iteration == null) {
+                    iteration = ((int)(this.Progress * 100)).ToString() + "%";
+                }
+                return $"{messagePre}{iteration}{messagePost}";
+            }
+            set {
+                messageIteration = value;
+            }
+        }
+        public Progress() {
+            Parent = Dummy;
+        }
+        public Progress(string title) : this() {
+            Title = title;
+        }
+        public Progress(string title, string messagePre) : this(title) {
+            this.messagePre = messagePre;
+        }
+        public Progress(Progress<IOnUpdateArgs> parent) {
+            if (parent != null) {
+                Parent = parent;
+            } else {
+                Parent = Dummy;
+            }
+        }
+        public Progress(Progress<IOnUpdateArgs> parent, string title) : this(parent) {
+            Title = title;
+        }
+        public Progress(Progress<IOnUpdateArgs> parent, string title, string messagePre) : this(parent, title) {
+            this.messagePre = messagePre;
         }
 
-        public static void Report(int current, int total)
+        public void Finish() {
+            IsFinished = true;
+            Report(100);
+        }
+
+        public void Report(int current, int total)
         {
             var value = (int)(current * 100f / total);
             Report(value);
         }
 
-        private static void Report(int value)
+        private void Report(int value)
         {
             if (value > preValue)
             {
                 preValue = value;
-                Default.Report(value);
+                this.Progress = value / 100f;
+                Parent.Report(this);
             }
+        }
+
+        public void Update() {
+            Logger.Warning("Progress Update Method not implemented yet");
         }
     }
 }

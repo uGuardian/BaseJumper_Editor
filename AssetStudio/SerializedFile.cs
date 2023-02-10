@@ -31,6 +31,9 @@ namespace AssetStudio
         public List<SerializedType> m_RefTypes;
         public string userInformation;
 
+        public Dictionary<Object, string> objectContainerNameDic = new Dictionary<Object, string>();
+        public Dictionary<string, Object> containerNameObjectDic = new Dictionary<string, Object>(StringComparer.OrdinalIgnoreCase);
+
         public SerializedFile(FileReader reader, AssetsManager assetsManager)
         {
             this.assetsManager = assetsManager;
@@ -182,21 +185,17 @@ namespace AssetStudio
 
             int externalsCount = reader.ReadInt32();
             m_Externals = new List<FileIdentifier>(externalsCount);
+            FileIdentifier previousExternal = null;
             for (int i = 0; i < externalsCount; i++)
             {
                 var m_External = new FileIdentifier();
-                if (header.m_Version >= SerializedFileFormatVersion.Unknown_6)
-                {
-                    var tempEmpty = reader.ReadStringToNull();
-                }
-                if (header.m_Version >= SerializedFileFormatVersion.Unknown_5)
-                {
-                    m_External.guid = new Guid(reader.ReadBytes(16));
-                    m_External.type = reader.ReadInt32();
-                }
-                m_External.pathName = reader.ReadStringToNull();
-                m_External.fileName = Path.GetFileName(m_External.pathName);
+                m_External.offset = reader.Position;
+                m_External.Read(header, reader);
                 m_Externals.Add(m_External);
+                if (previousExternal != null) {
+                    previousExternal.followingIdentifier = m_External;
+                }
+                previousExternal = m_External;
             }
 
             if (header.m_Version >= SerializedFileFormatVersion.SupportsRefObject)
@@ -377,5 +376,31 @@ namespace AssetStudio
         public bool IsVersionStripped => unityVersion == strippedVersion;
 
         private const string strippedVersion = "0.0.0";
+
+        public (FileIdentifier identifier, SerializedFile file)[] TryGetExternalFiles()
+        {
+			var result = new (FileIdentifier identifier, SerializedFile file)[this.m_Externals.Count];
+            result[0] = (null, this);
+            for (int m_FileID = 1; m_FileID < this.m_Externals.Count; m_FileID++) {
+                if (m_FileID > 0 && m_FileID - 1 < this.m_Externals.Count)
+                {
+                    var assetsManager = this.assetsManager;
+                    var assetsFileList = assetsManager.assetsFileList;
+                    var assetsFileIndexCache = assetsManager.assetsFileIndexCache;
+                    var m_External = this.m_Externals[m_FileID - 1];
+                    var name = m_External.fileName;
+                    var file = assetsFileList.Find(x => x.fileName.Equals(name, StringComparison.OrdinalIgnoreCase));
+                    if (file == null) {
+                        Logger.Warning($"{GetOriginalName()}: Reference Missing: {name}");
+                    }
+                    result[m_FileID] = (m_External, file);
+                }
+            }
+            return result;
+        }
+
+        public string GetOriginalName() {
+            return Path.GetFileName(originalPath ?? fileName);
+        }
     }
 }

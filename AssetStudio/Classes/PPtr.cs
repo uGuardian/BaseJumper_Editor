@@ -16,6 +16,12 @@ namespace AssetStudio
             m_PathID = reader.m_Version < SerializedFileFormatVersion.Unknown_14 ? reader.ReadInt32() : reader.ReadInt64();
             assetsFile = reader.assetsFile;
         }
+        public PPtr(int m_FileID, long m_PathID, SerializedFile assetsFile)
+        {
+            this.m_FileID = m_FileID;
+            this.m_PathID = m_PathID;
+            this.assetsFile = assetsFile;
+        }
 
         private bool TryGetAssetsFile(out SerializedFile result)
         {

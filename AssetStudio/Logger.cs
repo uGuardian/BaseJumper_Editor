@@ -7,7 +7,11 @@ namespace AssetStudio
 {
     public static class Logger
     {
+        #if UNITY_EDITOR
+        public static ILogger Default = new UnityLogger();
+        #else
         public static ILogger Default = new DummyLogger();
+        #endif
 
         public static void Verbose(string message) => Default.Log(LoggerEvent.Verbose, message);
         public static void Debug(string message) => Default.Log(LoggerEvent.Debug, message);
