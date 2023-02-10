@@ -1,0 +1,241 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
+
+namespace UI
+{
+	public class UIRewardAlarmCardList : UIOriginCardList
+	{
+		[Space(10f)]
+		[Header("---Child---")]
+		[Header("DetailSlot")]
+		[SerializeField]
+		private UIDetailCardSlot detailSlot;
+
+		[SerializeField]
+		private Vector3 targetPosForDetailSlot;
+
+		[SerializeField]
+		private Vector3 slotDetailOriginScale;
+
+		[Header("Scroll")]
+		[SerializeField]
+		private UICustomScrollBar scrollBar;
+
+		[SerializeField]
+		private float slotWidth;
+
+		[SerializeField]
+		private float slotHeight;
+
+		[SerializeField]
+		private int row;
+
+		[SerializeField]
+		private int column;
+
+		[Header("controller")]
+		public UICustomSelectablePanel SelectablePanel;
+
+		[SerializeField]
+		private List<UICustomSelectable> UpSelectableObjects;
+
+		[SerializeField]
+		private List<UICustomSelectable> DownSelectableObjects;
+
+		[SerializeField]
+		private UnityEvent YEvent;
+
+		private float revealSpeed;
+
+		private float revealCount;
+
+		private Vector3 startScale;
+
+		private Vector3 EndScale;
+
+		private bool isRunningRevealDetailSlot;
+
+		private float startspeed;
+
+		private float endspeed;
+
+		private float offsethieght;
+
+		private List<FinalRewardCardInfo> rewardList;
+
+		private int curRow;
+
+		private bool activescrolling;
+
+		private float waittime;
+
+		private bool isOnRevealProcess;
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override void Initialized()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void OpenInit()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void Close()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void SetData(List<FinalRewardCardInfo> list)
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void UpdateRewardListPage()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private List<FinalRewardCardInfo> GetCurrentPageList()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private int GetMaxRow()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private void SetRewardsData(List<FinalRewardCardInfo> list)
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void SetContentSize()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void OnScroll(BaseEventData eventData)
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void OnChangeScrollValue()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void OnExitScrollBar()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private void UpdatePageButtons()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void OnSelectUpSelectableObject(int index)
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void OnSelectDownSelectableObject(int index)
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void OnSelectSlot(UIRewardAlarmCardSlot slot)
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private void SetSlotsNavigation()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void OnYEvent()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public UICustomSelectable GetFirstSelectable()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void ShowDetailSlotByInventory(UIOriginCardSlot slot)
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void HideDetailSlotByInventory()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private void RevealDetailSlot(bool on)
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private IEnumerator RevealDetailSlotProcess()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private void StopRevealCoroutine()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public void RevealSlotsAnim()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private IEnumerator SlotRevealProcess()
+		{
+			throw null;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public UIRewardAlarmCardList()
+		{
+			throw null;
+		}
+	}
+}

@@ -1,0 +1,97 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+using UnityEngine;
+
+[ExecuteInEditMode]
+[AddComponentMenu("Camera Filter Pack/Lut/Lut 2 Lut")]
+public class CameraFilterPack_Lut_2_Lut : MonoBehaviour
+{
+	public Shader SCShader;
+
+	private float TimeX;
+
+	private Vector4 ScreenResolution;
+
+	private Material SCMaterial;
+
+	public Texture2D LutTexture;
+
+	public Texture2D LutTexture2;
+
+	private Texture3D converted3DLut;
+
+	private Texture3D converted3DLut2;
+
+	[Range(0f, 1f)]
+	public float Blend;
+
+	[Range(0f, 1f)]
+	public float Fade;
+
+	private string MemoPath;
+
+	private string MemoPath2;
+
+	private Material material
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			throw null;
+		}
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void Start()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public void SetIdentityLut()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public bool ValidDimensions(Texture2D tex2d)
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public Texture3D Convert(Texture2D temp2DTex, Texture3D cv3D)
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void OnRenderImage(RenderTexture sourceTexture, RenderTexture destTexture)
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void OnValidate()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void Update()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void OnDisable()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public CameraFilterPack_Lut_2_Lut()
+	{
+		throw null;
+	}
+}

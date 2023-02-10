@@ -1,0 +1,14 @@
+﻿using System;
+
+public enum MovingStateByResult
+{
+	ATKvsATK_ATKWIN,
+	ATKvsATK_DRAW,
+	ATKvsDEF_ATKWIN,
+	ATKvsDEF_DEFWIN_GUARD,
+	ATKvsDEF_DEFWIN_EVADE,
+	ATKvsDEF_DRAW,
+	DEFvsDEF_DRAW,
+	ATKvsNONE_ATKWIN,
+	DEFvsNONE_DEFWIN
+}

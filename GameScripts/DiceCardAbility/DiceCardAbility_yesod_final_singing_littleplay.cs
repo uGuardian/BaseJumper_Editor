@@ -1,0 +1,40 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+
+public class DiceCardAbility_yesod_final_singing_littleplay : DiceCardAbilityBase
+{
+	private const int _BREAK_DMG = 6;
+
+	private const int _STRENGTH = 1;
+
+	private const int _DISARM = 1;
+
+	private BattleUnitModel _ally;
+
+	public override string[] Keywords
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			throw null;
+		}
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override void OnSucceedAttack()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void SucceedAtkEvent()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public DiceCardAbility_yesod_final_singing_littleplay()
+	{
+		throw null;
+	}
+}

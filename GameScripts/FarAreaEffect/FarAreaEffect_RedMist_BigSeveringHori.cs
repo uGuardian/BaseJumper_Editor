@@ -1,0 +1,71 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+using UnityEngine;
+
+public class FarAreaEffect_RedMist_BigSeveringHori : FarAreaEffect
+{
+	[SerializeField]
+	private FarareaEffect_RedMist_BigSeveringHori_Canvas _cutSceneObj;
+
+	[SerializeField]
+	private SpriteRenderer _effectSprite;
+
+	[SerializeField]
+	private AnimationCurve _effectSpriteAlphaCurve;
+
+	private float _elapsedEffectSpriteDestroy;
+
+	private float _elapsedDestroy;
+
+	private bool _bAnimStarted;
+
+	private bool _bEndCutscene;
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override void Init(BattleUnitModel self, params object[] args)
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public void ChangeMotion()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public void GiveDamage()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public void EndCutScene()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public void EndEffect()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override void OnEffectEnd()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void Update()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public FarAreaEffect_RedMist_BigSeveringHori()
+	{
+		throw null;
+	}
+}

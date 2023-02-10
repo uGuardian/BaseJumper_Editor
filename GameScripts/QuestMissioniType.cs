@@ -1,0 +1,36 @@
+﻿using System;
+
+public enum QuestMissioniType
+{
+	Clear,
+	ClearWithFloor,
+	UseBook,
+	GetBook,
+	StartStage,
+	Customize,
+	EquipBook,
+	Keter2_1,
+	Keter2_2,
+	Keter2_3,
+	Keter2_4,
+	Keter3_1,
+	Keter3_2,
+	Keter3_3,
+	Keter3_4,
+	Keter3_5,
+	Malkuth2_1,
+	Malkuth2_2,
+	Malkuth3_1,
+	Malkuth3_2,
+	Malkuth3_3,
+	Yesod2_1,
+	Yesod3_1,
+	Yesod3_2,
+	Hod2_1,
+	Hod3_1,
+	Hod3_2,
+	Netzach1_1,
+	Netzach2_1,
+	Netzach3_1,
+	Netzach3_2
+}

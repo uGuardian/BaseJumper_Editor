@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections;
+using System.Runtime.CompilerServices;
+using UnityEngine;
+
+public class BattleFocusActionUI_DiceFail : MonoBehaviour
+{
+	private RectTransform rect;
+
+	private bool isVibeEnd;
+
+	private float shakeAmount;
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void Awake()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public void StartVibeAction()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public void EndVibeAction()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private IEnumerator VibeActionDice()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public BattleFocusActionUI_DiceFail()
+	{
+		throw null;
+	}
+}

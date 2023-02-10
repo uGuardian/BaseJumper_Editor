@@ -1,0 +1,81 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+
+public class PassiveAbility_703011 : PassiveAbilityBase
+{
+	private const int _waybackhomeID = 9070302;
+
+	private const int _cowardID = 9070303;
+
+	private const int _attackCardID = 970322;
+
+	private bool defeat;
+
+	private WayBackHomeMapManager _map;
+
+	public override bool isInvincible
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			throw null;
+		}
+	}
+
+	private WayBackHomeMapManager Map
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			throw null;
+		}
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override bool IsImmune(KeywordBuf buf)
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override void OnRoundEndTheLast()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override void OnRoundStartAfter()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override void OnDieOtherUnit(BattleUnitModel unit)
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override void OnRoundStart()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override void OnRoundEnd()
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
+	{
+		throw null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public PassiveAbility_703011()
+	{
+		throw null;
+	}
+}
