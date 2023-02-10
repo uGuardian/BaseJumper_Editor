@@ -34,13 +34,13 @@ public class CFX_SpawnSystem : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void PreloadObject(GameObject sourceObj, int poolSize = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void UnloadObjects(GameObject sourceObj)
 	{
-		throw null;
+		
 	}
 
 	public static bool AllObjectsLoaded
@@ -55,31 +55,31 @@ public class CFX_SpawnSystem : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void addObjectToPool(GameObject sourceObject, int number)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void removeObjectsFromPool(GameObject sourceObject)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void increasePoolCursor(int uniqueId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

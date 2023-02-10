@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_wizard_ozma_powerup2ally : DiceCardSelfAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

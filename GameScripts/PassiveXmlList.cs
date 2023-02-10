@@ -9,7 +9,7 @@ public class PassiveXmlList : Singleton<PassiveXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<PassiveXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -27,7 +27,7 @@ public class PassiveXmlList : Singleton<PassiveXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddPassivesByMod(List<PassiveXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

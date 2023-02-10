@@ -9,19 +9,19 @@ public class TestButtonScript : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnClickTestButton()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEnterTestButton()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnExitTestButton()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

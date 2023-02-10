@@ -128,7 +128,7 @@ public class LorId : IEquatable<LorId>, IEquatable<int>, IComparable<LorId>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void InitializeLorIds<T>(List<T> src, List<LorId> dst, string defaultPid) where T : ILorIdXml
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

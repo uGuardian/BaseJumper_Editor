@@ -15,7 +15,7 @@ public class BattleUnitBuf_Ozma_AwakenPumpkin_Endurance : BattleUnitBuf_Ozma_Awa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

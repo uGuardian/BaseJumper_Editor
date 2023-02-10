@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_final_tiphereth_nihil_area : DiceCardSelfAbilit
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

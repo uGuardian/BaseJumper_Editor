@@ -25,7 +25,7 @@ public class TubeLightShadowPlane : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDrawGizmosSelected()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

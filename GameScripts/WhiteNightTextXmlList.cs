@@ -10,7 +10,7 @@ public class WhiteNightTextXmlList : Singleton<WhiteNightTextXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(WhiteNightTextRoot textRoot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

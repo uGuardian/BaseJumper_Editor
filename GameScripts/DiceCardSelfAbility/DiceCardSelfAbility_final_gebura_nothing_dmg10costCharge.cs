@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_final_gebura_nothing_dmg10costCharge : DiceCard
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

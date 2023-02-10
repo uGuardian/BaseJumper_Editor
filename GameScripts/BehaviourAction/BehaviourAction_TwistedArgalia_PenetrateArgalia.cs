@@ -44,7 +44,7 @@ public class BehaviourAction_TwistedArgalia_PenetrateArgalia : BehaviourActionBa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreatePrefab()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

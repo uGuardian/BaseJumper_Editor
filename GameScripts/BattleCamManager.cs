@@ -252,7 +252,7 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetCamSetting()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -264,31 +264,31 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveCameraFilter<T>() where T : MonoBehaviour
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveCameraFilterAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeCamMode(BattleCamManager.CamControlMode mode)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartMoveUnits()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeCamProjection(bool isPerspective)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -300,25 +300,25 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FollowUnits(bool isAction, List<BattleUnitModel> modelList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FollowOneUnit(BattleUnitModel model, bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShakeCam(float speed = 50f, float xAmount = 0.015f, float yAmount = 0.015f)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BloodFilter(int sign, float ratioLeft = 0.6f, float ratioRight = 0.6f)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -330,13 +330,13 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BlurBackgroundCam(bool enable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BlurCharacterCam(bool active, float speed = 2.5f)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -348,19 +348,19 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetVignetteColorBgCam(Color c, bool active = true)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCreatureFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFilter(string str, params object[] p)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -372,7 +372,7 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void VignetteCharacterCam(bool active)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -384,13 +384,13 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeCharacterCamRGB(bool active)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ZoomAction(bool zoomIn, bool directly, float ratio = 0.75f)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -402,7 +402,7 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void TiltCam(int sign, bool exitForcely = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -414,7 +414,7 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -426,85 +426,85 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnClickCharacter(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnReleaseCharacter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnClickCardInHand()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnReleaseCardInHand(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void FixedUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateOtherCameras()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateManual()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateFocusPosition(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateFocus(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFocusZoomFaction(float t)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -516,7 +516,7 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetFov(Vector3 stdPos, float aspect)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -540,7 +540,7 @@ public class BattleCamManager : SingletonBehavior<BattleCamManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void DEBUG_RoundEnd(int i)
 	{
-		throw null;
+		
 	}
 
 	// Note: this type is marked as 'beforefieldinit'.

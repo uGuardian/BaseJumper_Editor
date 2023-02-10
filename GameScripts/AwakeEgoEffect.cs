@@ -16,13 +16,13 @@ public class AwakeEgoEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void CreateEffect(BattleUnitModel model)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void EndEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

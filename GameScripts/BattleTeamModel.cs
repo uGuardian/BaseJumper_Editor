@@ -22,13 +22,13 @@ public class BattleTeamModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitList()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddUnit(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

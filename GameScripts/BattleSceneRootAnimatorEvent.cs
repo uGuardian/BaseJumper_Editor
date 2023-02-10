@@ -13,13 +13,13 @@ public class BattleSceneRootAnimatorEvent : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEvent(int flag)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

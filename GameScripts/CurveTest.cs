@@ -14,13 +14,13 @@ public class CurveTest : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDrawGizmos()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

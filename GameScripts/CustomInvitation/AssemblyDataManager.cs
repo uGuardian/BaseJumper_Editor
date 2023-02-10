@@ -76,7 +76,7 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ReloadDll(string dllDirectory)
 		{
-			throw null;
+			
 		}
 	}
 }

@@ -166,31 +166,31 @@ public class BattleSimpleActionUI_Dice : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartActionDestroyedAnimByCardAbility()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartActionDefeatDestroyAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndActionDefeatDestoryAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartVibeDiceInAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StopVibeDiceInAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -202,19 +202,19 @@ public class BattleSimpleActionUI_Dice : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSkipAnimStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSkipAnimEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDestroyedAnimEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -238,7 +238,7 @@ public class BattleSimpleActionUI_Dice : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDiceValue(bool enable, int diceValue)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -250,37 +250,37 @@ public class BattleSimpleActionUI_Dice : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDiceFace(int diceFace)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateDice(BattleDiceBehavior diceBehaviour, bool numberOn)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCenterIcon(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCenterIconSprite(BehaviourDetail detail)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -292,49 +292,49 @@ public class BattleSimpleActionUI_Dice : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetRangeText(DiceBehaviour behaviour, int min, int max)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetRangeText(DiceBehaviour behaviour)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PrepareDice(BattleDiceBehavior b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PrepareDice(BattleDiceBehaviourUI b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OffDiceValue()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetValueColor(BattleDiceValueColor colorstate)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetColors(BehaviourType type, BehaviourDetail detail)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetFaceSprite(BattleFocusActionUI_Dice.DiceSprite sprInfo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -358,13 +358,13 @@ public class BattleSimpleActionUI_Dice : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDiceEffect(DiceEffectType effectType = DiceEffectType.None)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateDiceEffect(int face = -1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

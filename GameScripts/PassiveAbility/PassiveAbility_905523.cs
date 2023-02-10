@@ -27,7 +27,7 @@ public class PassiveAbility_905523 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLibrarian(BattleUnitModel u)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

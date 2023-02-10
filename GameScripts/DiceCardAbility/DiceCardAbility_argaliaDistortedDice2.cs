@@ -6,7 +6,7 @@ public class DiceCardAbility_argaliaDistortedDice2 : DiceCardAbility_cryingChild
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeGiveDamage(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

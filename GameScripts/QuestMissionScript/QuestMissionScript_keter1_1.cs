@@ -15,7 +15,7 @@ public class QuestMissionScript_keter1_1 : QuestMissionScriptBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSendInvitation(LorId stageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

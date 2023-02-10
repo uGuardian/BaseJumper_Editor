@@ -71,25 +71,25 @@ public class HexagonalMapManager : SingletonBehavior<HexagonalMapManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetMapSetting()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetMapSize()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -149,7 +149,7 @@ public class HexagonalMapManager : SingletonBehavior<HexagonalMapManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndPreviewTile(Vector3Int cp)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -179,7 +179,7 @@ public class HexagonalMapManager : SingletonBehavior<HexagonalMapManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndPreview()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -203,13 +203,13 @@ public class HexagonalMapManager : SingletonBehavior<HexagonalMapManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void FixedUpdate()
 	{
-		throw null;
+		
 	}
 
 	public enum WallDirection

@@ -7,7 +7,7 @@ public class LoadFileScript
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Load()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

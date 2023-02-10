@@ -11,7 +11,7 @@ public class TitleXmlList : Singleton<TitleXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<TitleXmlInfo> prefix, List<TitleXmlInfo> postFix)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

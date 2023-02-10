@@ -25,13 +25,13 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void ReadComponent()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetColor(Color c)
 		{
-			throw null;
+			
 		}
 	}
 }

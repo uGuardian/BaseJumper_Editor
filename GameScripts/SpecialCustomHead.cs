@@ -37,13 +37,13 @@ public class SpecialCustomHead
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetColor(Color c)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeAdditionalRendererLayer(string layerName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

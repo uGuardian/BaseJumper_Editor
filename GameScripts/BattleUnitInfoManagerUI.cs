@@ -36,19 +36,19 @@ public class BattleUnitInfoManagerUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableCanvas(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Initialize(IList<BattleUnitModel> unitList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void MouseEnterCharacter(BattleUnitModel unit, bool hOvered)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -60,55 +60,55 @@ public class BattleUnitInfoManagerUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void MouseClickCharacter(BattleUnitModel unit, bool byPad)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetHighlight(BattleUnitModel unit, bool highlight)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisplayDlg(string str, BattleUnitModel unit, bool isAbnormality, MentalState state)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateCharacterProfileAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateCharacterProfile(BattleUnitModel unit, Faction faction, float hp, int bp, BattleBufUIDataList bufDataList = null)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateAllCharacterProfile(List<BattleUnitModel> unitList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void HideAllDialogueWithDelay()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

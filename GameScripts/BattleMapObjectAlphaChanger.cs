@@ -14,25 +14,25 @@ public class BattleMapObjectAlphaChanger : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTransparent(Transform t)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DelUnit(Transform t)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

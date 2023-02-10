@@ -30,6 +30,6 @@ public class BattlUnitBuf_MalkuthFinal_FairyMeat : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 }

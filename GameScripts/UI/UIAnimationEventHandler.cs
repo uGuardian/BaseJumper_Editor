@@ -22,19 +22,19 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddEvent(string key, UIAnimationEventHandler.EventMethod method)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void RemoveEvent(string key)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnCalled(string key)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -6,7 +6,7 @@ public class DiceCardAbility_yesod_final_butterfly_for_effect : DiceCardAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

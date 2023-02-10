@@ -24,13 +24,13 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetBehaviourInfo(DiceBehaviour behaviour, LorId cardId, List<DiceBehaviour> behaviourList, bool isHide = false)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetText(DiceBehaviour behaviour)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

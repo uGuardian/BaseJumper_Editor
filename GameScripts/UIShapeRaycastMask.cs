@@ -20,7 +20,7 @@ public class UIShapeRaycastMask : MonoBehaviour, ICanvasRaycastFilter
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

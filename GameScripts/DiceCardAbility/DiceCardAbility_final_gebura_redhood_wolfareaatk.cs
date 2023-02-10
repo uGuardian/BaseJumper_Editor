@@ -15,7 +15,7 @@ public class DiceCardAbility_final_gebura_redhood_wolfareaatk : DiceCardAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAreaAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -81,7 +81,7 @@ public class UnitCustomizingData : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Copy(UnitCustomizingData origin)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -99,13 +99,13 @@ public class UnitCustomizingData : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Init(LorId sephirahID, bool useCustomdata)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCustomData(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -117,7 +117,7 @@ public class UnitCustomizingData : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

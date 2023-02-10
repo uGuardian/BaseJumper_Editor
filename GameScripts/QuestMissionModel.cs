@@ -57,7 +57,7 @@ public class QuestMissionModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCount(int v)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -75,6 +75,6 @@ public class QuestMissionModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 }

@@ -75,13 +75,13 @@ public class StageWaveModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(StageModel stage, StageWaveInfo waveInfo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFormationPosition(int i, Vector2Int v)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -105,13 +105,13 @@ public class StageWaveModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Defeat()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDefeatSephirah(SephirahType sep)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -123,7 +123,7 @@ public class StageWaveModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetUnitBattleDataList(List<UnitBattleDataModel> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -135,7 +135,7 @@ public class StageWaveModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ApplyEmotionCard(EmotionCardXmlInfo card)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -159,7 +159,7 @@ public class StageWaveModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PickRandomEmotionCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

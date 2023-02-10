@@ -9,19 +9,19 @@ public class BookCountCache
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBookCount(LorId id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SubBookCount(LorId id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

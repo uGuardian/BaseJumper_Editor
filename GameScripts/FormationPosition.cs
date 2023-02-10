@@ -40,12 +40,12 @@ public class FormationPosition
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangePos(Vector2Int v)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangePosToDefault()
 	{
-		throw null;
+		
 	}
 }

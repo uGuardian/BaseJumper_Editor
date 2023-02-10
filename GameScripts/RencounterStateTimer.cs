@@ -58,30 +58,30 @@ public class RencounterStateTimer
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeWaitTime(float t)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetWaitTime()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Reset()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Tick(float deltaTime)
 	{
-		throw null;
+		
 	}
 }

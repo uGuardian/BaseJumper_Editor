@@ -13,13 +13,13 @@ public class BattleCardAbilityDescXmlList : Singleton<BattleCardAbilityDescXmlLi
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<string, BattleCardAbilityDesc> dictionary)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddByMode(string packageId, Dictionary<string, BattleCardAbilityDesc> dict)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

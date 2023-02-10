@@ -27,19 +27,19 @@ public class RFX4_CameraShake : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PlayShake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

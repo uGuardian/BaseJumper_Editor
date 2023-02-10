@@ -30,7 +30,7 @@ public static class RandomGachaGenerator
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private static void RestructureProb(List<RandomGachaGenerator.ProbInfo> probInfoList)
 	{
-		throw null;
+		
 	}
 
 	public class ProbInfo

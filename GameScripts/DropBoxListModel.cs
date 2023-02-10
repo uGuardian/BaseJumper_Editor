@@ -16,7 +16,7 @@ public class DropBoxListModel : Singleton<DropBoxListModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -28,13 +28,13 @@ public class DropBoxListModel : Singleton<DropBoxListModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddEquipCount(LorId dropBookId, LorId equipPageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCardCount(LorId dropBookId, LorId cardId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -46,7 +46,7 @@ public class DropBoxListModel : Singleton<DropBoxListModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Reset(LorId dropBookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -58,7 +58,7 @@ public class DropBoxListModel : Singleton<DropBoxListModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

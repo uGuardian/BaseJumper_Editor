@@ -19,25 +19,25 @@ public class AbnormalityDlgEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ON_TEXT_CHANGED(UnityEngine.Object obj)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -49,7 +49,7 @@ public class AbnormalityDlgEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -43,19 +43,19 @@ public class UIMaterialModifier : MonoBehaviour, IMaterialModifier
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDestroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ApplyMaterialProperties(Material target = null)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -67,13 +67,13 @@ public class UIMaterialModifier : MonoBehaviour, IMaterialModifier
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateAlphaTex(Texture alphaTexture)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMaskToMaskee(Matrix4x4 maskMatrix, Vector4 tilingAndOffset, float clampingBorder, bool maskingEnabled, bool screenSpaceEnabled, bool clampHor, bool clampVert, bool useAlphaChannel, bool isTextMaterial)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

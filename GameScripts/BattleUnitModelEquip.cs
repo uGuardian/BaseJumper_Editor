@@ -18,6 +18,6 @@ public class BattleUnitModelEquip
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetUnitData(UnitDataModel data)
 	{
-		throw null;
+		
 	}
 }

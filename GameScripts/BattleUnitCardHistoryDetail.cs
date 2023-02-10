@@ -17,7 +17,7 @@ public class BattleUnitCardHistoryDetail
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCardHistory(BattlePlayingCardDataInUnitModel card, int round)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

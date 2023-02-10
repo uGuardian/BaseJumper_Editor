@@ -27,13 +27,13 @@ public class EditorCardSummary : MonoBehaviour, IPointerClickHandler, IEventSyst
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCardInfo(DiceCardXmlInfo info)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerClick(PointerEventData eventData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

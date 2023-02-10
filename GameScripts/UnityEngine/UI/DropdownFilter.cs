@@ -17,19 +17,19 @@ namespace UnityEngine.UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetInteractable(bool interactable)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Start()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Search(string input)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

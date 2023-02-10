@@ -6,7 +6,7 @@ public class DiceCardAbility_final_nosferatu_monster_powerdown : DiceCardAbility
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

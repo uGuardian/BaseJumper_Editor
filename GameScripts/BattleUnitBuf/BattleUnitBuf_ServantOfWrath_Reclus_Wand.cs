@@ -36,18 +36,18 @@ public class BattleUnitBuf_ServantOfWrath_Reclus_Wand : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Reserve(int value = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add(int value = 1)
 	{
-		throw null;
+		
 	}
 }

@@ -17,7 +17,7 @@ public class DiceCardSelfAbility_final_silencegirl_gaze_of_defense : DiceCardSel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

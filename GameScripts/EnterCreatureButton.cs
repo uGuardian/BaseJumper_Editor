@@ -14,13 +14,13 @@ public class EnterCreatureButton : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnClick()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Confirm(bool yes)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -19,13 +19,13 @@ public class BattleCamera
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReturnCameraState(float time)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StopZoom()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -37,7 +37,7 @@ public class BattleCamera
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

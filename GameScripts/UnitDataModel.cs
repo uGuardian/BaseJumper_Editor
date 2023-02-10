@@ -270,25 +270,25 @@ public class UnitDataModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Init(LorId defaultBook, SephirahType sephirah = SephirahType.None, bool isSephirahChar = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTemporaryPlayerUnitByBook(int bookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTemporaryPlayerUnitByBook(LorId bookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetByEnemyUnitClassInfo(EnemyUnitClassInfo classInfo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -306,37 +306,37 @@ public class UnitDataModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EquipCustomCoreBook(BookModel custombook)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCustomName(string txt)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTempName(string txt)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetTempName()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetNameId(int id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitBattleDialogByDefaultBook(LorId lorId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -354,13 +354,13 @@ public class UnitDataModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEnemyDropTable(EnemyUnitClassInfo classInfo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEnemyEmotionList(List<EmotionSetInfo> emotionList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -414,19 +414,19 @@ public class UnitDataModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetForBlackSilence()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCustomizingData(UnitCustomizingData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -468,25 +468,25 @@ public class UnitDataModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EmptyDeckToInventoryAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EmptyDeckToInventory()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReEquipDeck()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDeckByDeckInfo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

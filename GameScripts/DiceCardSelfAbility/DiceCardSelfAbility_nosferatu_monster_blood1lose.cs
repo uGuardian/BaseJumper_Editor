@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_nosferatu_monster_blood1lose : DiceCardSelfAbil
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

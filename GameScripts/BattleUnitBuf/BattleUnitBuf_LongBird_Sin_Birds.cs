@@ -12,7 +12,7 @@ public class BattleUnitBuf_LongBird_Sin_Birds : BattleUnitBuf_LongBird_Sin
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSuccessAttack(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

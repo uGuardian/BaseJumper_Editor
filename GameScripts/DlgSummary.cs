@@ -65,25 +65,25 @@ public class DlgSummary : MonoBehaviour, IPointerClickHandler, IEventSystemHandl
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerClick(PointerEventData eventData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetId(int id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTexts(int id, string model, string teller, string dialog, StoryEditor se)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPlace(string text)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

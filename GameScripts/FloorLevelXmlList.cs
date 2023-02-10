@@ -9,7 +9,7 @@ public class FloorLevelXmlList : Singleton<FloorLevelXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<FloorLevelXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

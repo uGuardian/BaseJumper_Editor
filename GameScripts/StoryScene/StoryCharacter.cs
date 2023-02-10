@@ -46,13 +46,13 @@ namespace StoryScene
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetFace(string faceName)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetBody(string bodyName)
 		{
-			throw null;
+			
 		}
 
 		public bool IsTelling
@@ -67,13 +67,13 @@ namespace StoryScene
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Activate(bool active, CharacterActivate mode, float delay)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void CompleteEffect()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -91,7 +91,7 @@ namespace StoryScene
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Awake()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -121,19 +121,19 @@ namespace StoryScene
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetOnlyAlpha(SpriteRenderer r, float a)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetOnlyColor(SpriteRenderer r, Color dc)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void ApplyAll(StoryCharacter.CharacterApplier applier)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

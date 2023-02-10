@@ -9,19 +9,19 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnLoseParrying(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -37,20 +37,20 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
 			{
-				throw null;
+				
 			}
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public BattleDiceCardBuf_Emotion_Void()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEnd()
 		{
-			throw null;
+			
 		}
 	}
 
@@ -63,7 +63,7 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
 			{
-				throw null;
+				
 			}
 		}
 
@@ -79,13 +79,13 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Init(BattleUnitModel owner)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEndTheLast()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -97,14 +97,14 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public BattleUnitBuf_Emotion_Void_Ready()
 		{
-			throw null;
+			
 		}
 
 		// Note: this type is marked as 'beforefieldinit'.
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		static BattleUnitBuf_Emotion_Void_Ready()
 		{
-			throw null;
+			
 		}
 	}
 
@@ -123,7 +123,7 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
 			{
-				throw null;
+				
 			}
 		}
 
@@ -139,7 +139,7 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundStart()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -151,37 +151,37 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Init(BattleUnitModel owner)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnDie()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Destroy()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void DestroyAura()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public BattleUnitBuf_Emotion_Void()
 		{
-			throw null;
+			
 		}
 	}
 }

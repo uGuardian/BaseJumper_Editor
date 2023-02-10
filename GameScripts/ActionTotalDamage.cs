@@ -17,13 +17,13 @@ public class ActionTotalDamage : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetNumber()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDamageText(int dmg)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

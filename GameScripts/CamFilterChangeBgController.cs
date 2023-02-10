@@ -46,19 +46,19 @@ public class CamFilterChangeBgController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartBrokenChangeAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetChangeAnimProcessDefault()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -70,7 +70,7 @@ public class CamFilterChangeBgController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartFadeChangeAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

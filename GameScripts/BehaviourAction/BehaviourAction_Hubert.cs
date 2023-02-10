@@ -54,7 +54,7 @@ public class BehaviourAction_Hubert : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetPositionWithCheckWall(BattleUnitModel unit, Vector3 pos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

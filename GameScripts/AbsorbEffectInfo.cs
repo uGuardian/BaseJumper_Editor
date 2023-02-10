@@ -17,6 +17,6 @@ public class AbsorbEffectInfo
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPos(float t)
 	{
-		throw null;
+		
 	}
 }

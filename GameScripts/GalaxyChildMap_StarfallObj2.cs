@@ -18,7 +18,7 @@ public class GalaxyChildMap_StarfallObj2 : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -30,13 +30,13 @@ public class GalaxyChildMap_StarfallObj2 : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Fall()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

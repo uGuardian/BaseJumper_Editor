@@ -15,7 +15,7 @@ public class DiceCardSelfAbility_jaeheonArea : DiceCardSelfAbility_bandFinalBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

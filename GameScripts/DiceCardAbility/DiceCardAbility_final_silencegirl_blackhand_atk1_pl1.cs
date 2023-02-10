@@ -6,7 +6,7 @@ public class DiceCardAbility_final_silencegirl_blackhand_atk1_pl1 : DiceCardAbil
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnLoseParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

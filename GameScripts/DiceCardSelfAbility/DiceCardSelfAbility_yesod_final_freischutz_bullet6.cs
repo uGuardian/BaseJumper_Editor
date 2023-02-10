@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_yesod_final_freischutz_bullet6 : DiceCardSelfAb
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

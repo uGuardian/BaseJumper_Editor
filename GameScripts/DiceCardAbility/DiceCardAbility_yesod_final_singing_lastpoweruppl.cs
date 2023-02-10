@@ -6,7 +6,7 @@ public class DiceCardAbility_yesod_final_singing_lastpoweruppl : DiceCardAbility
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnLoseParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

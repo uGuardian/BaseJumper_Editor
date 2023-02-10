@@ -32,7 +32,7 @@ public class MainCamManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShakeCam()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -44,13 +44,13 @@ public class MainCamManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

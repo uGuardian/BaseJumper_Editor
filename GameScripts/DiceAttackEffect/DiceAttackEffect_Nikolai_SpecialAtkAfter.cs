@@ -14,7 +14,7 @@ public class DiceAttackEffect_Nikolai_SpecialAtkAfter : DiceAttackEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEvent_PlaySound(int i)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

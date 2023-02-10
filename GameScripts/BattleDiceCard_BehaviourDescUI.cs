@@ -22,19 +22,19 @@ public class BattleDiceCard_BehaviourDescUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBehaviourInfo(DiceBehaviour behaviour, LorId cardId, List<DiceBehaviour> behaviourList, bool isHide = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetText(DiceBehaviour behaviour)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

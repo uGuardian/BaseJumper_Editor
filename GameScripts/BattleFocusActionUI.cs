@@ -74,43 +74,43 @@ public class BattleFocusActionUI : SingletonBehavior<BattleFocusActionUI>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetInfo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FocusAction(BattlePlayingCardDataInUnitModel playingCard, float speed = 1f)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FadeOutAction(BattlePlayingCardDataInUnitModel playingCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateFocusActionUI(BattlePlayingCardDataInUnitModel playingCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnFailDiceActionUI(BattlePlayingCardDataInUnitModel playingCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndActionAnimation()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FocusFrameAppear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

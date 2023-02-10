@@ -13,7 +13,7 @@ public class UIBgScreenChangeAnimForTitle : SingletonBehavior<UIBgScreenChangeAn
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartBg()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

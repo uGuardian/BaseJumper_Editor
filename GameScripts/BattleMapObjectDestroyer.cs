@@ -13,25 +13,25 @@ public class BattleMapObjectDestroyer : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnTriggerEnter(Collider other)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnCollisionEnter(Collision collision)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckCollision(string tag)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

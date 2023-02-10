@@ -25,7 +25,7 @@ public class DeckModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDeck(LorId deckId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -43,7 +43,7 @@ public class DeckModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddCardForLoading(LorId cardId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -55,7 +55,7 @@ public class DeckModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAllErrorCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -73,7 +73,7 @@ public class DeckModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EmptyDeckToInventory()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -85,7 +85,7 @@ public class DeckModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

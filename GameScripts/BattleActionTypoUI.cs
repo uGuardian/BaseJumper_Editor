@@ -19,7 +19,7 @@ public class BattleActionTypoUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTypo(List<EffectTypoData> datas, BattleUnitView unitview)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -31,13 +31,13 @@ public class BattleActionTypoUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void HidePrevActions()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void HideActionsForcely()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

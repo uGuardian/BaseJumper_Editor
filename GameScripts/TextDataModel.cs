@@ -38,7 +38,7 @@ public static class TextDataModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void InitTextData(string currentLanguage)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -7,13 +7,13 @@ public class TwistedArgaliaLayerManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void ChangeLayer(BattleUnitModel attacker, List<BattleFarAreaPlayManager.VictimInfo> victims, string layer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void ChangeBottomLayer(BattleUnitModel attacker, List<BattleFarAreaPlayManager.VictimInfo> victims, string layer, string childLayer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

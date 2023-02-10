@@ -15,7 +15,7 @@ public class DiceCardAbility_smoke3atkdrawcardbytargetsmoke4 : DiceCardAbilityBa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

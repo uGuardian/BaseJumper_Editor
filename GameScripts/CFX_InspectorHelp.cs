@@ -16,7 +16,7 @@ public class CFX_InspectorHelp : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Unlock()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

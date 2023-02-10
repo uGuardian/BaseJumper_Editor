@@ -15,7 +15,7 @@ public class DiceCardAbility_Final_ApocalypseBird_AbsoluteDmg : DiceCardAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeGiveDamage()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

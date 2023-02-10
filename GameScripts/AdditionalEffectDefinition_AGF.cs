@@ -9,7 +9,7 @@ public static class AdditionalEffectDefinition_AGF
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void InitDictionary()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

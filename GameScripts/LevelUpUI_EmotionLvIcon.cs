@@ -18,13 +18,13 @@ public class LevelUpUI_EmotionLvIcon : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Set(bool bgOn, bool glowOn, bool tmOn)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSelect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -36,7 +36,7 @@ public class LevelUpUI_EmotionLvIcon : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

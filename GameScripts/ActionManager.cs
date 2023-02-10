@@ -135,31 +135,31 @@ public class ActionManager : SingletonBehavior<ActionManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitData(BattleUnitView leftView, BattleUnitView rightView)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBattleResult(ResultData enemyResult, ResultData allyResult)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DoAction()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void WaitRolling(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDamageText(int dmg, ActionCharacter actionView, bool isAdditionalDmg)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -177,13 +177,13 @@ public class ActionManager : SingletonBehavior<ActionManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndAction()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndActionForcely()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -213,13 +213,13 @@ public class ActionManager : SingletonBehavior<ActionManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

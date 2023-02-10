@@ -6,7 +6,7 @@ public class SpriteFilter_Queenbee_Alert : SpriteFilter
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

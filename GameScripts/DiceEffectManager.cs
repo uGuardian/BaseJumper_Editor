@@ -44,13 +44,13 @@ public class DiceEffectManager : SingletonBehavior<DiceEffectManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -62,7 +62,7 @@ public class DiceEffectManager : SingletonBehavior<DiceEffectManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDefSuccess(Vector3 pos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -74,7 +74,7 @@ public class DiceEffectManager : SingletonBehavior<DiceEffectManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDamagedEffectByBehaviour(BehaviourDetail atkType, float scaleFactor, BattleUnitView self)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -110,13 +110,13 @@ public class DiceEffectManager : SingletonBehavior<DiceEffectManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDamagedBloodEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -128,7 +128,7 @@ public class DiceEffectManager : SingletonBehavior<DiceEffectManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveSporeEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

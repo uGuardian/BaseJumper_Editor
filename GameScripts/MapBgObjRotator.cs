@@ -20,19 +20,19 @@ public class MapBgObjRotator : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeSpeed(float ratio)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeDir()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -23,13 +23,13 @@ public class BattleFocusActionUI_Frame : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SpeedUpEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -41,13 +41,13 @@ public class BattleFocusActionUI_Frame : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AppearAnimStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FadeOutAnimStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -59,25 +59,25 @@ public class BattleFocusActionUI_Frame : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartAppearInAnimation()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndAppearInAnmation()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartFadeOutInAnimation()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndFadeOutInAnimation()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -9,7 +9,7 @@ public class DiceCardSelfAbility_final_netzach_orchestra1_4th : DiceCardSelfAbil
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAreaAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

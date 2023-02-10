@@ -6,7 +6,7 @@ public class DiceCardAbility_Final_ApocalypseBird_GiveSin2Atk : DiceCardAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -8,7 +8,7 @@ public class DiceCardAbility_final_queenbee_spore_win_parrying : DiceCardAbility
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -8,7 +8,7 @@ public class DiceCardSelfAbility_yesod_final_butterfly_ego : DiceCardSelfAbility
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

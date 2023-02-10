@@ -8,7 +8,7 @@ public class DiceCardSelfAbility_vibrateAddition : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnActivateResonance()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

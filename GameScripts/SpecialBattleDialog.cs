@@ -14,7 +14,7 @@ public class SpecialBattleDialog
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBattleDialog(string group, string character)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

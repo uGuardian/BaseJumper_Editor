@@ -18,13 +18,13 @@ public class CorpseBehavior : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitFields(Vector2 dir, Transform ground)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

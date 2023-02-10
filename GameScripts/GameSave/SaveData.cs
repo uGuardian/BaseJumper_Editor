@@ -63,13 +63,13 @@ namespace GameSave
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddData(string key, SaveData data)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddToList(SaveData data)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -135,7 +135,7 @@ namespace GameSave
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void LoadFromSerializedData(object serialized)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

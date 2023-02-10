@@ -62,7 +62,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Release(T element)
 		{
-			throw null;
+			
 		}
 	}
 }

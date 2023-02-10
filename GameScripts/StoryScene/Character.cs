@@ -56,19 +56,19 @@ namespace StoryScene
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Activate(bool active, CharacterActivate mode, float delay)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void CompleteEffect()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Awake()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

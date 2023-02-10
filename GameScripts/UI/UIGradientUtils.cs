@@ -50,7 +50,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static void Lerp(UIVertex a, UIVertex b, float t, ref UIVertex c)
 		{
-			throw null;
+			
 		}
 
 		// Note: this type is marked as 'beforefieldinit'.

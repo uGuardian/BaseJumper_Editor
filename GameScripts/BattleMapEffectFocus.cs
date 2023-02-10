@@ -10,19 +10,19 @@ public class BattleMapEffectFocus : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DestroyEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

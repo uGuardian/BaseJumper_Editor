@@ -15,7 +15,7 @@ public class DamageIcon : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetColor(Color c)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

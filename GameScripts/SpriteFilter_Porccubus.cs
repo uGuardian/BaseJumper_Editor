@@ -10,7 +10,7 @@ public class SpriteFilter_Porccubus : SpriteFilter
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

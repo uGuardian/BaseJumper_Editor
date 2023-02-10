@@ -13,19 +13,19 @@ public class EffectSoundPlayer : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(AudioClip ac, float volume = 1f, bool loop = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -6,7 +6,7 @@ public class DiceCardAbility_final_gebura_bigbadwolf_scar1atk_nr : DiceCardAbili
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

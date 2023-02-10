@@ -16,13 +16,13 @@ public class BattleUnitAggroDetail
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddRoundScore(int score)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

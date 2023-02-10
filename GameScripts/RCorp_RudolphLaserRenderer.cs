@@ -49,13 +49,13 @@ public class RCorp_RudolphLaserRenderer : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<Vector3> stdPosList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLineWidthByRatio(float ratio)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -73,19 +73,19 @@ public class RCorp_RudolphLaserRenderer : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitLineVertices()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void MoveLaser()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

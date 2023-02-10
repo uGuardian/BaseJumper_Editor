@@ -6,13 +6,13 @@ public class EnemyTeamStageManager_KeterFinal_BloodBath : EnemyTeamStageManager_
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void SetAngelaEgos()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

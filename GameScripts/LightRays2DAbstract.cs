@@ -47,19 +47,19 @@ public abstract class LightRays2DAbstract : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitializeReferences()
 	{
-		throw null;
+		
 	}
 
 	protected abstract void GetReferences();
@@ -71,7 +71,7 @@ public abstract class LightRays2DAbstract : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private bool AnythingChanged()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

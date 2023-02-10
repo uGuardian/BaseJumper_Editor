@@ -8,7 +8,7 @@ public class DiceCardSelfAbility_final_silencegirl_blackhand_dmgup : DiceCardSel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

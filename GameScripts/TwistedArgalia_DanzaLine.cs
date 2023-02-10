@@ -20,19 +20,19 @@ public class TwistedArgalia_DanzaLine : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSrc(Transform from)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDst(Transform to)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

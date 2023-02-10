@@ -6,7 +6,7 @@ public class BodyAura_PhilipBurnHead : BodyAura
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

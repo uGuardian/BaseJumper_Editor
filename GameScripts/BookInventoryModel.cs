@@ -28,7 +28,7 @@ public class BookInventoryModel : Singleton<BookInventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -58,13 +58,13 @@ public class BookInventoryModel : Singleton<BookInventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ClearBookList(int capacity = 0)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddBook(BookModel book)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -76,13 +76,13 @@ public class BookInventoryModel : Singleton<BookInventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveBookByFeed(BookModel book)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SwapBook(BookModel removebook, BookModel addbook)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -178,37 +178,37 @@ public class BookInventoryModel : Singleton<BookInventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ValidateInstnaceId()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void MoveAllCardToCardInventory()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveLimitedEquips()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAllErrorBookWithUnequip()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveBookWithUnequip(BookModel book)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

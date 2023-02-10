@@ -24,7 +24,7 @@ namespace Sound
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void DestroyLoopSounds()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -36,13 +36,13 @@ namespace Sound
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetVolume(float volume)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void RemovePlayer(int id)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

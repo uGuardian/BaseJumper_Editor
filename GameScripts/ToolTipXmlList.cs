@@ -9,7 +9,7 @@ public class ToolTipXmlList : Singleton<ToolTipXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<ToolTipXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

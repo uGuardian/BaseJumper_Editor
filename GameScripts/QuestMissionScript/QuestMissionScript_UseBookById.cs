@@ -9,7 +9,7 @@ public class QuestMissionScript_UseBookById : QuestMissionScriptBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseBook(int bookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

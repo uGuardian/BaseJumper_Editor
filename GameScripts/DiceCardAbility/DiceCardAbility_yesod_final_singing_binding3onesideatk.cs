@@ -17,7 +17,7 @@ public class DiceCardAbility_yesod_final_singing_binding3onesideatk : DiceCardAb
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

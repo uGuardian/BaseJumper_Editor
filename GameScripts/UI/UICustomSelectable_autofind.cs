@@ -13,7 +13,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetActivatedCharacterSelectables(List<UICustomSelectable_autofind> list)
 		{
-			throw null;
+			
 		}
 
 		private Vector2 UIPosition
@@ -28,7 +28,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnMove(AxisEventData eventData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -13,7 +13,7 @@ namespace Opening
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetSubtitles(List<GameOpeningController.Subtitle> list)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

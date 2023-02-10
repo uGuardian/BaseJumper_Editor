@@ -15,7 +15,7 @@ public class DiceCardAbility_powerDownNext2pwTargetHighlander : DiceCardAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

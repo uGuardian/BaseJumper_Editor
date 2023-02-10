@@ -15,7 +15,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnMove(AxisEventData eventData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

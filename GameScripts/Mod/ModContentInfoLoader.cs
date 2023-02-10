@@ -9,7 +9,7 @@ namespace Mod
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static void AddErrorLog(string str)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

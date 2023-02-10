@@ -25,19 +25,19 @@ public class HodBgScroll : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void IncreaseSpeed(int lv)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

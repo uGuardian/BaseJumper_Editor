@@ -8,7 +8,7 @@ public class DiceCardAbility_final_snowqueen_debuf4atk_area : DiceCardAbilityBas
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAreaAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

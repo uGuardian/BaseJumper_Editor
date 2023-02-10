@@ -175,7 +175,7 @@ public class UsingBookIds
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void sdf()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

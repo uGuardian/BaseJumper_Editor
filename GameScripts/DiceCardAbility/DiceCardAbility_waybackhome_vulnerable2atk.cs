@@ -15,7 +15,7 @@ public class DiceCardAbility_waybackhome_vulnerable2atk : DiceCardAbility_waybac
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

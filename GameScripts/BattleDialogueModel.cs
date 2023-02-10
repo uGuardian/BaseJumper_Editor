@@ -34,19 +34,19 @@ public class BattleDialogueModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleDialogCharacter battleDlg)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDialogByDlgAndIndex(DialogType dlgType, BattleDialog dlg, int index = 0)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual string GetBattleDlg(DialogType dlgType, List<BattleUnitModel> targets)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -70,13 +70,13 @@ public class BattleDialogueModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Copy(BattleDialogueModel origin)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RandomAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -94,25 +94,25 @@ public class BattleDialogueModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDialogByRandom(DialogType dialogType)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDialogById(DialogType dialogType, string dialogXmlId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDialog(DialogType dialogType, DialogData dialog)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDialogByCustom(DialogType dialogType, string str)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -142,6 +142,6 @@ public class BattleDialogueModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 }

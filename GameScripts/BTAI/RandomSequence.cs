@@ -30,7 +30,7 @@ namespace BTAI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void PickNewChild()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -9,7 +9,7 @@ public class CreditXmlList : Singleton<CreditXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<CreditXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

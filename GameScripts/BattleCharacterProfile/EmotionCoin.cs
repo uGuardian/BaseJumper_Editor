@@ -14,7 +14,7 @@ namespace BattleCharacterProfile
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetCoin(EmotionCoinType coinType)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

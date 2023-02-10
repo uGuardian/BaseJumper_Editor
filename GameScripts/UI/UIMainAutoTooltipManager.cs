@@ -23,25 +23,25 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OpenTooltip(UIAutoTooltipType type, RectTransform targetRect, bool isAutoClose = false, Camera cam = null, UIToolTipPanelType paneltype = UIToolTipPanelType.Normal, UITooltipPanelPositionType postype = UITooltipPanelPositionType.None, bool isoverclose = false, UITutorialAutoAlarmTemplate template = null)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void CloseTooltip(UIAutoTooltipType type)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AllCloseTooltip()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

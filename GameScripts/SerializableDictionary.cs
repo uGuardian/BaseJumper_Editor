@@ -15,13 +15,13 @@ public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>, IS
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnBeforeSerialize()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAfterDeserialize()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

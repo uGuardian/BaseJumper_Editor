@@ -27,25 +27,25 @@ public class BehaviourAction_TwistedArgalia_Infinite : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDefault(List<RencounterManager.MovingAction> actionList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetInfo(List<RencounterManager.MovingAction> actionList, BehaviourAction_TwistedArgalia_Infinite.ActionInfo info)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitRolandActions()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitArgaliaActions()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

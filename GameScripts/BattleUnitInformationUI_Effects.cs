@@ -23,7 +23,7 @@ public class BattleUnitInformationUI_Effects : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEffects(List<BattleUnitInformationUI.Desc> passives)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -35,13 +35,13 @@ public class BattleUnitInformationUI_Effects : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Clear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

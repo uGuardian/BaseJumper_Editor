@@ -25,13 +25,13 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetDeckListData(List<DeckSlotModel> _deckSlots)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -43,7 +43,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void LoadFromSaveData(SaveData data)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -12,7 +12,7 @@ public class DiceCardSelfAbility_final_netzach_porccubus_pleasure : DiceCardSelf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

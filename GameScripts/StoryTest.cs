@@ -9,7 +9,7 @@ public class StoryTest : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnClick()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

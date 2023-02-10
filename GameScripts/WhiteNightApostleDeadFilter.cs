@@ -44,31 +44,31 @@ public class WhiteNightApostleDeadFilter : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(int start, int end, WhiteNightMapManager.DeadApostleFilterEndEvent e, BattleUnitModel deadUnit, List<BattleUnitModel> deadList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnim_HourHandEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

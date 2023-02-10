@@ -45,6 +45,6 @@ public class BattleUnitBuf_DecreaseSpeedTo1 : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 }

@@ -12,19 +12,19 @@ public class UIGachaFrameBg : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetAlpha()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -22,7 +22,7 @@ public class LightRays2D : LightRays2DAbstract
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void GetReferences()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -34,13 +34,13 @@ public class LightRays2D : LightRays2DAbstract
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void ApplyMaterial(Material material)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
