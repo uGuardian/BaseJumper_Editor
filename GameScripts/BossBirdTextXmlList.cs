@@ -10,7 +10,7 @@ public class BossBirdTextXmlList : Singleton<BossBirdTextXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BossBirdTextRoot textRoot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

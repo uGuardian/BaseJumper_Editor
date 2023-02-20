@@ -7,7 +7,7 @@ public class EnemyUnitAggroSetter
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundStart(List<BattleUnitModel> playerUnits)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -54,7 +54,7 @@ public class DamageNumber : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetColor(Color c, AtkResist resist)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -75,13 +75,13 @@ public class DamageNumber : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateAlpha()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

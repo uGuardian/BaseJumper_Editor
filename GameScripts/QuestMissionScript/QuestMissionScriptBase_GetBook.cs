@@ -33,7 +33,7 @@ public class QuestMissionScriptBase_GetBook : QuestMissionScriptBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnGetBook(int bookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -24,7 +24,7 @@ public class BS3_Combo_Common : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

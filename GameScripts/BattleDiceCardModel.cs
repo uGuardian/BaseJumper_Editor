@@ -87,25 +87,25 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMaxCooltime()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCurrentCostMax()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCoolTime(float value)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetCoolTime()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -117,19 +117,19 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReserveExhaust()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CopySelf()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetToOriginalData()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -177,7 +177,7 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeFarToNearForMyo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -213,7 +213,7 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPriorityAdder(int v)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -231,7 +231,7 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCurrentCost(int cost)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -261,13 +261,13 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAddedIcon(string resName, int priority = 0)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAddedIcon(string resName, int priority = 0)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -309,43 +309,43 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUseOtherCard_inHand(BattleUnitModel unit, BattlePlayingCardDataInUnitModel curCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnLoseParrying_inHand(BattleUnitModel unit, BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnWinParrying_inHand(BattleUnitModel unit, BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEnd(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEnd_inHand(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart_inHand(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnBreakState_inHand(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -375,19 +375,19 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBuf(BattleDiceCardBuf buf)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveBuf(BattleDiceCardBuf buf)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveBuf<T>()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -399,31 +399,31 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBufWithoutDuplication(BattleDiceCardBuf buf)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCost(int cost)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCostToZero(bool zero = true)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUseCard(BattleUnitModel owner, BattlePlayingCardDataInUnitModel playingCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDiscard(BattleUnitModel owner, BattleDiceCardModel card)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -441,25 +441,25 @@ public class BattleDiceCardModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckDestroyedBuf()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDrawCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	public class CardIcon

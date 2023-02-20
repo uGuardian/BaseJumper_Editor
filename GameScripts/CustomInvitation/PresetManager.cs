@@ -134,55 +134,55 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void InitWithoutLanguage()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadDropbookPreset()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadCardSelfAbilPreset()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadCardDiceAbilPreset()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadPassivePreset()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadEffectResPreset()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadMotionSoundPreset()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadCharacterPreset()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -216,13 +216,13 @@ namespace CustomInvitation
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			public void SetCost(int cost)
 			{
-				throw null;
+				
 			}
 
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			public void SetRarity(Rarity rarity)
 			{
-				throw null;
+				
 			}
 
 			[MethodImpl(MethodImplOptions.NoInlining)]

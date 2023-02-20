@@ -16,25 +16,25 @@ public class FarAreaEffect_Xiao_Taotie_DragonAnimListener : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnGiveDamage()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEvent(int i)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

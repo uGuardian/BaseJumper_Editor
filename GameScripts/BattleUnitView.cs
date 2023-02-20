@@ -219,13 +219,13 @@ public class BattleUnitView : BattleObjectView
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateSkin()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeScale(MapSize mapSize)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -237,97 +237,97 @@ public class BattleUnitView : BattleObjectView
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeSkinBySkinInfo(BattleUnitView.SkinInfo info)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeEgoSkin(string egoName, bool bookNameChange = true)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeSkin(string charName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeCreatureSkin(string creatureName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeHeight(int height)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetSkin()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAltSkin(string charName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DestroySkin()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisplayDlg(DialogType dlgType, string id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisplayDlg(DialogType dlgType)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisplayDlg(DialogType dlgType, List<BattleUnitModel> targets)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisableDialog()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDie()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableView(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableStatNumber(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableDiceActionUI(bool b)
 	{
-		throw null;
+		
 	}
 
 	public bool IsRunningDeadEffect
@@ -351,7 +351,7 @@ public class BattleUnitView : BattleObjectView
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartDeadEffect(bool effect = true)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -369,7 +369,7 @@ public class BattleUnitView : BattleObjectView
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartDeadEffectForcely()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -381,7 +381,7 @@ public class BattleUnitView : BattleObjectView
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartReturnEffect(Vector3 returnPos, bool ignoreView = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -393,7 +393,7 @@ public class BattleUnitView : BattleObjectView
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartEgoSkinChangeEffect(string layer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -405,61 +405,61 @@ public class BattleUnitView : BattleObjectView
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void HighlightTurn(bool b, Color c)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DamagedWithoutText()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Damaged(int dmg, BehaviourDetail detail, int face, BattleUnitModel attacker, AtkResist atkResist = AtkResist.Normal)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BreakDamaged(int breakDmg, BehaviourDetail detail, BattleUnitModel attacker, AtkResist atkResist)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCriticals(bool breaked, bool maxValue)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RecoverHp(int recover)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RecoverBp(int recover)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PrintBloodSprites(int dmg, float curHp)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -477,43 +477,43 @@ public class BattleUnitView : BattleObjectView
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void FixedUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckAtkEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateRotationState()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Damage(int id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Parrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTimeScale(float timeScale)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -531,43 +531,43 @@ public class BattleUnitView : BattleObjectView
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void KnockDown(bool v)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEnemyDropBook(LorId id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LockPosY(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowProfile()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowProfile_byPad()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnXEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnYEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

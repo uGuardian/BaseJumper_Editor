@@ -33,31 +33,31 @@ public class BattleCoin
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPcoinAbility(RWBPType targetCoinType)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void IncreaseLevel(int add)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DecreaseLevel(int sub)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void IncreaseDamageBonus(float v)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void IncreaseMessinessDamageBonus(float v)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -69,12 +69,12 @@ public class BattleCoin
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Enhance()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Change(RWBPType rwbp)
 	{
-		throw null;
+		
 	}
 }

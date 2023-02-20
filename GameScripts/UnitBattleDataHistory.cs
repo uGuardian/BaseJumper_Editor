@@ -34,7 +34,7 @@ public class UnitBattleDataHistory
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

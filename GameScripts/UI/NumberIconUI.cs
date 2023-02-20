@@ -19,13 +19,13 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetImageComponent()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetSprite(NumberIconSet iconset)
 		{
-			throw null;
+			
 		}
 	}
 }

@@ -34,13 +34,13 @@ public class EnemyTeamStageManager_TheCrying : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -52,7 +52,7 @@ public class EnemyTeamStageManager_TheCrying : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -76,37 +76,37 @@ public class EnemyTeamStageManager_TheCrying : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnAllEnemyEquipCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAllWeak()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetPhase(EnemyTeamStageManager_TheCrying.Phase nextPhase)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UnregisterAllUnit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreateTheOneUnit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreateFiveChildren()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -118,7 +118,7 @@ public class EnemyTeamStageManager_TheCrying : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -136,7 +136,7 @@ public class EnemyTeamStageManager_TheCrying : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStageClear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

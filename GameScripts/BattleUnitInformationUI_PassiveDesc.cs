@@ -15,19 +15,19 @@ public class BattleUnitInformationUI_PassiveDesc : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPassive(string title, string desc, Sprite spr)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Clear(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

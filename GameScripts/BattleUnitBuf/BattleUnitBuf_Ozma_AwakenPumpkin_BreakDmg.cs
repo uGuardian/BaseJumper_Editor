@@ -15,7 +15,7 @@ public class BattleUnitBuf_Ozma_AwakenPumpkin_BreakDmg : BattleUnitBuf_Ozma_Awak
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -42,43 +42,43 @@ public class StageLibraryFloorModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(StageModel stage, LibraryFloorModel floor, bool isRebattle = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitUnitList(StageModel stage, LibraryFloorModel floor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitUnitList_finalStage(StageModel stage, LibraryFloorModel floor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitUnitList_KeterFinalFloor(StageModel stage, LibraryFloorModel floor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddUnitDefault(StageModel stage, LibraryFloorModel floor, UnitDataModel data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddRolandInOlivierStage(StageModel stage, LibraryFloorModel floor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddAngelaInsteadRoland(StageModel stage, LibraryFloorModel floor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -96,7 +96,7 @@ public class StageLibraryFloorModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEmotionTeamUnit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -120,7 +120,7 @@ public class StageLibraryFloorModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateEmotionCoin()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -162,31 +162,31 @@ public class StageLibraryFloorModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UseSkillPoint()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPickPassiveCard(EmotionCardXmlInfo card, BattleUnitModel target = null)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPickEgoCard(EmotionEgoXmlInfo egoCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartPickEmotionCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Defeat()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

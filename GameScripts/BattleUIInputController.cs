@@ -39,13 +39,13 @@ public class BattleUIInputController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -57,31 +57,31 @@ public class BattleUIInputController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SelectSelectableForcely(UICustomSelectable selectable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateLastSelectedDice(UICustomSelectableSpeedDice diceSelectable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetCharacterCursor_forError()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetCharacterCursor(bool resetLastSelection, bool charSelectionPhase = true)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Dummy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -93,7 +93,7 @@ public class BattleUIInputController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCharacterSlotsNavigation(List<BattleUnitModel> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -105,49 +105,49 @@ public class BattleUIInputController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSelectSpeedDice(UICustomSelectableSpeedDice diceSelectable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnLBEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnRBEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ChangeFactionToRight()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ChangeFactionToLeft()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnLTEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRTEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void SetSlotsNavigation_downToUp(List<UICustomSelectable> selectableList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -159,13 +159,13 @@ public class BattleUIInputController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetCursor()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ResetTargetCursor()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

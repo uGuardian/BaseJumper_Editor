@@ -6,7 +6,7 @@ public class DiceCardAbility_final_gebura_bigbadwolf_targetPowerDown2pw : DiceCa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -58,61 +58,61 @@ public class FlexibleColorPicker : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPointerFocus(int i)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PointerUpdate(BaseEventData e)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void TypeHex(string input)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FinishTypeHex(string input)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeMode(int newMode)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeMode(FlexibleColorPicker.MainPickingMode mode)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SeperateMaterials()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -166,19 +166,19 @@ public class FlexibleColorPicker : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateMarkers()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateMarker(Image picker, FlexibleColorPicker.PickerType type, Vector2 v)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetMarker(Image picker, Vector2 v, bool setX, bool setY)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -208,13 +208,13 @@ public class FlexibleColorPicker : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateTextures(bool forceUpdate = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateTexture(FlexibleColorPicker.PickerType type, bool standardized)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -232,25 +232,25 @@ public class FlexibleColorPicker : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateHex()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void TypeHex(string input, bool finish)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void MakeModeOptions()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateMode(FlexibleColorPicker.MainPickingMode mode)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -448,13 +448,13 @@ public class FlexibleColorPicker : MonoBehaviour
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Set(Color color)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Set(Color color, float bufferedHue, float bufferedSaturation)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

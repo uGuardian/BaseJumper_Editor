@@ -28,19 +28,19 @@ public class BattleUnitInformationUI_BuffSlot : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCamera(Camera camera)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetData(Sprite sp, int stacknum)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetToolTipData(BattleUnitBuf buf)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

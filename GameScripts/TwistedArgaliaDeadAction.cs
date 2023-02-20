@@ -40,7 +40,7 @@ public class TwistedArgaliaDeadAction : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitView roland, BattleUnitView argalia)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

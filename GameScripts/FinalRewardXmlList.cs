@@ -9,7 +9,7 @@ public class FinalRewardXmlList : Singleton<FinalRewardXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<FinalRewardCardInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

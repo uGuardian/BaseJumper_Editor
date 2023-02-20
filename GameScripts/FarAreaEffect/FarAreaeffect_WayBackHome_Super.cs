@@ -13,19 +13,19 @@ public class FarAreaeffect_WayBackHome_Super : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnEffectStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnGiveDamage()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnEffectEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

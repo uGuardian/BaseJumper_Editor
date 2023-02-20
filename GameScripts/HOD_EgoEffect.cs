@@ -12,7 +12,7 @@ public class HOD_EgoEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitEgoEffect(float waitTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -24,7 +24,7 @@ public class HOD_EgoEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

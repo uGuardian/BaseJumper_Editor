@@ -41,13 +41,13 @@ public class PassiveAbility_105010 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -59,7 +59,7 @@ public class PassiveAbility_105010 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ChangeAbility()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

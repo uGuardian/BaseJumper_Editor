@@ -94,19 +94,19 @@ public class LibraryModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void NewGame()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddFloor(SephirahType sephirah)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -124,7 +124,7 @@ public class LibraryModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OpenSephirah(SephirahType sephirah)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -265,7 +265,7 @@ public class LibraryModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnClearStage(LorId stageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -301,13 +301,13 @@ public class LibraryModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddStorySeeInfo(int chapter, int group, int episode, bool save = true)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddStorySeeInfo(string storyId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -379,7 +379,7 @@ public class LibraryModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -427,37 +427,37 @@ public class LibraryModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateAchievement()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckAllEquips()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckAllCards()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckManyGifts()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckSmallStory()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckNormalInvitation()
 	{
-		throw null;
+		
 	}
 
 	// Note: this type is marked as 'beforefieldinit'.

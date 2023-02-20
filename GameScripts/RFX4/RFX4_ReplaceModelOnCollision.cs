@@ -13,13 +13,13 @@ public class RFX4_ReplaceModelOnCollision : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnCollisionEnter(Collision collision)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

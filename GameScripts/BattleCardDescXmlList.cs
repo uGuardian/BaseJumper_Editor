@@ -10,7 +10,7 @@ public class BattleCardDescXmlList : Singleton<BattleCardDescXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<LorId, BattleCardDesc> dictionary)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

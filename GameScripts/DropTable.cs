@@ -29,7 +29,7 @@ public class DropTable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add(float prob, LorId id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

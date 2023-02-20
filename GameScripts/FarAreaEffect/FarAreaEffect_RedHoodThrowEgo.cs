@@ -6,7 +6,7 @@ public class FarAreaEffect_RedHoodThrowEgo : FarAreaEffect_RedHoodThrow
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnEffectEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

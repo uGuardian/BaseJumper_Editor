@@ -25,7 +25,7 @@ public class BattleUnitBuf_Latitia_HeartManager : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Check()
 	{
-		throw null;
+		
 	}
 
 	public class BattleDiceCardBuf_Latitia_Heart : BattleDiceCardBuf

@@ -78,7 +78,7 @@ public class PassiveModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitReservedData()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -90,37 +90,37 @@ public class PassiveModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ApplyReserved()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetReservedPassive()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SuccessionPassiveForReserved(PassiveModel passivemodel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetGiveBookId(int instanceid)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReleaseSuccesionReceivePassive(bool origin = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReleaseSuccesionGivePassive(bool origin = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -138,7 +138,7 @@ public class PassiveModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	public class PassiveModelSavedData
@@ -164,7 +164,7 @@ public class PassiveModel : Savable
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void DeepCopy(PassiveModel.PassiveModelSavedData data)
 		{
-			throw null;
+			
 		}
 	}
 }

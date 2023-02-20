@@ -7,13 +7,13 @@ public class BattleDirectingManager : SingletonBehavior<BattleDirectingManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add(GameObject g)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Clear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

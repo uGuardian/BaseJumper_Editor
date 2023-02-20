@@ -18,13 +18,13 @@ public class BloodSpriteEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Play(float delay, float scaleFactor = 1f)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Stop()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -36,13 +36,13 @@ public class BloodSpriteEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ResetValue()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

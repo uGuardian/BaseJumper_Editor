@@ -135,7 +135,7 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetXmlInfo(BookXmlInfo classInfo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -225,13 +225,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EmptyDeckToInventoryAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EmptyDeckToInventory()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -255,7 +255,7 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeDeck(int index)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -309,13 +309,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCharacterName(string s)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOriginalCharacterName()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -339,43 +339,43 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOriginalResists()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOriginalSpeedNum()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOriginalSpeed()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOriginalPlayPoint()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOriginalStat()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetResistHP(BehaviourDetail detail, AtkResist resist)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetResistBP(BehaviourDetail detail, AtkResist resist)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -393,25 +393,25 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSpeedDiceMin(int minValue)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSpeedDiceMax(int maxValue)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSpeedDiceNum(int num)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetStartPlayPoint(int playPoint)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -423,7 +423,7 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMaxPlayPoint(int maxPoint)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -435,13 +435,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetHp(int maxHp)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBp(int maxBp)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -618,13 +618,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOwner(UnitDataModel newOwner)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBasicBookOwner(UnitDataModel owner)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -666,7 +666,7 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDeckByDeckInfo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -684,31 +684,31 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SortPassive(List<PassiveModel> passivelist = null)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckExistCurrentPassive()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckOverPassiveCost(bool origin = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckOverlapPassive()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckDeletePassiveOtherBook()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -726,13 +726,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitReservedDataForPassiveSuccession()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ApplyPassiveSuccession()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -750,13 +750,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangePassive(PassiveModel currentBookPassive, PassiveModel changeBookPassive)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReleasePassive(PassiveModel passive, bool origin = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -792,13 +792,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UnEquipGivePassiveBook(BookModel unequipbook, bool origin = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReleaseAllEquipedPassiveBooks(bool origin = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -828,13 +828,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLockInventory(bool on)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResisterBookMark(bool on)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -852,13 +852,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckExistPassiveBook()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Test2()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -870,13 +870,13 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveDataExceptId(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -936,7 +936,7 @@ public class BookModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReleasePassiveAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

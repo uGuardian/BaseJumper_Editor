@@ -19,13 +19,13 @@ public class BS3_Combo_R_DurandalDown : BS3_Combo_Common
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Vector3 src, Vector3 dst)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

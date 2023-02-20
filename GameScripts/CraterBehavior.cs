@@ -24,13 +24,13 @@ public class CraterBehavior : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitFields(int lv, Transform ground, float angle, int sign = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

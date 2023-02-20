@@ -92,7 +92,7 @@ public class FarAreaEffect_TwistedElena1 : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel self, params object[] args)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -104,25 +104,25 @@ public class FarAreaEffect_TwistedElena1 : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void GiveDamage(BattleUnitModel attacker, BattleFarAreaPlayManager.VictimInfo v)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitFloorEffect(BattleUnitModel attacker, List<BattleFarAreaPlayManager.VictimInfo> victims)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitAbsorbEffect(BattleUnitModel attacker, List<BattleFarAreaPlayManager.VictimInfo> victims)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

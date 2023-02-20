@@ -14,7 +14,7 @@ public class CostHideAnimSc : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndCostOnAnimation()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

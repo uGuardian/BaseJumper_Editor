@@ -32,19 +32,19 @@ public class FarAreaEffect_EGO_ApcBird_LaserVer2 : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel self, params object[] args)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -62,7 +62,7 @@ public class FarAreaEffect_EGO_ApcBird_LaserVer2 : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EarthQuake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

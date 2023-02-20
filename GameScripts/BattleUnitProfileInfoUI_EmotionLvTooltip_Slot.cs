@@ -24,7 +24,7 @@ public class BattleUnitProfileInfoUI_EmotionLvTooltip_Slot : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetActivated(bool b, int idx)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

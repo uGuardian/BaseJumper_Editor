@@ -8,7 +8,7 @@ public class PassiveAbility_254001 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartTargetedOneSide(BattlePlayingCardDataInUnitModel attackerCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

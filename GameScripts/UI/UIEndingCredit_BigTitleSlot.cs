@@ -16,7 +16,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetTitle(string txt)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

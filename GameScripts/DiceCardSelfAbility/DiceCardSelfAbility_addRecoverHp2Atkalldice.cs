@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_addRecoverHp2Atkalldice : DiceCardSelfAbilityBa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

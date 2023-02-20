@@ -6,7 +6,7 @@ public class DiceCardAbility_Final_ApocalypseBird_DecreaseLight1Atk : DiceCardAb
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAreaAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

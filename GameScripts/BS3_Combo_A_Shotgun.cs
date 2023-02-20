@@ -13,7 +13,7 @@ public class BS3_Combo_A_Shotgun : BS3_Combo_Common
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Transform target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

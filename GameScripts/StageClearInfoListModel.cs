@@ -20,7 +20,7 @@ public class StageClearInfoListModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -50,31 +50,31 @@ public class StageClearInfoListModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetClearCount(int stageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetClearCount(LorId stageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetClearCountForEndContents(int stageid)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetClearCountForEndContents(LorId stageid)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UnlockStage(LorId stageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -86,7 +86,7 @@ public class StageClearInfoListModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAllUnloadedModClearInfos()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -98,7 +98,7 @@ public class StageClearInfoListModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

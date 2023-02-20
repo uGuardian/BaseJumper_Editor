@@ -15,7 +15,7 @@ public class DiceCardAbility_Final_ApocalypseBird_RecoverHpAndBleed : DiceCardAb
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

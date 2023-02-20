@@ -10,13 +10,13 @@ public class StageWaveHistory
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddRakeCreatedUsed()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddHokmaAchievementCount(int num)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

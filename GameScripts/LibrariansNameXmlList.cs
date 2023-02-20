@@ -12,7 +12,7 @@ public class LibrariansNameXmlList : Singleton<LibrariansNameXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(CharactersNameRoot nameRoot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -13,7 +13,7 @@ public class BookXmlList : Singleton<BookXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<BookXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -37,7 +37,7 @@ public class BookXmlList : Singleton<BookXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddEquipPageByMod(string workshopId, List<BookXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

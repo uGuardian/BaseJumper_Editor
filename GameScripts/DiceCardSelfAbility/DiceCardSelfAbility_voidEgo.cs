@@ -15,12 +15,12 @@ public class DiceCardSelfAbility_voidEgo : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public DiceCardSelfAbility_voidEgo()
 	{
-		throw null;
+		
 	}
 }

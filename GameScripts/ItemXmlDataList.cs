@@ -27,7 +27,7 @@ public class ItemXmlDataList
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitCardInfo(List<DiceCardXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -57,7 +57,7 @@ public class ItemXmlDataList
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCardInfoByMod(string workshopId, List<DiceCardXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

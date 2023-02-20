@@ -36,31 +36,31 @@ public class RCorp_RudolphBezier : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Vector3 startPos, Vector3 lastPos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeStartAndLasPos(Vector3 startPos, Vector3 lastPos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeIntermediatePosWithOffset(int index, float y, float z)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPrevBezier(RCorp_RudolphBezier prev)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetNextBezier(RCorp_RudolphBezier next)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -72,7 +72,7 @@ public class RCorp_RudolphBezier : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -90,7 +90,7 @@ public class RCorp_RudolphBezier : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDrawGizmos()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

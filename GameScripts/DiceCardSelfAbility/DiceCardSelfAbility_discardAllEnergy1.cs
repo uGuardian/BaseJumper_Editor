@@ -15,7 +15,7 @@ public class DiceCardSelfAbility_discardAllEnergy1 : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnDiscard(BattleUnitModel unit, BattleDiceCardModel self)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

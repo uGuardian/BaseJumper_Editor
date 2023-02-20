@@ -14,7 +14,7 @@ public class InvitationClassInfoList : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<InvitationClassInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

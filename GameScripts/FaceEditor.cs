@@ -20,13 +20,13 @@ public class FaceEditor : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(UnitCustomizingData data, FaceType type = FaceType.Normal)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitBySephirah(LorId sephirahBookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

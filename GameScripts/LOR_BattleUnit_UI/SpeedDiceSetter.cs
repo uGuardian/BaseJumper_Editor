@@ -134,31 +134,31 @@ namespace LOR_BattleUnit_UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetSpeedDicesAfterRoll(List<SpeedDice> diceResult)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetSpeedDicesBeforeRoll(List<SpeedDice> diceInfo, Faction faction)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetNavigations()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetActivatedCharacters(List<BattleUnitModel> list)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ReleaseSelection()
 		{
-			throw null;
+			
 		}
 
 		public bool IsEnabled
@@ -173,49 +173,49 @@ namespace LOR_BattleUnit_UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetDisable()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetEnable()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void BlockDiceAll(bool active, bool forcely = false)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void BreakDiceAll(bool active)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void DeselectAll()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetEnableSwitchTargetButton(bool b, int index)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnClickSwitchTargetButton(bool isController)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetControllerGuide(SpeedDiceSetter.DiceGuidePhase phase)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

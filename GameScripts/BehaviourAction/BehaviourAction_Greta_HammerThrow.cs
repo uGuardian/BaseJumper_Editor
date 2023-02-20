@@ -52,7 +52,7 @@ public class BehaviourAction_Greta_HammerThrow : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetPositionWithCheckWall(Vector3 pos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

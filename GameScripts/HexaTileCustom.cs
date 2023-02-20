@@ -24,13 +24,13 @@ public class HexaTileCustom : TileBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void RefreshTile(Vector3Int position, ITilemap tilemap)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

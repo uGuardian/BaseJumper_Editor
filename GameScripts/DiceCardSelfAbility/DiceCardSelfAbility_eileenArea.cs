@@ -15,7 +15,7 @@ public class DiceCardSelfAbility_eileenArea : DiceCardSelfAbility_bandFinalBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAreaAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -35,7 +35,7 @@ public class DiceCardSelfAbility_eileenArea : DiceCardSelfAbility_bandFinalBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEnd()
 		{
-			throw null;
+			
 		}
 	}
 }

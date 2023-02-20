@@ -12,7 +12,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void StartRevealInAnim()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -178,7 +178,7 @@ namespace ToJ
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ScheduleFullMaskRefresh()
 		{
-			throw null;
+			
 		}
 
 		private Matrix4x4 OldWorldToMask
@@ -291,7 +291,7 @@ namespace ToJ
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Start()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -303,61 +303,61 @@ namespace ToJ
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void ClearShaders()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void InitializeMeshRenderer(MeshRenderer target)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LateUpdate()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void UpdateInstanciatedMaterials(List<Material> differentMaterials, Matrix4x4 worldToMask)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void UpdateUIMaterials(List<Graphic> differentGraphics, Matrix4x4 worldToMask, Vector4 tilingAndOffset)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void UpdateSpriteMaterials(List<SpriteRenderer> differentSpriteRenderers, Matrix4x4 worldToMask, Vector4 tilingAndOffset)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void UpdateMasking()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void ValidateShader(Material material)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void RefreshMaskPropertyBlock()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void GetMaskQuad(Mesh mesh, Rect r)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -375,19 +375,19 @@ namespace ToJ
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ChangeMaskTexture(Texture texture)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetMaskRendererActive(bool value)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void DuplicateMaskedMaterials()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

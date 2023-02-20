@@ -33,7 +33,7 @@ public class BehaviourAction_AngelicaCombo : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreatePrefab()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

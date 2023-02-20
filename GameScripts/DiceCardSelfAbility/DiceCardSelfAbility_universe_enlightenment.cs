@@ -6,13 +6,13 @@ public class DiceCardSelfAbility_universe_enlightenment : DiceCardSelfAbilityBas
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnDiscard(BattleUnitModel unit, BattleDiceCardModel self)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

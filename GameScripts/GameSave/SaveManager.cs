@@ -122,7 +122,7 @@ namespace GameSave
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetSaveEnable(bool enable)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -146,7 +146,7 @@ namespace GameSave
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void LoadPlayDataFromSaveFile(int slot, Action<bool> callback)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -158,7 +158,7 @@ namespace GameSave
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SaveOptionData(OptionDataModel option)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -170,7 +170,7 @@ namespace GameSave
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SaveLatestData(LatestDataModel data)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -194,7 +194,7 @@ namespace GameSave
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddErrorLog(SaveErrorType type, LorId id)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

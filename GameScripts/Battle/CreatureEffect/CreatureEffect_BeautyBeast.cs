@@ -23,19 +23,19 @@ namespace Battle.CreatureEffect
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Hit()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void ChangeMaterial(bool state)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void FixedUpdate()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -43,13 +43,13 @@ public class ModInfo
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddModInfo(FaceCustomType type, Sprite sprite)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddModInfo(CustomActionDetail motion, SpriteCustomizeData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

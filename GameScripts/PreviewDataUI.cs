@@ -23,19 +23,19 @@ public class PreviewDataUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCardData(BattlePlayingCardDataInUnitModel card)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetProfileData(BattleUnitView _view)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckParryingState(BattleUnitModel selectedModel, int slotidx)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

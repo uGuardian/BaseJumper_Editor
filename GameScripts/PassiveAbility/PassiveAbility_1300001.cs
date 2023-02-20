@@ -11,13 +11,13 @@ public class PassiveAbility_1300001 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -35,7 +35,7 @@ public class PassiveAbility_1300001 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitBgm()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

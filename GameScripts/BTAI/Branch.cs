@@ -31,7 +31,7 @@ namespace BTAI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void ResetChildren()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

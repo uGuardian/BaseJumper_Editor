@@ -18,7 +18,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void StartProcess()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

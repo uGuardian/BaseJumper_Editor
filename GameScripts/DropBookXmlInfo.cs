@@ -119,7 +119,7 @@ public class DropBookXmlInfo
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitializeDropItemList(string defaultPid)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

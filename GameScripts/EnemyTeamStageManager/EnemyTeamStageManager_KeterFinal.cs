@@ -18,7 +18,7 @@ public class EnemyTeamStageManager_KeterFinal : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -30,19 +30,19 @@ public class EnemyTeamStageManager_KeterFinal : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitEgoState()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStageClear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUseAngelaEgoCard(LorId cardId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -54,13 +54,13 @@ public class EnemyTeamStageManager_KeterFinal : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void SetAngelaEgos()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -82,13 +82,13 @@ public class EnemyTeamStageManager_KeterFinal : EnemyTeamStageManager
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Add(int id)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Clear()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -100,13 +100,13 @@ public class EnemyTeamStageManager_KeterFinal : EnemyTeamStageManager
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void InitFromList(List<int> list)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void InitFromCustomStorage(SaveData saveData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -15,7 +15,7 @@ public class DiceCardSelfAbility_discardRandomAndEnergy : DiceCardSelfAbilityBas
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -33,19 +33,19 @@ public class ActionCharacter : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Initialize(CharacterAppearance cloneAppearance)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetAction()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BeforeAction(ResultData r)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -57,7 +57,7 @@ public class ActionCharacter : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DoAction(ResultData r, Vector3 dstPos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

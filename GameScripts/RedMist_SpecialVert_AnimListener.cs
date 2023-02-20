@@ -9,13 +9,13 @@ public class RedMist_SpecialVert_AnimListener : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEvent_PlaySound(int i)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

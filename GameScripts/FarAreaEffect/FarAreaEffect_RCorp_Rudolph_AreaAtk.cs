@@ -54,7 +54,7 @@ public class FarAreaEffect_RCorp_Rudolph_AreaAtk : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel self, params object[] args)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -66,19 +66,19 @@ public class FarAreaEffect_RCorp_Rudolph_AreaAtk : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void GiveDamage(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndEffectForcely()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -96,13 +96,13 @@ public class FarAreaEffect_RCorp_Rudolph_AreaAtk : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintDamagedEffect(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

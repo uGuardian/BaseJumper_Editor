@@ -180,91 +180,91 @@ public class RencounterManager : SingletonBehavior<RencounterManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetNodelay(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartRencounter(BattleUnitView enemy, BattleUnitView librarian)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndRencounter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndRencounterForcely()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Pause(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EnableUI(RencounterStateTimer timer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void MoveDice(RencounterStateTimer timer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckMovingStateBeforeRoll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintEnemyVanillaDice(RencounterStateTimer timer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintEnemyResultDice(RencounterStateTimer timer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void WaitLibrarian(RencounterStateTimer timer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnRollDiceInRecounter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -276,85 +276,85 @@ public class RencounterManager : SingletonBehavior<RencounterManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintLibrarianVanillaDice(RencounterStateTimer timer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintLibrarianResultDice(RencounterStateTimer timer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintActivatedAbility(RencounterStateTimer timer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void MoveUnits(RencounterStateTimer timer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ChangeTimerDelayByRatio(RencounterStateTimer timer, float delayRatio)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void DisplayDialogues(List<BattleUnitModel> list, DialogType dlgType, List<BattleUnitModel> targets)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void DisplayDialogues(BattleUnitView view, DialogType dlgType, List<BattleUnitModel> targets)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ChangePreMotion()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintEffect(bool printLibrarian, bool printEnemy, ActionDetail librarianActionDetail, ActionDetail enemyActionDetail, string liCustomRes, string enCustomRes, bool librarianAtkEffectEvent, bool enemyAtkEffectEvent, bool librarianPrintEffectForcely, bool enemyPrintEffectForcely)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintRecovery()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintDamageWithoutText(BattleUnitView loser)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintDamage()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintSound(BattleUnitView view, BattleCardBehaviourResult selfResult, BattleCardBehaviourResult opponentResult, ActionDetail actionDetail)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetMovingStateByActionResult()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -456,19 +456,19 @@ public class RencounterManager : SingletonBehavior<RencounterManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndBehaviourResult()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlaySound_draw()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PlaySound(AudioClip clip)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -540,13 +540,13 @@ public class RencounterManager : SingletonBehavior<RencounterManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckSpecial(BattleUnitView u1, BattleUnitView u2)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Debug_PrintMethodName(int stackFrame = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -617,13 +617,13 @@ public class RencounterManager : SingletonBehavior<RencounterManager>
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public MovingAction(ActionDetail actionDetail, CharMoveState moveState, float dstRatio = 1f, bool updateDir = true, float delay = 0.125f, float speed = 1f)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetEffectTiming(EffectTiming atk, EffectTiming recover, EffectTiming damaged)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -635,25 +635,25 @@ public class RencounterManager : SingletonBehavior<RencounterManager>
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetCustomMoving(RencounterManager.MovingAction.MoveCustomEvent m)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetCustomMoving(RencounterManager.MovingAction.MoveCustomEventWithElapsed m)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetCustomEvent(RencounterManager.MovingAction.CustomEvent e, params object[] p)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void InvokeCustomEvent()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -683,7 +683,7 @@ public class RencounterManager : SingletonBehavior<RencounterManager>
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			public CustomAtkEventInfo()
 			{
-				throw null;
+				
 			}
 		}
 	}

@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_alriune_attackerbuf_final : DiceCardSelfAbility
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

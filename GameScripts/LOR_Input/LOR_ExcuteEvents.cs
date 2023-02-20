@@ -23,7 +23,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private static void Execute(IButtonYHandler handler, BaseEventData eventData)
 		{
-			throw null;
+			
 		}
 
 		public static LOR_ExcuteEvents.EventFunction<IButtonYHandler> buttonYHandler
@@ -38,7 +38,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private static void GetEventChain(GameObject root, IList<Transform> eventChain)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -62,7 +62,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private static void GetEventList<T>(GameObject go, IList<IEventSystemHandler> results) where T : IEventSystemHandler
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

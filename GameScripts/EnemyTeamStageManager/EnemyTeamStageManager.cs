@@ -6,25 +6,25 @@ public class EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundStart_After()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -54,7 +54,7 @@ public class EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnAllEnemyEquipCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -66,13 +66,13 @@ public class EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnStageClear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnEndBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

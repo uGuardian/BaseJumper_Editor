@@ -6,7 +6,7 @@ public class DiceCardAbility_final_silencegirl_hammer_reiteratebylight_atk : Dic
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

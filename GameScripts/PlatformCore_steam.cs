@@ -11,49 +11,49 @@ public class PlatformCore_steam : PlatformCore_default
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnApplicationQuit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Initialize(Action<bool> callback)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void SavePlayData(int slot, SaveData savedata, Action<bool> callback)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void LoadPlayData(int slot, Action<SaveData> callback)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadWorkshopInvitationData(int slot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UserInit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void UnlockAchievement(AchievementEnum achivement)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -65,7 +65,7 @@ public class PlatformCore_steam : PlatformCore_default
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LogError(object message)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -38,13 +38,13 @@ public class StoryEditorCharEffectPanel : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Initialize(StoryEditorRightPanel rightPanel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnValueChanged()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

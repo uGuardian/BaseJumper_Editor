@@ -20,19 +20,19 @@ public class BattleUnitProfileInfoUI_EmotionLvTooltip : MonoBehaviour, IPointerE
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Initialize(BattleCharacterProfileUI profileUI)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerExit(PointerEventData eventData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

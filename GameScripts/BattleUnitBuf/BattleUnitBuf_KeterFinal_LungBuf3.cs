@@ -33,19 +33,19 @@ public class BattleUnitBuf_KeterFinal_LungBuf3 : BattleUnitBuf_KeterFinal_LungBu
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSuccessAttack(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PrintSound()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

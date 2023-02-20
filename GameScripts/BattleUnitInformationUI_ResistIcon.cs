@@ -22,19 +22,19 @@ public class BattleUnitInformationUI_ResistIcon : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(AtkResist resist)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerEnter(BaseEventData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerExit(BaseEventData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

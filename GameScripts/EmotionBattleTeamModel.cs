@@ -122,19 +122,19 @@ public class EmotionBattleTeamModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<UnitBattleDataModel> units, Faction faction, StageClassInfo stage = null, SephirahType sep = SephirahType.None, int maxLevel = 5)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetUnitList(List<UnitBattleDataModel> units)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddUnit(UnitBattleDataModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -146,13 +146,13 @@ public class EmotionBattleTeamModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateUnitList()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateCoin()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -164,19 +164,19 @@ public class EmotionBattleTeamModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateEgoCooltimeCoin()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMaxEgoCooltimeCoin()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetEgoCooltimeCoin()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

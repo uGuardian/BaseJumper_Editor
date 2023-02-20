@@ -13,7 +13,7 @@ public class EnemyUnitAggroSetter_theIndex : EnemyUnitAggroSetter
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart(List<BattleUnitModel> playerUnits)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

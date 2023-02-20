@@ -22,13 +22,13 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Initialize()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetWorkshopStageList(List<StageClassInfo> stageList)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

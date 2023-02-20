@@ -10,7 +10,7 @@ public class UIArmorAppearancepanel : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSelectedSlot(ItemModel item)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

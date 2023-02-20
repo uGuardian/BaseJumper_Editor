@@ -20,7 +20,7 @@ public class DebugTextEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -32,7 +32,7 @@ public class DebugTextEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void CreateEffect(Vector2 pos, string text, float range, float size, float speed = 1f)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

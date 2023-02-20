@@ -21,6 +21,6 @@ public class BattleUnitBuf_KeterFinal_SilenceGirl_Nail_Ready : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 }

@@ -18,19 +18,19 @@ public class HideFrameButton : CustomButton
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void DoStateTransition(Selectable.SelectionState state, bool instant)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSize()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

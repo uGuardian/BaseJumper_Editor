@@ -61,13 +61,13 @@ public class BehaviourAction_RolandCombo : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreatePrefab()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreateOpponentPrefab()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -20,7 +20,7 @@ public class StatBonus
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddStatBonus(StatBonus b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

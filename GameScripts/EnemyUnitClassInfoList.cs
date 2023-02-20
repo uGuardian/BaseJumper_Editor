@@ -11,7 +11,7 @@ public class EnemyUnitClassInfoList : Singleton<EnemyUnitClassInfoList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<EnemyUnitClassInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -23,7 +23,7 @@ public class EnemyUnitClassInfoList : Singleton<EnemyUnitClassInfoList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddEnemyUnitByMod(string workshopId, List<EnemyUnitClassInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

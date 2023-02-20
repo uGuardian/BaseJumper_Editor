@@ -42,6 +42,6 @@ public class BattleUnitBuf_fairyRecovery : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Destroy()
 	{
-		throw null;
+		
 	}
 }

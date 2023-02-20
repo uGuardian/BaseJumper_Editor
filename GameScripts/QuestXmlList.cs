@@ -9,7 +9,7 @@ public class QuestXmlList : Singleton<QuestXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<QuestXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

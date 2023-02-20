@@ -22,19 +22,19 @@ public class RCorp_RudolphLaserAnimUV : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetUvDirection(int direction)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

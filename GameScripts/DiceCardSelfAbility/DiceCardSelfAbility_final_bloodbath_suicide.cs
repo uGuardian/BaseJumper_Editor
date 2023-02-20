@@ -10,7 +10,7 @@ public class DiceCardSelfAbility_final_bloodbath_suicide : DiceCardSelfAbilityBa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

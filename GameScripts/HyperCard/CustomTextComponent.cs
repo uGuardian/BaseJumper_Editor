@@ -50,13 +50,13 @@ namespace HyperCard
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void Compute()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void Update()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

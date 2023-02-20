@@ -10,7 +10,7 @@ public class CustomizingBookSkinLoader : Singleton<CustomizingBookSkinLoader>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBookSkinData(string workshopItemID, List<WorkshopSkinData> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

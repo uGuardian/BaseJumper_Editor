@@ -29,19 +29,19 @@ public class AssemblyManager : Singleton<AssemblyManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Initialize()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CallAllInitializer()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadTypesFromAssembly(Assembly assembly)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

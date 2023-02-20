@@ -22,19 +22,19 @@ public class LinePatternRenderer : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void SetLine(Vector3 pos1, Vector3 pos2)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLayer(string layer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

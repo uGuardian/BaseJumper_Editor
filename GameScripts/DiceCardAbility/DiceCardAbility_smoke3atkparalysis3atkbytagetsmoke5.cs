@@ -15,7 +15,7 @@ public class DiceCardAbility_smoke3atkparalysis3atkbytagetsmoke5 : DiceCardAbili
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

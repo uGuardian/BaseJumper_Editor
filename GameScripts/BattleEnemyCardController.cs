@@ -11,7 +11,7 @@ public class BattleEnemyCardController
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlayTurn()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -30,7 +30,7 @@ public class BattleUnitBuf_Final_ApocalypseBird_LongArm : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStartAfter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

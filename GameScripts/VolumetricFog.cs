@@ -162,55 +162,55 @@ public class VolumetricFog : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ReleaseComputeBuffer(ref ComputeBuffer buffer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDestroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Cleanup()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SanitizeInput()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetUpPointLightBuffers(int kernel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetUpTubeLightBuffers(int kernel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetUpAreaLightBuffers(int kernel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetUpFogEllipsoidBuffers(int kernel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -222,56 +222,56 @@ public class VolumetricFog : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnPreRender()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetUpDirectionalLight(int kernel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetUpForScatter(int kernel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Scatter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void DebugDisplay(RenderTexture src, RenderTexture dest)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetUpGlobalFogSamplingUniforms(int width, int height)
 	{
-		throw null;
+		
 	}
 
 	[ImageEffectOpaque]
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnRenderImage(RenderTexture src, RenderTexture dest)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnPostRender()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void VolumetricFogInForward(bool enable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -283,43 +283,43 @@ public class VolumetricFog : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetFrustumRays()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitVolume(ref RenderTexture volume)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreateBuffer(ref ComputeBuffer buffer, int count, int stride)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitResources()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ReleaseTemporary(ref RenderTexture rt)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitMaterial(ref Material material, Shader shader)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDrawGizmosSelected()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -19,7 +19,7 @@ public class BookDropTypo : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(string text)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -31,7 +31,7 @@ public class BookDropTypo : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

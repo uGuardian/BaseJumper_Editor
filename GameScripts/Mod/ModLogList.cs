@@ -20,13 +20,13 @@ namespace Mod
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddLog(string packageId, Exception e)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddLog(string packageId, string msg)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

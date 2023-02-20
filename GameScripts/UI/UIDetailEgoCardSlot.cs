@@ -34,7 +34,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void SetData(DiceCardItemModel cardmodel)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

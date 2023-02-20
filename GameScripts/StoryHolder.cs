@@ -13,13 +13,13 @@ public class StoryHolder
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void SaveEffect(int idx, DlgEffect effect)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void SaveFile(string fileName = "")
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

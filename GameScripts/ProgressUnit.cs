@@ -13,13 +13,13 @@ public class ProgressUnit
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetText(CustomActionDetail detail)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetColor(Color c)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

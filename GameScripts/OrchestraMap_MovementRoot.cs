@@ -24,19 +24,19 @@ public class OrchestraMap_MovementRoot : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartFarAreaEffect(int movement, BattleUnitModel self)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartFinaleEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -48,13 +48,13 @@ public class OrchestraMap_MovementRoot : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FadeOut()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DestoryRoot()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

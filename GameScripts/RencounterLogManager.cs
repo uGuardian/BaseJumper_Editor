@@ -6,13 +6,13 @@ public class RencounterLogManager : Singleton<RencounterLogManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Initialize()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Next()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

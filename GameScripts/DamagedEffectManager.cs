@@ -25,13 +25,13 @@ public class DamagedEffectManager : SingletonBehavior<DamagedEffectManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateEffect(int damage, float curHp, Vector2 dir, BattleUnitView damagedUnitView, BattleUnitView attackerView)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	// Note: this type is marked as 'beforefieldinit'.

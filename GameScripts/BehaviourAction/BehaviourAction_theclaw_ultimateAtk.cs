@@ -27,7 +27,7 @@ public class BehaviourAction_theclaw_ultimateAtk : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreatePrefab(BattleUnitView self, BattleUnitView opponent)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -7,13 +7,13 @@ public class PlatformSave
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void Initialize(PlatformCore user, Action<bool> callback)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void SaveAsync(string name, SaveData data, Action<bool> callback)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

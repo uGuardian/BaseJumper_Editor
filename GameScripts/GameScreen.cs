@@ -13,7 +13,7 @@ public static class GameScreen
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void SetResolution(int width, int height, bool isFullscreen)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

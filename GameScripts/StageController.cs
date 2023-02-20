@@ -270,31 +270,31 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitCommon(StageClassInfo stage, bool isRebattle)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitStageByInvitation(StageClassInfo stage, List<LorId> books = null)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitStageByEndContentsStage(StageClassInfo stage, bool inv = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitStageForKeterCompleteOpen(StageClassInfo stage, bool isRebattle = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitStageByCreature(StageClassInfo stage, bool isRebattle = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -306,19 +306,19 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCurrentSephirah(SephirahType sephirah)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitializeMap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCurrentWave(int waveLevel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -336,13 +336,13 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearResources()
 	{
-		throw null;
+		
 	}
 
 	public Direction AllyFormationDirection
@@ -357,19 +357,19 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckOpenManual()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateBattleUI()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -387,37 +387,37 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveUnit(Faction faction, int index)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReservePlayerRevive()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void RevivePlayerCharacters()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckEndBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CloseBattleScene()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -429,61 +429,61 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckStoryAfterBattle(bool isWin)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckStoryBeforeRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ContinueStory_2()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ContinueStory_3()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ContinueStory_4()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndTwistedArgaliaBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void KillAllEnemy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void KillAllLibrarian()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAutoCardForNonControlablePlayer()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAutoCardForPlayer()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -495,61 +495,61 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetUnequipCardAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUpdate(float deltatTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckInput(bool forcelyInput)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SkipRoundStartUI()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StopSpeedDiceRoll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CompleteApplyingLibrarianCardPhase(bool auto = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnFixedUpdate(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnFixedUpdateLate(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ClearLibrarianUnit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreateLibrarianUnit(SephirahType sephirah)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -567,7 +567,7 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreateEnemyUnitByWave(StageWaveModel wave)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -579,37 +579,37 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void RoundStartPhase_UI()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void RoundStartPhase_System()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckMapChange()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void DrawCardPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SortUnitPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void WaitPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -621,115 +621,115 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ApplyEnemyCardPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ApplyLibrarianCardPhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ApplyEnemyCardAuto(BattleUnitModel unit, int currentSpeedDiceIdx, int speed)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ApplyPlayerCardAuto(BattleUnitModel unit, int idx)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UnEquipPlayerCard(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckChangeMap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ChangeMapPhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ArrangeCardsPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ActivateStartBattleEffectPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RegisterStartBattleEffect(StartBattleEffect effect)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void WaitStartBattleEffectPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCurrentDiceActionPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckFarAreaPlayPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ExecuteFarAreaPlayPhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndFarAreaPlayPhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndFarAreaPlay(BattleUnitModel attacker, List<BattlePlayingCardDataInUnitModel> victimsCards)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void MoveUnitPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void WaitUnitArrivePhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void RoundEndPhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -765,7 +765,7 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void RoundEndPhase_CheckNoCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -777,109 +777,109 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void BattleStoryPhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void TeleportPurpleTear(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndBattlePhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndBattlePhaseAfter(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndBattlePhase_invitation()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void BonusRewardWithPopup(LorId stageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndBattlePhase_creature()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void GameOver(bool iswin, bool isbackbutton = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void RemoveUsedCardData(BattlePlayingCardDataInUnitModel cardData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void sp(BattlePlayingCardDataInUnitModel cardA, BattlePlayingCardDataInUnitModel cardB)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void StartParrying(BattlePlayingCardDataInUnitModel cardA, BattlePlayingCardDataInUnitModel cardB)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndParrying(BattleUnitModel unitEnemy, BattleUnitModel unitLibrarian, int kpA, int kpB)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndParryingPhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void StartAction(BattlePlayingCardDataInUnitModel card)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndOneSideAction(BattleUnitModel attacker, BattleUnitModel victim, int kp)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndOneSideActionPhase(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ProcessViewActionByResultPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEnemyDropBookForAdded(DropBookDataForAddedReward data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -915,13 +915,13 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RoundEndForcely()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BattleEndForcelyNotRound()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -933,13 +933,13 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ApplyAddedCardList()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddAllCardListInBattle(BattlePlayingCardDataInUnitModel card, BattleUnitModel target, int slot = -1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -951,13 +951,13 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void RemoveUnusedCards()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddEgoMapByAssimilation(string name)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -993,43 +993,43 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveEgoMapAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveEgoMapByAssimilation(string name)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeFloorForcely(SephirahType sephirah, BattleUnitModel teleportUnit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UnlockAchievement(AchievementEnum achievement)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReserveAchievement(AchievementEnum achievement)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ProcessAchievements()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckClearForAchievement(LorId stageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -1041,7 +1041,7 @@ public class StageController : Singleton<StageController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTimeLevel(int timeLevel)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -1131,7 +1131,7 @@ public class StageController : Singleton<StageController>
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public AddedCardSet()
 		{
-			throw null;
+			
 		}
 	}
 }

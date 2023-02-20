@@ -25,19 +25,19 @@ namespace BattleCharacterProfile
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetUnitModel(BattleUnitModel unitModel)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Start()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Update()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

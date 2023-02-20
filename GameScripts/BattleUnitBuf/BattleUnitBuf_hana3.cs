@@ -15,7 +15,7 @@ public class BattleUnitBuf_hana3 : BattleUnitBuf_hanaBufCommon
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

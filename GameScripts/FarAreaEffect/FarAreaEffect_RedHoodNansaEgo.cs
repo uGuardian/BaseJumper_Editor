@@ -6,7 +6,7 @@ public class FarAreaEffect_RedHoodNansaEgo : FarAreaEffect_RedHoodNansa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnEffectEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

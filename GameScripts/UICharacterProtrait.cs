@@ -33,7 +33,7 @@ public class UICharacterProtrait : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetUnitData(UnitDataModel data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

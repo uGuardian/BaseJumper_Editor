@@ -24,7 +24,7 @@ public class CharacterSound : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMotionSounds(List<BookSoundInfo> soundList, string path)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -36,25 +36,25 @@ public class CharacterSound : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlaySound(LOR_DiceSystem.MotionDetail motion, bool win)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearSounds()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

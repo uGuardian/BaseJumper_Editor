@@ -8,7 +8,7 @@ public class DiceCardAbility_final_silencegirl_blackhand_counterdef_pl : DiceCar
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnLoseParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

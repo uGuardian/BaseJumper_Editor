@@ -14,19 +14,19 @@ public class SkeletonGraphicPlayAnimationAtEvent : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlayAnimationLooping(string animation)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlayAnimationOnce(string animation)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearTrack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

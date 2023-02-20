@@ -20,7 +20,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void ModifyMesh(VertexHelper vh)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -40,13 +40,13 @@ public class BehaviourAction_kingofgreed_noreason_specialatk : BehaviourActionBa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreatePortal()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void DeletePortal()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

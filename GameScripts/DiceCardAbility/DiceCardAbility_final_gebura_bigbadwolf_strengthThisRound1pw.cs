@@ -15,7 +15,7 @@ public class DiceCardAbility_final_gebura_bigbadwolf_strengthThisRound1pw : Dice
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

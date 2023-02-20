@@ -13,13 +13,13 @@ public class DropBookXmlList : Singleton<DropBookXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<DropBookXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDropTable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -43,19 +43,19 @@ public class DropBookXmlList : Singleton<DropBookXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBookByMod(string workshopId, List<DropBookXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDropTableByMod(List<DropBookXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDropTableByMod()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

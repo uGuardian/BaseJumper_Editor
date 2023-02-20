@@ -19,7 +19,7 @@ public class DiceCardSelfAbility_servantofwrath_servant_strongatk : DiceCardSelf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

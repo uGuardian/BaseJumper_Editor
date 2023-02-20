@@ -8,7 +8,7 @@ public class DiceCardSelfAbility_servantofwrath_recluse_wand_super : DiceCardSel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -278,7 +278,7 @@ public class UnitHistoryModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddGift(List<GiftModel> targetList, int id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -290,25 +290,25 @@ public class UnitHistoryModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void KillUnit(int enemyUnitId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UseEgoCard(BattleDiceCardModel egoCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PickEmotionCard(BattleEmotionCardModel emotionCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

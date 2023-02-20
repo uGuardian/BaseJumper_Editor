@@ -27,49 +27,49 @@ public class CharacterMotion : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSkinSprite(bool enable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLibrarianOnlySprite(bool enable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisableSpritesByType(CharacterAppearanceType t)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisableSpritesByCustomizing(bool isLibrarian)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CustomizeSkinColor(Color skinColor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CustomizeFrontHair(Sprite frontHairSpr)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CustomizeBackHair(Sprite rearHairSpr)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CustomizeFace(Sprite faceSpr)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

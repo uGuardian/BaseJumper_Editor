@@ -10,7 +10,7 @@ public class AbnormalityCardDescXmlList : Singleton<AbnormalityCardDescXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<string, AbnormalityCard> dictionary)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

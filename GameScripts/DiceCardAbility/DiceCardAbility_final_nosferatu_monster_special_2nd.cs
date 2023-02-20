@@ -19,7 +19,7 @@ public class DiceCardAbility_final_nosferatu_monster_special_2nd : DiceCardAbili
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

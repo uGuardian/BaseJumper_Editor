@@ -15,7 +15,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Initialize()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -40,7 +40,7 @@ namespace UI
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			public void SetLibrarian()
 			{
-				throw null;
+				
 			}
 
 			[MethodImpl(MethodImplOptions.NoInlining)]

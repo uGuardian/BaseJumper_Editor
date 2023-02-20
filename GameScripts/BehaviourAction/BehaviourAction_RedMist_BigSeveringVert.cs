@@ -34,7 +34,7 @@ public class BehaviourAction_RedMist_BigSeveringVert : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetPositionWithCheckWall(BattleUnitModel unit, Vector3 pos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

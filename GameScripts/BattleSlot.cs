@@ -42,6 +42,6 @@ public class BattleSlot
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeCoin(BattleCoin coin)
 	{
-		throw null;
+		
 	}
 }

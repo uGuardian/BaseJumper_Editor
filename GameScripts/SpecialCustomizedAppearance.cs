@@ -21,37 +21,37 @@ public class SpecialCustomizedAppearance : CustomizedAppearance
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void ChangeLayer(string layerName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void InitCustomData(UnitCustomizingData data, CharacterAppearance appearance)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void RefreshAppearanceByMotion(CharacterMotion motion)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void SetSpriteByGift(CharacterAppearanceType appearanceType, bool enable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void SetColor(Color c)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void SetOriginalColor()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -63,13 +63,13 @@ public class SpecialCustomizedAppearance : CustomizedAppearance
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetSortingOrder(SpriteRenderer renderer, int order)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

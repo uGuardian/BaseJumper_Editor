@@ -8,19 +8,19 @@ public class DiceCardSelfAbility_final_netzach_orchestra2_oneside : DiceCardSelf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartOneSideAction()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

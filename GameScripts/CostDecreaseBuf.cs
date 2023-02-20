@@ -23,13 +23,13 @@ public class CostDecreaseBuf : BattleDiceCardBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard(BattleUnitModel owner)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

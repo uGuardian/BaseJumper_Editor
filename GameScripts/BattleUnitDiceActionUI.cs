@@ -155,7 +155,7 @@ public class BattleUnitDiceActionUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitModel target = null)
 	{
-		throw null;
+		
 	}
 
 	public bool IsInitAnimEnd
@@ -170,49 +170,49 @@ public class BattleUnitDiceActionUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnInitAnimEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFirstDiceNew()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateDiceAnimation(CompareBehaviourUIType type, DiceUITiming timing)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDice(int diceFace, int diceValue, bool isResultDice, BattleDiceValueColor colorstate = BattleDiceValueColor.Normal)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDiceNew(int diceFace, int diceValue, bool isResultDice, BattleDiceValueColor colorstate = BattleDiceValueColor.Normal)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartActionResultDestroyedDice()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -230,7 +230,7 @@ public class BattleUnitDiceActionUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RollRoulette(Queue<BattleEmotionCardModel> q)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -242,37 +242,37 @@ public class BattleUnitDiceActionUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ActivateEmotionCards(Queue<BattleEmotionCardModel> q)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StopRoulette()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableTypoCanvas(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTypo(List<string> strList, ActionTextMode mode)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTypo(List<EffectTypoData> datas)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void HideOffPrevTypo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -284,25 +284,25 @@ public class BattleUnitDiceActionUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndAction()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitDicesNew()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitAdditionalBehaviour()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -314,25 +314,25 @@ public class BattleUnitDiceActionUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitWithoutLog(BattlePlayingCardDataInUnitModel playingCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitDicesWithoutLog(List<BattleDiceBehavior> behaviourList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFirstDiceWithoutLog(BattleDiceBehavior behaviour)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAllDice(List<BattleDiceBehavior> behaviourList, bool onlyFirst)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

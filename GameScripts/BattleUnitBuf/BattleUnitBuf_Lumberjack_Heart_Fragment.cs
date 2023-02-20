@@ -15,7 +15,7 @@ public class BattleUnitBuf_Lumberjack_Heart_Fragment : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -12,25 +12,25 @@ public class SpriteFilter_Porccubus_Special : SpriteFilter
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(string path, bool loop, float destroyTime = 1f)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void ManualDestroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDestroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

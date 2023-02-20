@@ -14,7 +14,7 @@ public class CreatureDlgManagerUI : SingletonBehavior<CreatureDlgManagerUI>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(bool enable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -38,19 +38,19 @@ public class CreatureDlgManagerUI : SingletonBehavior<CreatureDlgManagerUI>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DestroyDlg(CreatureDlgEffectUI e)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Clear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

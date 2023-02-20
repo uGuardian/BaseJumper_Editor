@@ -9,7 +9,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnClick(BaseEventData bData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -29,19 +29,19 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void Initialized()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void SetEquipPagesData(List<BookModel> books)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void UpdateEquipPageList()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

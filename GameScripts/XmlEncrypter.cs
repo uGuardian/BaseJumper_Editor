@@ -27,13 +27,13 @@ public class XmlEncrypter
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void EncryptXmlFile(string filePath)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void DecryptXmlFile(string filePath)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
