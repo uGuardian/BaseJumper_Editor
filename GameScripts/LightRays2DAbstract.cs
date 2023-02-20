@@ -71,7 +71,7 @@ public abstract class LightRays2DAbstract : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private bool AnythingChanged()
 	{
-		
+		throw null;
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

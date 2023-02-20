@@ -46,7 +46,7 @@ public class BattleDialogueModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual string GetBattleDlg(DialogType dlgType, List<BattleUnitModel> targets)
 	{
-		
+		throw null;
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

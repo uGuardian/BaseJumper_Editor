@@ -37,7 +37,7 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
 			{
-				
+				throw null;
 			}
 		}
 
@@ -63,7 +63,7 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
 			{
-				
+				throw null;
 			}
 		}
 
@@ -123,7 +123,7 @@ public class EmotionCardAbility_clownofnihil1 : EmotionCardAbilityBase
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
 			{
-				
+				throw null;
 			}
 		}
 

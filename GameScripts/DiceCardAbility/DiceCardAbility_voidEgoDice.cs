@@ -8,7 +8,7 @@ public class DiceCardAbility_voidEgoDice : DiceCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			
+			throw null;
 		}
 	}
 

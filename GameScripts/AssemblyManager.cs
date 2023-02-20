@@ -47,7 +47,7 @@ public class AssemblyManager : Singleton<AssemblyManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadAllAssembly(string uid, string[] filenames, out Dictionary<string, BattleCardAbilityDesc> abilityText)
 	{
-		
+		throw null;
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
