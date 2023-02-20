@@ -32,31 +32,31 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OpenWindow(Action<List<BookXmlInfo>> callback)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Awake()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Init()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void DoneKeyPageRewardsSetting()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void CancelKeyPageRewardsSetting()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

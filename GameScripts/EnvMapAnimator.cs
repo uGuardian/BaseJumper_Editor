@@ -15,7 +15,7 @@ public class EnvMapAnimator : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

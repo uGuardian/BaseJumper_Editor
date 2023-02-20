@@ -14,7 +14,7 @@ public class EmotionCardAbility_fairy2 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeGiveDamage(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

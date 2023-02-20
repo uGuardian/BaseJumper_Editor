@@ -28,37 +28,37 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(BookModel book, int slotIdx)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetActiveSlot(bool on)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetColor(Color c)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetGlowColor(Color c)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetDefaultColor()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetHighlightedColor()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -131,6 +131,6 @@ public class StageClassInfo
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitializeIds(string defaultPid)
 	{
-		throw null;
+		
 	}
 }

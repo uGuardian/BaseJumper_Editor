@@ -35,13 +35,13 @@ public class CameraFilterPack_Lut_Plus : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetIdentityLut()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -53,31 +53,31 @@ public class CameraFilterPack_Lut_Plus : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Convert(Texture2D temp2DTex)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnRenderImage(RenderTexture sourceTexture, RenderTexture destTexture)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnValidate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

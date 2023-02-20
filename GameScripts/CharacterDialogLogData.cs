@@ -15,13 +15,13 @@ public class CharacterDialogLogData
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitData(Dialog _dialog)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitData(string text, bool isRed)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

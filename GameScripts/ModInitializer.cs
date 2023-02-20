@@ -6,7 +6,7 @@ public class ModInitializer
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnInitializeMod()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

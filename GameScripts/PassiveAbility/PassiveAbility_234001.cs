@@ -18,19 +18,19 @@ public class PassiveAbility_234001 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnDiscardByAbility(List<BattleDiceCardModel> cards)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Ability()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

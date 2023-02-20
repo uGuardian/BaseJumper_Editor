@@ -10,13 +10,13 @@ public class SpecialAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartFarAreaAction(BattleUnitModel self, List<BattleUnitModel> targets)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndFarAreaAction(BattleUnitModel self, List<BattleUnitModel> targets)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -28,13 +28,13 @@ public class SpecialAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected void ShowSpecialMap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected void RemoveSpecialMap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

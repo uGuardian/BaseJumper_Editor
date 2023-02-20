@@ -6,7 +6,7 @@ public class QuestMissionScript_netzach2_1 : QuestMissionScriptBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnClearStage(StageModel stage)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

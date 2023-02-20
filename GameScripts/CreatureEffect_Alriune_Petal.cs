@@ -18,19 +18,19 @@ public class CreatureEffect_Alriune_Petal : CreatureEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Remove()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

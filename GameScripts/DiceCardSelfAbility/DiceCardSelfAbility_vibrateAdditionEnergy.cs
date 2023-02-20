@@ -17,13 +17,13 @@ public class DiceCardSelfAbility_vibrateAdditionEnergy : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnActivateResonance()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

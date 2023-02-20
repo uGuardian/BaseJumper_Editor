@@ -23,49 +23,49 @@ public class BattlePersonalEgoCardDetail
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCard(int cardId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCard(LorId cardId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddEgoCoolTime(int count)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveCard(int cardId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveCard(LorId cardId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReturnCardsInUse()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UseCard(BattleDiceCardModel card)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -77,7 +77,7 @@ public class BattlePersonalEgoCardDetail
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReturnCardToHand(BattleDiceCardModel appliedCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

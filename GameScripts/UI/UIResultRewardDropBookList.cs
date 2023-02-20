@@ -19,37 +19,37 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Initialized()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OpenInit()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetActiveList(bool on)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(List<LorId> bookids)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetContentSize()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void StartRevealAnim(float startwaittime)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

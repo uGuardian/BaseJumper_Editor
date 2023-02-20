@@ -33,7 +33,7 @@ public class BattleUnitBuf_KeterFinal_LungBuf1 : BattleUnitBuf_KeterFinal_LungBu
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

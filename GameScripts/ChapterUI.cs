@@ -18,25 +18,25 @@ public class ChapterUI : MonoBehaviour, IPointerClickHandler, IEventSystemHandle
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerClick(PointerEventData eventData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTitle(string idx, string desc)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

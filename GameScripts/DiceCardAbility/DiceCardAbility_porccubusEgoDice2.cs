@@ -19,19 +19,19 @@ public class DiceCardAbility_porccubusEgoDice2 : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void AfterAction()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetSpecialAtkFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

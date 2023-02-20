@@ -7,13 +7,13 @@ public class EmotionCardAbility_burnningGirl3 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSelectEmotion()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -61,31 +61,31 @@ public class EmotionCardAbility_burnningGirl3 : EmotionCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void AfterDiceAction(BattleDiceBehavior behavior)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void BeforeRollDice(BattleDiceBehavior behavior)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnUseCard(BattlePlayingCardDataInUnitModel card)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnSuccessAttack(BattleDiceBehavior behavior)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRollDiceInRecounter()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

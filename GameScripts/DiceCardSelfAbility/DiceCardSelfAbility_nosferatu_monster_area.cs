@@ -17,7 +17,7 @@ public class DiceCardSelfAbility_nosferatu_monster_area : DiceCardSelfAbilityBas
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

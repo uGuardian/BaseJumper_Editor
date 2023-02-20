@@ -37,43 +37,43 @@ public class PassiveAbility_1306011 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStartAfter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCards()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCards_phase1()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCards_phase2()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -97,7 +97,7 @@ public class PassiveAbility_1306011 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

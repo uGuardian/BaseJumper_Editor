@@ -63,49 +63,49 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Open()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Close()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnChangeFilter()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetDetailFilterData()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void ResetDetailFilterData()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void UpdateFilterSlots()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -135,13 +135,13 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnXEvent()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnClickResetButton()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -47,7 +47,7 @@ public class BattleUnitTargetArrowManagerUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -65,49 +65,49 @@ public class BattleUnitTargetArrowManagerUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void DrawArrow(Transform from, Transform to, Faction faction, bool isParrying, bool istargetarrow = false, int heightparam = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearArrows()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowArrowsOf(BattleUnitModel unit, int diceIdx, bool istargetarrow = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowAllyArrow(bool show)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowEnemyArrow(bool show)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowParryingArrow(bool show)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ShowTargetLines(List<BattleUnitTargetArrowUI> arrows, int flag)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -119,31 +119,31 @@ public class BattleUnitTargetArrowManagerUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearCloneArrows()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OffArrows(List<BattleUnitTargetArrowUI> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateTargetList()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateTargetListData()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ActiveTargetParent(bool on)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

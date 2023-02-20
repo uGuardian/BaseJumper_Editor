@@ -36,13 +36,13 @@ public class EmotionCardAbility_queenofhatred1 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnPrintEffect(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

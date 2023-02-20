@@ -61,25 +61,25 @@ public class RedHoodMapManager : CreatureMapManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void InitializeMap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void ChangeDlgByBoss()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMercenary(PassiveAbility_601011 p)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBerserkGauge(int gauge)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -91,43 +91,43 @@ public class RedHoodMapManager : CreatureMapManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetNansaFilterObject()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetHowlFilterObject(BattleUnitModel actor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetThrowKnivesObject()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBerserkFilter(int flag)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetRageFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void CreateDialog()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

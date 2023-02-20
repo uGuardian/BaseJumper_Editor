@@ -20,19 +20,19 @@ public class CardDescriptionExtractor : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Func()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -44,25 +44,25 @@ public class CardDescriptionExtractor : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadDesc()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadBattleCardDescWithPath(string path, Dictionary<int, BattleCardDesc> dictionary)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadAbilityDesc()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadAbilityDesc(string path, Dictionary<string, BattleCardAbilityDesc> dictionary)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -74,7 +74,7 @@ public class CardDescriptionExtractor : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddLog(string txt, ref string log)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

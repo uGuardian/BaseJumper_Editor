@@ -38,25 +38,25 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void Init(UICustomizePopup parent)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void InitData()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void OnClickCancel()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void OnClickOK()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

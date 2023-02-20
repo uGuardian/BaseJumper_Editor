@@ -22,19 +22,19 @@ public class PassiveAbility_602021 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnCreated()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -46,19 +46,19 @@ public class PassiveAbility_602021 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitSpec()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetResistsWeak(bool weak)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDoneStealthFilter(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -96,13 +96,13 @@ public class PassiveAbility_602021 : PassiveAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Init(BattleUnitModel owner)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Destroy()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -12,7 +12,7 @@ namespace Opening
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init(OpeningLyricsRoot lyricsRoot)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

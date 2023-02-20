@@ -21,19 +21,19 @@ public class RCorp_Maxim_AreaAtk_Crator : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitModel self, params object[] args)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

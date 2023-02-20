@@ -14,13 +14,13 @@ public class DiceCardAbility_nosferatu_special_1st : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

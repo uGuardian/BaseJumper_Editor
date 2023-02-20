@@ -33,31 +33,31 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Awake()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Init()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void RefreshArtworks()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetArtworkPreview(Texture2D texture)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void ToggleArtworkSummary(string fullPath)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

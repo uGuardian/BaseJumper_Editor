@@ -39,43 +39,43 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void OnEnterPointer(BaseEventData bData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void OnExitPointer(BaseEventData bData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void OnClickSlot()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void SetDefault()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void SetDisabled(bool on)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void SetHighlightedColor(bool on)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void SetColor(Color c)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

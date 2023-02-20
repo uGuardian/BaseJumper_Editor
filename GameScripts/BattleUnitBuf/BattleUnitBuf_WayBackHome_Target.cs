@@ -15,19 +15,19 @@ public class BattleUnitBuf_WayBackHome_Target : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnDie()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnEndBattlePhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

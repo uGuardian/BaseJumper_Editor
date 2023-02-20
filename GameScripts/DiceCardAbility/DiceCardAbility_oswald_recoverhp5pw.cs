@@ -15,7 +15,7 @@ public class DiceCardAbility_oswald_recoverhp5pw : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

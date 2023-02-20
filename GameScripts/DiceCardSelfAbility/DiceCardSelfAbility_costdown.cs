@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_costdown : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnEnterCardPhase(BattleUnitModel unit, BattleDiceCardModel self)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

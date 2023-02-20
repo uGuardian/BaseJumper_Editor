@@ -48,67 +48,67 @@ namespace Battle.DiceAttackEffect
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void SetLayer(string layerName)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void SetScale(float scaleFactor)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void SetDestroyTime(float destroyTime)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected virtual void Awake()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected virtual void Start()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected virtual void Update()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected virtual void OnDestroy()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void ResetLocalTransform(Transform t)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void SetAutoDestruction(GameObject go, float time, bool destroyWhenDisable)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void AddFilter(Type filter)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

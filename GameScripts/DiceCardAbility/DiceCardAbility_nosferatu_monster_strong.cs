@@ -21,7 +21,7 @@ public class DiceCardAbility_nosferatu_monster_strong : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

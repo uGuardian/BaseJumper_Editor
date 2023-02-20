@@ -12,13 +12,13 @@ public class PassiveAbility_103012 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

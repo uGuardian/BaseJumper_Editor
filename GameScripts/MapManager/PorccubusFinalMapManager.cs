@@ -43,7 +43,7 @@ public class PorccubusFinalMapManager : CreatureMapManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPleasureExplosion()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -55,7 +55,7 @@ public class PorccubusFinalMapManager : CreatureMapManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPleasure()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -67,31 +67,31 @@ public class PorccubusFinalMapManager : CreatureMapManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSpecialAtkFilter(bool ended)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void InitializeMap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void ChangeDlgByBoss()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void CreateDialog()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

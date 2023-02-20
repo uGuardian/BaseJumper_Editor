@@ -38,7 +38,7 @@ public class DirtyLensFlare : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void Start()
 	{
-		throw null;
+		
 	}
 
 	protected Material material
@@ -53,19 +53,19 @@ public class DirtyLensFlare : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FourTapCone(RenderTexture source, RenderTexture dest, int iteration, Material blurMtl)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ApplyBlurPass(RenderTexture source, RenderTexture destination, Material blurMtl)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -77,7 +77,7 @@ public class DirtyLensFlare : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

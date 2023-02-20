@@ -17,25 +17,25 @@ public class BattleAttackEffectTester : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnGUI()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreateAtkEffect(Direction unitDir, Vector3 atkDir)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -12,13 +12,13 @@ public class PassiveDescXmlList : Singleton<PassiveDescXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(PassiveDescRoot descRoot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add(PassiveDescRoot descRoot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

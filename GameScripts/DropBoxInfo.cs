@@ -24,7 +24,7 @@ public class DropBoxInfo : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddEquipCount(LorId equipPageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -36,7 +36,7 @@ public class DropBoxInfo : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCardCount(LorId cardId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -48,7 +48,7 @@ public class DropBoxInfo : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Reset()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -60,7 +60,7 @@ public class DropBoxInfo : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

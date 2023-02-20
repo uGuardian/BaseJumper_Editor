@@ -15,13 +15,13 @@ public class DiceCardSelfAbility_Final_BigBird_Darkness : DiceCardSelfAbilityBas
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDarknessFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

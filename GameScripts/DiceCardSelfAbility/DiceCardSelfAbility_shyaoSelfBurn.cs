@@ -15,13 +15,13 @@ public class DiceCardSelfAbility_shyaoSelfBurn : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

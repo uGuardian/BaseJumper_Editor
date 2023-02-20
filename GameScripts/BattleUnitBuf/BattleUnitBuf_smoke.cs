@@ -42,19 +42,19 @@ public class BattleUnitBuf_smoke : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnAddBuf(int addedStack)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeGiveDamage(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -66,7 +66,7 @@ public class BattleUnitBuf_smoke : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -6,13 +6,13 @@ public class DiceCardSelfAbility_final_bloodbath_depress : DiceCardSelfAbilityBa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart_inHand(BattleUnitModel unit, BattleDiceCardModel self)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnBreakState_inHand(BattleUnitModel unit, BattleDiceCardModel self)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -43,7 +43,7 @@ public class DiceCardSelfAbility_final_bloodbath_depress : DiceCardSelfAbilityBa
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEnd()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

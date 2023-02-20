@@ -8,7 +8,7 @@ public class PassiveAbility_260006 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

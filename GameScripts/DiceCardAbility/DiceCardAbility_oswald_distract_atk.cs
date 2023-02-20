@@ -8,7 +8,7 @@ public class DiceCardAbility_oswald_distract_atk : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -10,7 +10,7 @@ public class EmotionCardAbility_ozma3 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

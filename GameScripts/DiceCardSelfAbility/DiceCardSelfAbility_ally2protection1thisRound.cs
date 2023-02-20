@@ -15,7 +15,7 @@ public class DiceCardSelfAbility_ally2protection1thisRound : DiceCardSelfAbility
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_QuickPuppet_Special : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

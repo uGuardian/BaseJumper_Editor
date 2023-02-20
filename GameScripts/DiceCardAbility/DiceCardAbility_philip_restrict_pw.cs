@@ -15,7 +15,7 @@ public class DiceCardAbility_philip_restrict_pw : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

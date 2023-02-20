@@ -62,67 +62,67 @@ public class BattleUnitTargetArrowUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetActive(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitInParrying(Transform from, Transform to, bool curve)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Transform from, Transform to, bool curve, Faction faction, bool transparent = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitParryingSelect(Transform from, Transform to, bool curve, int heightidx = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitParryingSwitch(Transform from, Transform to, bool curve)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitTargetArrow(Transform from, Transform to, bool curve, Faction faction, int heightidx = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitSelect(Transform from, Transform to, bool curve, Faction faction, int heightidx = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitSwitch(Transform from, Transform to, bool curve, Faction faction)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeTransform(Transform from, Transform to)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -158,19 +158,19 @@ public class BattleUnitTargetArrowUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnApplicationQuit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

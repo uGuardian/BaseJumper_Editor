@@ -12,7 +12,7 @@ public class DiceCardSelfAbility_oz_control : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseInstance(BattleUnitModel unit, BattleDiceCardModel self, BattleUnitModel targetUnit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -32,7 +32,7 @@ public class DiceCardSelfAbility_oz_control : DiceCardSelfAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnUseCard(BattleUnitModel owner)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

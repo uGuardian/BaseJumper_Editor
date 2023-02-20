@@ -14,25 +14,25 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnPointerClick(PointerEventData eventData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnPointerEnter(PointerEventData eventData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnPointerExit(PointerEventData eventData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetStageNameText(string text)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

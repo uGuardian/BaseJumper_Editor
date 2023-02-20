@@ -36,19 +36,19 @@ public class DamagedBloodEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitView view, BattleUnitView viewAttacker, int damage, float curHp, Vector2 dir)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

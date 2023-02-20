@@ -56,25 +56,25 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ActivateStoryEditor(bool enable)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Awake()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Start()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Update()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -17,13 +17,13 @@ public class SoundEffectSelector : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnToggle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

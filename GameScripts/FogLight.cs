@@ -59,19 +59,19 @@ public class FogLight : LightOverride
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void InitDirectionalShadowmap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateDirectionalShadowmap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CleanupDirectionalShadowmap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -83,7 +83,7 @@ public class FogLight : LightOverride
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ReleaseTemporary(ref RenderTexture rt)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -95,25 +95,25 @@ public class FogLight : LightOverride
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddToLightManager()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

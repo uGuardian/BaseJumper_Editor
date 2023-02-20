@@ -21,13 +21,13 @@ public class EmotionCardAbility_spiderBud2 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

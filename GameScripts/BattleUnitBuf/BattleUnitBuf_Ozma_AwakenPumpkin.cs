@@ -15,19 +15,19 @@ public class BattleUnitBuf_Ozma_AwakenPumpkin : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CopyOblivionDeck(BattleUnitModel oblivionUnit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel owner)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

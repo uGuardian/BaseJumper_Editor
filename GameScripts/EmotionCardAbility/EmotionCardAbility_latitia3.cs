@@ -30,7 +30,7 @@ public class EmotionCardAbility_latitia3 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void ChangeDiceResult(BattleDiceBehavior behavior, ref int diceResult)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

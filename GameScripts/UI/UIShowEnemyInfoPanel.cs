@@ -70,25 +70,25 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Initialized()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(UnitDataModel unit, Texture rawimagetexture = null)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetDefaultRevealAnim()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetActivePanel(bool show)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

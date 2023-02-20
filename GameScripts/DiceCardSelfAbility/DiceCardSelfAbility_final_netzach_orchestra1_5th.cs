@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_final_netzach_orchestra1_5th : DiceCardSelfAbil
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnEndBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

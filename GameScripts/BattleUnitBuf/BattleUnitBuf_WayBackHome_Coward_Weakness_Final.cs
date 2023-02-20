@@ -19,13 +19,13 @@ public class BattleUnitBuf_WayBackHome_Coward_Weakness_Final : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnFriendTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

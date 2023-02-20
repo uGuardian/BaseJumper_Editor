@@ -9,25 +9,25 @@ public class EmotionCardAbility_clownofnihil3 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSelectEmotion()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void GiveBuf()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -67,7 +67,7 @@ public class EmotionCardAbility_clownofnihil3 : EmotionCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundStart()
 		{
-			throw null;
+			
 		}
 	}
 
@@ -87,31 +87,31 @@ public class EmotionCardAbility_clownofnihil3 : EmotionCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Init(BattleUnitModel owner)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEnd()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnDie()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Destroy()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void DestroyAura()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

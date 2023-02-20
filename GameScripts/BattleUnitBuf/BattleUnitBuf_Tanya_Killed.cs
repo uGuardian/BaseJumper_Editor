@@ -17,13 +17,13 @@ public class BattleUnitBuf_Tanya_Killed : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel owner)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

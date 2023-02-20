@@ -26,7 +26,7 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init(string filePath, Action<string, string> clickEvent)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -50,13 +50,13 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void InitStoryData(string storyFile)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void InitEffectData(string storyFileName)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

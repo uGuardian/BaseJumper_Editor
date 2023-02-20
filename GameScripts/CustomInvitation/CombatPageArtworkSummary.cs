@@ -32,13 +32,13 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init(string fullpath, ToggleGroup toggleGroup, Action<string> toggleCallback)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init(string fullpath, ToggleGroup toggleGroup, Action<CombatPageArtworkSummary> toggleCallback)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

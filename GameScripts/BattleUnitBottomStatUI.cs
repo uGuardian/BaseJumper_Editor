@@ -107,7 +107,7 @@ public class BattleUnitBottomStatUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Inits()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -119,49 +119,49 @@ public class BattleUnitBottomStatUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeLayer(string layer, string childCanvasLayer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeLayer(string layer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeChildLayer(string childCanvasLayer)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeChildCanvasOrder(string sortingLayer, int order)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClickSpeedDice(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisplayChildCanvasOverSpeedDice(bool over)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateStatUI(float hp, int bp, BattleBufUIDataList bufList = null)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetHp()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -173,7 +173,7 @@ public class BattleUnitBottomStatUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetBp()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -185,49 +185,49 @@ public class BattleUnitBottomStatUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetEmotionLv()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBufs(BattleBufUIDataList bufDataList = null)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetClicked(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTargetingLightActive(bool on)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetIdentityLightActive(bool on)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetHOver(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableCanvas(bool enable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableStatNumber(bool enable)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

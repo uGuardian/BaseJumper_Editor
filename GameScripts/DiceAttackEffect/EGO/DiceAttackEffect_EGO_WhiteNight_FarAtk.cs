@@ -7,7 +7,7 @@ public class DiceAttackEffect_EGO_WhiteNight_FarAtk : DiceAttackEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

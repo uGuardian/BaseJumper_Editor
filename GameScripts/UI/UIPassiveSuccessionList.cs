@@ -48,19 +48,19 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetEquipModelData(List<PassiveModel> passives)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetSelectedSlot(UIPassiveSuccessionSlot selectedslot)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -72,13 +72,13 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetAnimationReveal()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetEquipAnimationReveal()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -96,31 +96,31 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetAnimationDefault()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetAnimationCgOff()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetSlotsNavigation()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnScroll(PointerEventData eventData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnSelectedBookSlot(UIPassiveSuccessionSlot slot)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

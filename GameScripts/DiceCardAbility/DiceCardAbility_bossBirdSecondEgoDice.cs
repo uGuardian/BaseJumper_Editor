@@ -6,7 +6,7 @@ public class DiceCardAbility_bossBirdSecondEgoDice : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeGiveDamage(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

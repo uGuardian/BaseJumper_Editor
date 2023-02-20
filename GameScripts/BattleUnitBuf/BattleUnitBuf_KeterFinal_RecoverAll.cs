@@ -6,7 +6,7 @@ public class BattleUnitBuf_KeterFinal_RecoverAll : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

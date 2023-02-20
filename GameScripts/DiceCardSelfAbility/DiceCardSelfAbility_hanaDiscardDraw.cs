@@ -15,7 +15,7 @@ public class DiceCardSelfAbility_hanaDiscardDraw : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -29,7 +29,7 @@ public class DiceCardSelfAbility_hanaDiscardDraw : DiceCardSelfAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEndTheLast()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

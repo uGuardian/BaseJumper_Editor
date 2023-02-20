@@ -15,7 +15,7 @@ public class DiceCardAbility_kaliAreaDice : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

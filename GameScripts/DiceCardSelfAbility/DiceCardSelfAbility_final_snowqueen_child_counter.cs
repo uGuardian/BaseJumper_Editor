@@ -21,7 +21,7 @@ public class DiceCardSelfAbility_final_snowqueen_child_counter : DiceCardSelfAbi
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -35,13 +35,13 @@ public class DiceCardSelfAbility_final_snowqueen_child_counter : DiceCardSelfAbi
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEnd()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

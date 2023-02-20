@@ -15,7 +15,7 @@ public class QueenOfHatredMapPolymorphFilter : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEvent(int i)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -27,7 +27,7 @@ public class QueenOfHatredMapPolymorphFilter : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

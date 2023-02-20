@@ -26,19 +26,19 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Start()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Start(float time)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Update()
 		{
-			throw null;
+			
 		}
 
 		public delegate void OnEndEvent();

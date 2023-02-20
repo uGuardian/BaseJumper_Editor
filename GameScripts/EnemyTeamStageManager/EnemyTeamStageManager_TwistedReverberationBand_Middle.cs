@@ -46,19 +46,19 @@ public class EnemyTeamStageManager_TwistedReverberationBand_Middle : EnemyTeamSt
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart_After()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -70,7 +70,7 @@ public class EnemyTeamStageManager_TwistedReverberationBand_Middle : EnemyTeamSt
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnOswaldDie()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -82,7 +82,7 @@ public class EnemyTeamStageManager_TwistedReverberationBand_Middle : EnemyTeamSt
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveOswald(BattleUnitModel oswald)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -94,73 +94,73 @@ public class EnemyTeamStageManager_TwistedReverberationBand_Middle : EnemyTeamSt
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddOswald()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddChilds(BattleUnitModel oswald)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveChilds()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveBlade()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveMermaid()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBlade()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddMermaid()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddSpecialChild(List<BattleUnitModel> linked)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddSpecialChild()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnEndBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Boom()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CircusDied()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

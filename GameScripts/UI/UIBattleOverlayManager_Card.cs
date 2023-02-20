@@ -35,43 +35,43 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Start()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Update()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void EnableCardBufOverlay(string desc, GameObject data)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetCardBufOverlayBoxPosition()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetCardBufOverlayBoxSize()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void DisableOverlay()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void OnEnable()
 		{
-			throw null;
+			
 		}
 	}
 }

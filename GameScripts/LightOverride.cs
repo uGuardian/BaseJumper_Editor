@@ -93,13 +93,13 @@ public abstract class LightOverride : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		throw null;
+		
 	}
 
 	public abstract bool GetForceOn();
@@ -107,7 +107,7 @@ public abstract class LightOverride : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

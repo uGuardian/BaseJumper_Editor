@@ -19,7 +19,7 @@ public class EmotionCardAbility_butterfly2 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -61,13 +61,13 @@ public class EmotionCardAbility_butterfly2 : EmotionCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void BeforeTakeDamage(BattleUnitModel attacker, int dmg)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEnd()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

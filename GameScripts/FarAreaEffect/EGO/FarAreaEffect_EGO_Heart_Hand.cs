@@ -33,19 +33,19 @@ public class FarAreaEffect_EGO_Heart_Hand : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Vector3 pos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Off()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

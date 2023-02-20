@@ -15,13 +15,13 @@ public class DiceCardSelfAbility_magicalgirl_emotion_nihil : DiceCardSelfAbility
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

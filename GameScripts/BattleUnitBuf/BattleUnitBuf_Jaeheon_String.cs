@@ -21,13 +21,13 @@ public class BattleUnitBuf_Jaeheon_String : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel owner)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnAfterRollSpeedDice()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -39,19 +39,19 @@ public class BattleUnitBuf_Jaeheon_String : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add(int value)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Reduce()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

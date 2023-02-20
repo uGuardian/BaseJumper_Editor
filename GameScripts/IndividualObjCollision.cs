@@ -8,7 +8,7 @@ public class IndividualObjCollision : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -20,13 +20,13 @@ public class IndividualObjCollision : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

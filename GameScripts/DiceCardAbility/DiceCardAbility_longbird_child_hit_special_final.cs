@@ -6,7 +6,7 @@ public class DiceCardAbility_longbird_child_hit_special_final : DiceCardAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

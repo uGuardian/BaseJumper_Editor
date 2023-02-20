@@ -31,19 +31,19 @@ public class EditorCardBehaviourPanel : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBehaviour(DiceBehaviour behaviour)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UpdateBehaviour()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEditEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

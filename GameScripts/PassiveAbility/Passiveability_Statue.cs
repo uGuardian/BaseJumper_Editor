@@ -26,7 +26,7 @@ public class Passiveability_Statue : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected void ChangeSkin(BattleUnitModel model, string name)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -19,25 +19,25 @@ public class FarAreaEffect_Jaeheon : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel self, params object[] args)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnStartEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDamageEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDestroyEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

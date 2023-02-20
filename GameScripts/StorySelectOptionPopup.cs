@@ -32,13 +32,13 @@ public class StorySelectOptionPopup : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Open()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -50,13 +50,13 @@ public class StorySelectOptionPopup : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Close()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetData(StoryBranch branch, bool isjustread)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

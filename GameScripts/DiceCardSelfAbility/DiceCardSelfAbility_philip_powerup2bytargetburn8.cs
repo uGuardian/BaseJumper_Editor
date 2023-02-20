@@ -15,7 +15,7 @@ public class DiceCardSelfAbility_philip_powerup2bytargetburn8 : DiceCardSelfAbil
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

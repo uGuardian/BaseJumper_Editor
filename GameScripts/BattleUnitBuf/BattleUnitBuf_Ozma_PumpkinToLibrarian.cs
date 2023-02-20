@@ -32,25 +32,25 @@ public class BattleUnitBuf_Ozma_PumpkinToLibrarian : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitModel owner, BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ChangeSpec(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -18,7 +18,7 @@ public class DiceCardSelfAbility_argaliaDistortedArea : DiceCardSelfAbility_band
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

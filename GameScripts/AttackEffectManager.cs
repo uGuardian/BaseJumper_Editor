@@ -25,36 +25,36 @@ public class AttackEffectManager : SingletonBehavior<AttackEffectManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateActionText(BattleUnitView view, string actionName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateRecoverTextEffect(int recoverAmount, BattleUnitModel unit, int colorType = 0)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDamagedTextEffectWithoutResist(int damage, int colorIdx, BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDamagedTextEffect(int damage, BehaviourDetail detail, BattleUnitModel unit, BattleUnitModel attacker, AtkResist atkResist, bool add, int colorIdx = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEffectSizeByCamZoom(DamageTextEffect effect)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEffectSizeByUnitHeight(BattleUnitModel unit, DamageTextEffect effect)
 	{
-		throw null;
+		
 	}
 }

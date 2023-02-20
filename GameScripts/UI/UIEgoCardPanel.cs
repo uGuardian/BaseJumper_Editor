@@ -41,37 +41,37 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Initialized()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(LibraryFloorModel floor)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ShowDetailSlotByInventory(UIEgoCardPreviewSlot slot)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void HideDetailSlotByInventory()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void CheckUpdateDetailSlot(UIInvenCardSlot slot)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void RevealDetailSlot(bool on)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -83,7 +83,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void StopRevealCoroutine()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -95,7 +95,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnXEvent()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

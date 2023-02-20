@@ -27,7 +27,7 @@ public class CircusMapManager : MapManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void InitializeMap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -39,13 +39,13 @@ public class CircusMapManager : MapManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMapBrightness(bool isBright)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFilter(bool union)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -57,7 +57,7 @@ public class CircusMapManager : MapManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

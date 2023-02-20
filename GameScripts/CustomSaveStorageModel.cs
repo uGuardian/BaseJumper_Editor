@@ -12,7 +12,7 @@ public class CustomSaveStorageModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetStageStorgeData(string name, SaveData value)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -24,7 +24,7 @@ public class CustomSaveStorageModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData saveData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

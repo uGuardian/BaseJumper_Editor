@@ -15,6 +15,6 @@ public class DiceCardAbility_voidEgoDice : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public DiceCardAbility_voidEgoDice()
 	{
-		throw null;
+		
 	}
 }

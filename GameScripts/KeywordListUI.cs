@@ -21,19 +21,19 @@ public class KeywordListUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(DiceCardXmlInfo cardInfo, List<DiceBehaviour> behaviourList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Activate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Deactivate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

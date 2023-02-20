@@ -11,7 +11,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private static void Clear(List<T> l)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -23,7 +23,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static void Release(List<T> toRelease)
 		{
-			throw null;
+			
 		}
 
 		// Note: this type is marked as 'beforefieldinit'.

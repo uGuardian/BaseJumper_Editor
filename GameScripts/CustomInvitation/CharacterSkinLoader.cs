@@ -19,13 +19,13 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadCustomAppearance(string path)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadWorkshopCustomAppearance()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

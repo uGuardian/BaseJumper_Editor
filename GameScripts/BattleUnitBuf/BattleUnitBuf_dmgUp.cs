@@ -33,13 +33,13 @@ public class BattleUnitBuf_dmgUp : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeGiveDamage(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

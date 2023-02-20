@@ -15,7 +15,7 @@ public class DiceCardAbility_recoverHp2dfn : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParryingDefense()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

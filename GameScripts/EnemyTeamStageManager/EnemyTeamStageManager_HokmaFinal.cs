@@ -36,13 +36,13 @@ public class EnemyTeamStageManager_HokmaFinal : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFinishable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDeadApostle(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -54,67 +54,67 @@ public class EnemyTeamStageManager_HokmaFinal : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PlayDeadApostleEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void DisplayStartBattleDialog()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetNewPhase(EnemyTeamStageManager_HokmaFinal.Phase newPhase)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void UnregisterAllUnit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetHokmaBuf()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetPhaseOnePassive()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreatePhaseTwoUnit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -126,7 +126,7 @@ public class EnemyTeamStageManager_HokmaFinal : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreatePhaseThreeUnit(List<BattleUnitModel> escortApostleList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

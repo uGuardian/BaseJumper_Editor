@@ -11,19 +11,19 @@ public class UIUpperTapButtonRootPanel : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSelectedButton(int index)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDefault(RectTransform buttonrect)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetSelected(RectTransform buttonrect)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

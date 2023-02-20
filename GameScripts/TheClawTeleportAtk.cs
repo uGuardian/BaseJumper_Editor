@@ -56,7 +56,7 @@ public class TheClawTeleportAtk : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitView self, BattleUnitView target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -68,7 +68,7 @@ public class TheClawTeleportAtk : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnTeleport()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

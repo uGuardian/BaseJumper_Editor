@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_yesod_final_helper_clean : DiceCardSelfAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

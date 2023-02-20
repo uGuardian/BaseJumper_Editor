@@ -9,25 +9,25 @@ public class EnemyTeamStageManager_KeterFinal_SilentGirl : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -39,7 +39,7 @@ public class EnemyTeamStageManager_KeterFinal_SilentGirl : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetSecondPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -51,7 +51,7 @@ public class EnemyTeamStageManager_KeterFinal_SilentGirl : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetThirdPhase()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -69,7 +69,7 @@ public class EnemyTeamStageManager_KeterFinal_SilentGirl : EnemyTeamStageManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void SetAngelaEgos()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

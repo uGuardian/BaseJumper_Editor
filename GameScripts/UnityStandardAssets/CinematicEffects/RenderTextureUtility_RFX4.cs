@@ -18,13 +18,13 @@ namespace UnityStandardAssets.CinematicEffects
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ReleaseTemporaryRenderTexture(RenderTexture rt)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ReleaseAllTemporaryRenderTextures()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

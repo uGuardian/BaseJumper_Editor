@@ -10,7 +10,7 @@ public class StageNameXmlList : Singleton<StageNameXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(CharactersNameRoot nameRoot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

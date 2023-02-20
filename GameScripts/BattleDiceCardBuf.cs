@@ -88,7 +88,7 @@ public class BattleDiceCardBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Destroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -100,7 +100,7 @@ public class BattleDiceCardBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleDiceCardModel card)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -112,37 +112,37 @@ public class BattleDiceCardBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnUseCard(BattleUnitModel owner)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnUseCard(BattleUnitModel owner, BattlePlayingCardDataInUnitModel playingCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnDiscard(BattleUnitModel owner, BattleDiceCardModel card)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnDrawCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

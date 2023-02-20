@@ -57,25 +57,25 @@ public class StorySelectOptionSlot : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetData(string mainText, bool isRed, StorySelectOptionSlot.DelegateEvent del, bool isConditionValid, string conditionText = "")
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnButtonSubmit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnButtonSelect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnButtonDeselect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

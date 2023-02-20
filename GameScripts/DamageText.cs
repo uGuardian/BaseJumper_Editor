@@ -17,13 +17,13 @@ public class DamageText : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDamageText(int dmg, Color c)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

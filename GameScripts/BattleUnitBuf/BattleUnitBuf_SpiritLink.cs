@@ -30,7 +30,7 @@ public class BattleUnitBuf_SpiritLink : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel owner)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

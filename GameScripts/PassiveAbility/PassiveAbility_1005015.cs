@@ -6,7 +6,7 @@ public class PassiveAbility_1005015 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard(BattlePlayingCardDataInUnitModel curCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

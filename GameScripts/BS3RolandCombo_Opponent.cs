@@ -47,13 +47,13 @@ public class BS3RolandCombo_Opponent : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitView self, BattleUnitView attacker)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetElapsedTime()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -83,7 +83,7 @@ public class BS3RolandCombo_Opponent : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

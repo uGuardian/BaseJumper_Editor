@@ -22,19 +22,19 @@ namespace StoryScene
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(string title, int act)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Open()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Close()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

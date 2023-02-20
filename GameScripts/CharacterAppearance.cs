@@ -163,13 +163,13 @@ public class CharacterAppearance : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetList(List<CharacterMotion> m)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddChild(GameObject go)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -181,13 +181,13 @@ public class CharacterAppearance : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void InitCustomData(UnitCustomizingData customizeData, LorId defaultBookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void InitGiftDataAll(List<GiftModel> equippedGiftList)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -199,7 +199,7 @@ public class CharacterAppearance : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitGiftData(GiftModel gift, bool refreshAppearance = true)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -211,19 +211,19 @@ public class CharacterAppearance : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void SetDamagedSprite(int dmg, float curHp)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void ClearDamagedSprite()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void SetLibrarianOnlySprites(Faction faction)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -247,25 +247,25 @@ public class CharacterAppearance : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeLayer(string layerName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void ChangeMotion(ActionDetail detail)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAltMotion(ActionDetail motion, ActionDetail altMotion)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAltMotion(ActionDetail motion, bool changeMotion = true)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -277,7 +277,7 @@ public class CharacterAppearance : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RefreshAppearanceByGifts()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -289,25 +289,25 @@ public class CharacterAppearance : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void Initialize(string resourceName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddOnCharMotionChanged(CharacterAppearance.OnCharMotionChanged method)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveOnCharMotionChanged(CharacterAppearance.OnCharMotionChanged method)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -11,7 +11,7 @@ public class StoryAnimationController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

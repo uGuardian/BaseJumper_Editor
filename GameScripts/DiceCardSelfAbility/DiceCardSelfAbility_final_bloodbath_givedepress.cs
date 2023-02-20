@@ -8,7 +8,7 @@ public class DiceCardSelfAbility_final_bloodbath_givedepress : DiceCardSelfAbili
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

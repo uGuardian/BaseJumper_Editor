@@ -8,7 +8,7 @@ public class DiceCardSelfAbility_Pluto_UC_Atk : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -22,7 +22,7 @@ public class DiceCardSelfAbility_Pluto_UC_Atk : DiceCardSelfAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundStart()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

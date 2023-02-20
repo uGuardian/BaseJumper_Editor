@@ -10,7 +10,7 @@ public class EmotionEgoXmlList : Singleton<EmotionEgoXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<EmotionEgoXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

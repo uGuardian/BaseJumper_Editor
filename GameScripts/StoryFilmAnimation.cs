@@ -22,31 +22,31 @@ public class StoryFilmAnimation : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlayAnim(StoryFilmAnimation.DelegateEvent del)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeFilmAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndChangeFilmAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEndFilmAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetActive(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

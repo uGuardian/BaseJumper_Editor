@@ -69,31 +69,31 @@ public class FarAreaEffect_EGO_Galaxy_Farewell_DamagedEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleFarAreaPlayManager.VictimInfo target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Damaged()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnMoveAnimEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDamagedAnimEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

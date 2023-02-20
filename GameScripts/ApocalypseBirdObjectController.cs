@@ -26,37 +26,37 @@ public class ApocalypseBirdObjectController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlayHandAtk(Direction handDirection, FarAreaEffect_EGO_ApcBird_PutDownAtk areaAtkScript)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Disappear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnAnimEvent_StartAtk()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnAnimEvent_Damage()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnAnimEvent_EndAtk()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

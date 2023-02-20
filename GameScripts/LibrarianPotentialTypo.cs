@@ -18,25 +18,25 @@ public class LibrarianPotentialTypo : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(string str, Vector3 pos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetValues(Vector3 pos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

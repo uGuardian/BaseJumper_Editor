@@ -38,31 +38,31 @@ public class BattleActionTypoSlot : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetData(EffectTypoData data, BattleUnitView view)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDir(Direction dir)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartReveal()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartHide()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void HideForcely()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

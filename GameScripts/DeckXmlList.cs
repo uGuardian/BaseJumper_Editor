@@ -9,13 +9,13 @@ public class DeckXmlList : Singleton<DeckXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<DeckXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddDeckByMod(List<DeckXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

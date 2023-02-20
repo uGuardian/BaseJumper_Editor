@@ -14,13 +14,13 @@ public class Yan_ChainParticle : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(LineRenderer line)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -36,7 +36,7 @@ namespace CustomInvitation
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init(AudioClip sound, ToggleGroup toggleGroup, Action<SoundPresetSummary> toggleCallback)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

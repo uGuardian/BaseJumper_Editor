@@ -35,13 +35,13 @@ public class BattleUnitBuf_Alriune_ResistWeak : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

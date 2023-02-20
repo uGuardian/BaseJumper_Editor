@@ -10,7 +10,7 @@ public class DiceCardSelfAbility_final_nosferatu_bat_power : DiceCardSelfAbility
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

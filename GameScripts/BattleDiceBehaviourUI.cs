@@ -48,6 +48,6 @@ public class BattleDiceBehaviourUI
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Copy(BattleDiceBehaviourUI b)
 	{
-		throw null;
+		
 	}
 }

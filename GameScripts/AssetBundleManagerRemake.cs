@@ -12,13 +12,13 @@ public class AssetBundleManagerRemake : Singleton<AssetBundleManagerRemake>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UnloadAllCharacterCache()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -36,7 +36,7 @@ public class AssetBundleManagerRemake : Singleton<AssetBundleManagerRemake>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadCardAssetBundle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -54,7 +54,7 @@ public class AssetBundleManagerRemake : Singleton<AssetBundleManagerRemake>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReleaseSdObject(string resourceName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -87,7 +87,7 @@ public class QuestModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	public delegate bool MissionEvent();

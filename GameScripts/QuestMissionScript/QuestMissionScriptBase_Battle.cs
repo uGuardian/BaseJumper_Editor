@@ -26,7 +26,7 @@ public class QuestMissionScriptBase_Battle : QuestMissionScriptBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnClearStage(StageModel stage)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

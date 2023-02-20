@@ -23,7 +23,7 @@ public class EmotionManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateEmotions(string emotionStr, string posStr, Vector3 facePos, float xError)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -41,7 +41,7 @@ public class EmotionManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

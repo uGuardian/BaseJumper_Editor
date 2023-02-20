@@ -11,19 +11,19 @@ public class EmotionCardAbility_waybackhome2 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnParryingStart(BattlePlayingCardDataInUnitModel card)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartOneSideAction(BattlePlayingCardDataInUnitModel curCard)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStartOnce()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -35,13 +35,13 @@ public class EmotionCardAbility_waybackhome2 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StackToZero()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StackAdd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -81,31 +81,31 @@ public class EmotionCardAbility_waybackhome2 : EmotionCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Init(BattleUnitModel owner)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEnd()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnDie()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Destroy()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void DestroyAura()
 		{
-			throw null;
+			
 		}
 	}
 }

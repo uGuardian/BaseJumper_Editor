@@ -30,13 +30,13 @@ public class BattleObjectManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init_only()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitUI()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -48,31 +48,31 @@ public class BattleObjectManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void InitBehaviorTree(BattleUnitModel model)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Clear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RegisterUnit(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UnregisterUnit(BattleUnitModel unit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UnregisterUnitByIndex(Faction faction, int index)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -186,13 +186,13 @@ public class BattleObjectManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnFixedUpdate(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

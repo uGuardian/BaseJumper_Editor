@@ -19,7 +19,7 @@ namespace MoveTool
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetColor(ColorType type)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -44,37 +44,37 @@ public class DiceAttackEffect_Binah_Pillar_Up : DiceAttackEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void SetScale(float scaleFactor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEvent_ThrowPillar()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEvent_PlaySound(int i)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimEvent_Destroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

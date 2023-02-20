@@ -16,7 +16,7 @@ public class PassiveAbility_220005 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnDiscardByAbility(List<BattleDiceCardModel> cards)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

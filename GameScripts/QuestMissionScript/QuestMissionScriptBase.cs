@@ -49,13 +49,13 @@ public class QuestMissionScriptBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddWaveCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddStageCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -67,13 +67,13 @@ public class QuestMissionScriptBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMissionModel(QuestMissionModel mission)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -91,115 +91,115 @@ public class QuestMissionScriptBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void ResetWaveCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void ResetStageCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnUseBook(int bookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnGetBook(int bookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnCustomize()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnCustomizeSpeech(SephirahType sephirah)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnEditFormation(SephirahType sephirah)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnEditCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnEquipBook(SephirahType sephirah, int unitIndex, BookModel book)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnSendInvitation(LorId stageId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnClearStage(StageModel stage)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnWinWave(StageLibraryFloorModel floor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnEmotionLevelUp(BattleUnitModel unit, int level)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnSelectEmotionCard(EmotionCardXmlInfo selected)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnUseCard(BattlePlayingCardDataInUnitModel card)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnBreak()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnGetGift()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnUseCoreEquip()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -211,7 +211,7 @@ public class QuestMissionScriptBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void LoadFromSaveData(List<int> data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

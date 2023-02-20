@@ -32,7 +32,7 @@ public class BehaviourAction_finalpinocchio_specialAtk : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDamage()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

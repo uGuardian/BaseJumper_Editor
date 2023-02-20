@@ -8,25 +8,25 @@ public static class FilterUtil
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void ShowWarpBloodFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void ShowWarpFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void ShowLatitiaHeartBoomFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void ShowBlueStarSuicideFilter(Transform position)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

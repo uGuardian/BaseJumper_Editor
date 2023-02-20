@@ -10,13 +10,13 @@ public class GiftAppearance_Aura : GiftAppearance
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void RefreshAppearance(CustomizedAppearance customized, CharacterMotion motion)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDestroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

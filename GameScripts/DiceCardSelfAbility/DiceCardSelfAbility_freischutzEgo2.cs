@@ -15,7 +15,7 @@ public class DiceCardSelfAbility_freischutzEgo2 : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -59,25 +59,25 @@ public class DiceCardSelfAbility_freischutzEgo2 : DiceCardSelfAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundStart()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void EndSynchronize()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void RemoveMap()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnDie()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

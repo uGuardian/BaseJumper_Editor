@@ -8,19 +8,19 @@ public class UIInvenCustomScrollRect : ScrollRect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnBeginDrag(PointerEventData eventData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnDrag(PointerEventData eventData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnEndDrag(PointerEventData eventData)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

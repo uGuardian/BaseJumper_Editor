@@ -10,13 +10,13 @@ public class CharactersNameXmlList : Singleton<CharactersNameXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(CharactersNameRoot nameRoot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add(CharactersNameRoot nameRoot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

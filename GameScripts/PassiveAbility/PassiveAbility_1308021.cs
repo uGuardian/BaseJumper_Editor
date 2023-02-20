@@ -28,13 +28,13 @@ public class PassiveAbility_1308021 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStartAfter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCards_minion(int patternCount)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -46,13 +46,13 @@ public class PassiveAbility_1308021 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCardsInMinion()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddNewCard(int id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -6,7 +6,7 @@ public class DiceCardAbility_yanOnly1Dice : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -20,7 +20,7 @@ public class DiceCardAbility_yanOnly1Dice : DiceCardAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundStart()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

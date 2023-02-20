@@ -17,7 +17,7 @@ public class BattleUnitBuf_Roland_4th_DurandalWeak_Fail : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

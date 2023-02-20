@@ -24,7 +24,7 @@ public class BattleUnitBuf_SpiderBud_Cocoon : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel owner)
 	{
-		throw null;
+		
 	}
 
 	public override BufPositiveType positiveType
@@ -39,7 +39,7 @@ public class BattleUnitBuf_SpiderBud_Cocoon : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -14,31 +14,31 @@ public class PassiveAbility_705531 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLibrarian(BattleUnitModel u)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLibrarianAppearance()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RescueLibrarian()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

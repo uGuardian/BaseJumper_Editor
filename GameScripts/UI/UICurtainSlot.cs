@@ -12,7 +12,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Initialize()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

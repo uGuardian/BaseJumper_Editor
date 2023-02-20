@@ -55,7 +55,7 @@ public class FarAreaEffect_EGO_Alriune_First : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel self, params object[] args)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -67,13 +67,13 @@ public class FarAreaEffect_EGO_Alriune_First : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDestroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

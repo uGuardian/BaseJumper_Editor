@@ -63,6 +63,6 @@ public class BattleUnitBuf_sealTemp : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 }

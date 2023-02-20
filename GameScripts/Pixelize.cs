@@ -65,25 +65,25 @@ public class Pixelize : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnRenderImage(RenderTexture src, RenderTexture dest)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CreateTemporaryRenderTarget()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckTemporaryRenderTarget()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ReleaseTemporaryRenderTarget()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

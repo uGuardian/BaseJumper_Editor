@@ -11,25 +11,25 @@ public class AttackEffectInfoManager : Singleton<AttackEffectInfoManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<AttackEffectPathXmlInfo> charResourceInfo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<string, string> charResourceInfo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Load()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadResourceInfo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

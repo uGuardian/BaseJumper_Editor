@@ -14,13 +14,13 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Load()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -32,7 +32,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadDeck()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -44,7 +44,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadQuest()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -56,7 +56,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadFormation()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -68,7 +68,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadPassive()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -80,13 +80,13 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadFloorInfo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadFinalRewardInfo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -98,19 +98,19 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadCreditInfo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadCollectableInfos()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadGift()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -122,13 +122,13 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadWorkshopInvitation()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadBook()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -140,7 +140,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadCardDropTable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -152,7 +152,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadDropBook()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -164,7 +164,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadEmotionEgo()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -176,7 +176,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadEmotionCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -188,7 +188,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadEnemyUnit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -200,7 +200,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadStage()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -212,7 +212,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadTitle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -224,7 +224,7 @@ public class StaticDataLoader
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadToolTip()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

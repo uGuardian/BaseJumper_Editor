@@ -21,6 +21,6 @@ public class BattleUnitBuf_Philip_ChildDead : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 }

@@ -32,7 +32,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Copy(CustomizingSavedData origin)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

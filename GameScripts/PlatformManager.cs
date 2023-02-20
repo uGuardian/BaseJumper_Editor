@@ -62,19 +62,19 @@ public class PlatformManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Initialize(PlatformManager.CallbackSignInDel callback)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -86,19 +86,19 @@ public class PlatformManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReInitialize(PlatformManager.CallbackSignInDel callback)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SavePlayData(int slot, SaveData savedata)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadPlayData(int slot, Action<SaveData> callback)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -110,19 +110,19 @@ public class PlatformManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SaveData(string name, SaveData savedata)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadData(string name, Action<SaveData> callback)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateTheLastAchievment()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -134,13 +134,13 @@ public class PlatformManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UnlockAchievement(AchievementEnum achievement)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckAllAchievements()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -152,13 +152,13 @@ public class PlatformManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnApplicationQuit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearResource()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -170,19 +170,19 @@ public class PlatformManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddLoadingCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SubLoadingCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnChangeTag(string tag)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

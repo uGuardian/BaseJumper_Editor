@@ -12,13 +12,13 @@ public class DiceAttackEffect_Esther_SpecialAtk : DiceAttackEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSoundEvent(int soundIdx)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

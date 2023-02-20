@@ -32,7 +32,7 @@ public class EmotionCardAbility_snowwhite2 : EmotionCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

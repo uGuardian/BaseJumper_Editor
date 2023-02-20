@@ -6,7 +6,7 @@ public class DiceCardAbility_final_silencegirl_hammer_costdown_atk : DiceCardAbi
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

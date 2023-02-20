@@ -28,13 +28,13 @@ public class ParticleEffectsLibrary : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -46,19 +46,19 @@ public class ParticleEffectsLibrary : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PreviousParticleEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void NextParticleEffect()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SpawnParticleEffect(Vector3 positionInWorldToSpawn)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

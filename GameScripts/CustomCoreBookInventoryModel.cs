@@ -16,19 +16,19 @@ public class CustomCoreBookInventoryModel : Singleton<CustomCoreBookInventoryMod
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBook(LorId bookId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBook(int bookid)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -46,13 +46,13 @@ public class CustomCoreBookInventoryModel : Singleton<CustomCoreBookInventoryMod
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddDefaultBook()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

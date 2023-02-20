@@ -33,7 +33,7 @@ public class CircusMapFilter : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFilter(bool union)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -45,7 +45,7 @@ public class CircusMapFilter : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

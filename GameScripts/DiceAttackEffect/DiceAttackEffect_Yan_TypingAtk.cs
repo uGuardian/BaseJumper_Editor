@@ -17,19 +17,19 @@ public class DiceAttackEffect_Yan_TypingAtk : DiceAttackEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void SetScale(float scaleFactor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDamageEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

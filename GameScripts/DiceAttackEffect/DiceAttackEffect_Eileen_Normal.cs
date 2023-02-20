@@ -20,25 +20,25 @@ public class DiceAttackEffect_Eileen_Normal : DiceAttackEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Swap()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

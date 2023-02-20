@@ -17,19 +17,19 @@ public class DiceDamagedEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(bool flip, float scaleFactor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAnimationEnd()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

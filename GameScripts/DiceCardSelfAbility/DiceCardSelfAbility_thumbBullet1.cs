@@ -6,19 +6,19 @@ public class DiceCardSelfAbility_thumbBullet1 : DiceCardSelfAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnDiscard(BattleUnitModel unit, BattleDiceCardModel self)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnActivate(BattleUnitModel unit, BattleDiceCardModel self)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -32,13 +32,13 @@ public class DiceCardSelfAbility_thumbBullet1 : DiceCardSelfAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void BeforeRollDice(BattleDiceBehavior behavior)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEnd()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -66,7 +66,7 @@ namespace Mod
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadAssembly()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -78,13 +78,13 @@ namespace Mod
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Init()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void Loads()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -162,19 +162,19 @@ namespace Mod
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadArtworks()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadBookSkins()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LoadAssemblies()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

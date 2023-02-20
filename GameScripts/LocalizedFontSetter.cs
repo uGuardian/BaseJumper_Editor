@@ -32,13 +32,13 @@ public class LocalizedFontSetter : SingletonBehavior<LocalizedFontSetter>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLocalizedFont(TextMeshProUGUI text, FontType type)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLocalizedFont(TMP_InputField input, FontType type)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

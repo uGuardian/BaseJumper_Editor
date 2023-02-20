@@ -49,13 +49,13 @@ public class PassiveAbility_205010 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -67,25 +67,25 @@ public class PassiveAbility_205010 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ChangeCurrentPhase(PassiveAbility_205010.CreaturePhase newPhase)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void RecoverAllStats()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetEgoSkin(PassiveAbility_205010.CreaturePhase currentPhase)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetPassives(PassiveAbility_205010.CreaturePhase currentPhase)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

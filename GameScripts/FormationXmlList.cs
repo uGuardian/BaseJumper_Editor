@@ -9,7 +9,7 @@ public class FormationXmlList : Singleton<FormationXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<FormationXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

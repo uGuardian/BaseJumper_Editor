@@ -10,7 +10,7 @@ public class BattleEffectTextsXmlList : Singleton<BattleEffectTextsXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<string, BattleEffectText> dictionary)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

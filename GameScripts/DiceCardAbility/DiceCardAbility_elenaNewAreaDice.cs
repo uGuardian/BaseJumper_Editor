@@ -6,7 +6,7 @@ public class DiceCardAbility_elenaNewAreaDice : DiceCardAbility_cryingChildAreaD
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAttack(BattleUnitModel target)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

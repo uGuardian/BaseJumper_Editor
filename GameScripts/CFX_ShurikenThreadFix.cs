@@ -10,7 +10,7 @@ public class CFX_ShurikenThreadFix : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

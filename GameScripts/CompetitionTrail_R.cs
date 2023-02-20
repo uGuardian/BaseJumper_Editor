@@ -21,19 +21,19 @@ public class CompetitionTrail_R : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Transform parent, int particleLevel = 3)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -133,13 +133,13 @@ public class PlayHistoryModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetResetCompleteOpen()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAllClear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -151,7 +151,7 @@ public class PlayHistoryModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

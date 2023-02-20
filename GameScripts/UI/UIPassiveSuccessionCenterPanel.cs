@@ -53,13 +53,13 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetBooksData(List<BookModel> equipbookmodels)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -77,19 +77,19 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetScrollSize()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnScroll(PointerEventData eventData)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void MovePositionSelectedSlot(RectTransform rectslot)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -101,7 +101,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetAnimationReveal()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -113,43 +113,43 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetAnimationDefault()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetAnimationCgOff()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void StartEquipedAnimation(BookModel book)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void StartUnEquipedAnimation(UIPassiveSuccessionCenterEquipBookSlot bookslot, BookModel book)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnSelectedPassiveSlot(UIPassiveSuccessionCenterPassiveSlot slot)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetSlotsNavigation()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnClickUnequipBook(UIPassiveSuccessionCenterEquipBookSlot slot)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

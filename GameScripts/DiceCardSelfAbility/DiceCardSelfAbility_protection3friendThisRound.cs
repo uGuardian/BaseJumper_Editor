@@ -15,7 +15,7 @@ public class DiceCardSelfAbility_protection3friendThisRound : DiceCardSelfAbilit
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

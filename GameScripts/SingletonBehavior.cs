@@ -20,7 +20,7 @@ public class SingletonBehavior<T> : MonoBehaviour where T : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void OnApplicationQuit()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

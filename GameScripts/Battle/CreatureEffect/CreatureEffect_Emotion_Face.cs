@@ -12,7 +12,7 @@ namespace Battle.CreatureEffect
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetFace(int idx)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -30,7 +30,7 @@ namespace Mod
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void InitModInfos()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -66,31 +66,31 @@ namespace Mod
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetActiveContents(List<ModContentInfo> targets)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddErrorLog(string msg)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddWarningLog(string msg)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddErrorLog(string msg, Exception e)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddErrorLog(Exception e)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -102,13 +102,13 @@ namespace Mod
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SaveSelectionData(List<ModContentInfo> allMods, List<ModContentInfo> activateds)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void LoadSelectionData()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -43,73 +43,73 @@ public class BehaviourAction_BlackSilence_SpecialDurandal : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetRevolver(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetLance(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetHammer(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetLongSword(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetGauntlet(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetShortSword(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetAxe(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetMace(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetGreatSword(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDualWield(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetShotgun(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDurandal(List<RencounterManager.MovingAction> self, List<RencounterManager.MovingAction> oppo)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

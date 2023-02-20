@@ -35,7 +35,7 @@ public class FarAreaEffect_EGO_Galaxy_FarewellAtk : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel self, params object[] args)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

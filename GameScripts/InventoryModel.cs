@@ -12,25 +12,25 @@ public class InventoryModel : Singleton<InventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCard(int cardId, int num = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCard(LorId cardId, int num = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAllErrorCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -42,7 +42,7 @@ public class InventoryModel : Singleton<InventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateEmptyItem(LorId id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -90,7 +90,7 @@ public class InventoryModel : Singleton<InventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

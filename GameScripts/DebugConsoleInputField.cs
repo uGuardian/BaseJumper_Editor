@@ -7,13 +7,13 @@ public class DebugConsoleInputField : InputField
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Append(char input)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void Append(string input)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -15,7 +15,7 @@ public class DiceCardAbility_Final_ApocalypseBird_RecoverHp7Atk : DiceCardAbilit
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

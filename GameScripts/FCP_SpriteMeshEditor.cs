@@ -18,7 +18,7 @@ public class FCP_SpriteMeshEditor : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -30,7 +30,7 @@ public class FCP_SpriteMeshEditor : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void MakeMesh(Sprite sprite, int x, int y, FCP_SpriteMeshEditor.MeshType meshtype)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

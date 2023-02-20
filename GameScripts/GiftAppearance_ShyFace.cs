@@ -11,19 +11,19 @@ public class GiftAppearance_ShyFace : GiftAppearance
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFace(int Faceindex)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void SetLayer(string layerName)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

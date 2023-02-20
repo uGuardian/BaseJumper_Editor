@@ -167,7 +167,7 @@ public class BattleCardBehaviourResult
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEmotionCoinAdded(EmotionCoinType coin, int count)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -179,7 +179,7 @@ public class BattleCardBehaviourResult
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBufEffect(string src)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

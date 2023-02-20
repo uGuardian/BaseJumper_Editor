@@ -8,7 +8,7 @@ public class DiceCardAbility_lumberjack_lose_heart : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnLoseParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -20,7 +20,7 @@ public class DiceCardAbility_lumberjack_lose_heart : DiceCardAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoseStack()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

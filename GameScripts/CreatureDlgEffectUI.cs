@@ -38,31 +38,31 @@ public class CreatureDlgEffectUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(string str, CreatureDlgEffectUI.UpdateVertexInfoEvent e = null)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetColor(Color color)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetGradientColor(Color topLeft, Color topRight, Color bottomLeft, Color bottomRight)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FadeOut()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FadeOutWithCurAlpha()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -80,13 +80,13 @@ public class CreatureDlgEffectUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ON_TEXT_CHANGED(UnityEngine.Object obj)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -104,7 +104,7 @@ public class CreatureDlgEffectUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

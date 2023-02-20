@@ -39,7 +39,7 @@ public static class StorySerializer
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void SaveEffectFile()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -75,31 +75,31 @@ public static class StorySerializer
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void SaveStory()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void SaveStoryByMod()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void LoadStory()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void SynchronizeVoice(int chapterId)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void LoadStory(bool internalPath)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

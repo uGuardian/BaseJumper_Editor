@@ -34,43 +34,43 @@ public class BattleUnitInformationUI_PassiveList : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetData(List<PassiveAbilityBase> passivelist)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDefault()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetActive(bool b)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnClickHideShowButton()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEnterHideShowButton()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnExitHideShowButton()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnScroll(float val)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -93,7 +93,7 @@ public class BattleUnitInformationUI_PassiveList : MonoBehaviour
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(PassiveAbilityBase passive)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

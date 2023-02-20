@@ -46,6 +46,6 @@ public class DialogData
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data, DialogType dialogType)
 	{
-		throw null;
+		
 	}
 }

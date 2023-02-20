@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_costdecrease1allcardExhaust : DiceCardSelfAbili
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

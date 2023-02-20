@@ -13,7 +13,7 @@ public class GiftXmlList : Singleton<GiftXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<GiftXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

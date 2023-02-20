@@ -6,7 +6,7 @@ public class DiceCardAbility_final_silencegirl_blackhand_counterdef_pw2 : DiceCa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

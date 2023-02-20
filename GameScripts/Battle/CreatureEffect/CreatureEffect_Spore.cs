@@ -16,19 +16,19 @@ namespace Battle.CreatureEffect
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddTileEffect(Vector3 globalPos)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void LateUpdate()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ClearEffects()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

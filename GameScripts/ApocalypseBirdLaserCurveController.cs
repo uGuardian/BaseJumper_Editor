@@ -10,7 +10,7 @@ public class ApocalypseBirdLaserCurveController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLastPos(Vector3 worldPos)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -28,7 +28,7 @@ public class ApocalypseBirdLaserCurveController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDrawGizmos()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

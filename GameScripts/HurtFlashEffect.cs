@@ -25,7 +25,7 @@ public class HurtFlashEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Flash()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

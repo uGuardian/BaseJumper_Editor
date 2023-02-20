@@ -9,7 +9,7 @@ public class CharacterPosInfoManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -27,13 +27,13 @@ public class CharacterPosInfoManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SaveData()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadData()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

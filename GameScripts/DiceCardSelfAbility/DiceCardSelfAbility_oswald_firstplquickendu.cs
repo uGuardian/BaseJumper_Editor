@@ -8,7 +8,7 @@ public class DiceCardSelfAbility_oswald_firstplquickendu : DiceCardSelfAbilityBa
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnLoseParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

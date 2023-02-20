@@ -33,7 +33,7 @@ public class LightManager<T> : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void Remove(T t)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

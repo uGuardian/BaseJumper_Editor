@@ -18,7 +18,7 @@ public class DropBookInventoryModel : Singleton<DropBookInventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -36,13 +36,13 @@ public class DropBookInventoryModel : Singleton<DropBookInventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAllErrorBookBook()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveBook(LorId bookId, int num = 1)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -96,7 +96,7 @@ public class DropBookInventoryModel : Singleton<DropBookInventoryModel>, Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -51,13 +51,13 @@ namespace Workshop
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void LoadSprite()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void LoadFrontSprite()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

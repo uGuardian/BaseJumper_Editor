@@ -11,13 +11,13 @@ public class EnemyTeamStageManager_KeterFinal_Heart : EnemyTeamStageManager_Kete
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFinishable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWaveStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -35,7 +35,7 @@ public class EnemyTeamStageManager_KeterFinal_Heart : EnemyTeamStageManager_Kete
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void SetAngelaEgos()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

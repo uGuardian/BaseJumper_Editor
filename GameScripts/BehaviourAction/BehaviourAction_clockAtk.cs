@@ -33,7 +33,7 @@ public class BehaviourAction_clockAtk : BehaviourActionBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Groggy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

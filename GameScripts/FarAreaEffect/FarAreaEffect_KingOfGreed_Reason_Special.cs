@@ -65,7 +65,7 @@ public class FarAreaEffect_KingOfGreed_Reason_Special : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void Init(BattleUnitModel self, params object[] args)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -77,19 +77,19 @@ public class FarAreaEffect_KingOfGreed_Reason_Special : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void OnDisable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDestroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetRadialFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -101,7 +101,7 @@ public class FarAreaEffect_KingOfGreed_Reason_Special : FarAreaEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void DestroyEffects()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

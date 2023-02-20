@@ -106,25 +106,25 @@ public class LibraryFloorModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(SephirahType sephirah)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTemporaryLevel(int level)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateOpenedCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateOpenedCount(int level)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -136,25 +136,25 @@ public class LibraryFloorModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetAbilitySlotTextID()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnOpen()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetQuest(QuestXmlInfo quest)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOpenedUnitCount(int value)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -166,7 +166,7 @@ public class LibraryFloorModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetUnitData(int index, UnitDataModel data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -190,7 +190,7 @@ public class LibraryFloorModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFormation(FormationModel formation)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -208,7 +208,7 @@ public class LibraryFloorModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFormationPosition(UnitDataModel unit, FormationPosition targetPosition)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -226,19 +226,19 @@ public class LibraryFloorModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckLevelForAchievement()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LevelUp()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LevelDown()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -292,13 +292,13 @@ public class LibraryFloorModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetClearTheBlueProgress()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetClearTheBlueProgress()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -316,19 +316,19 @@ public class LibraryFloorModel : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void TemporayFormationSetting()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLevel(int level)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

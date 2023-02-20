@@ -9,7 +9,7 @@ public class RencounterLogList
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddLog()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

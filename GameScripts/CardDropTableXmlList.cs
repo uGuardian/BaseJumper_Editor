@@ -11,7 +11,7 @@ public class CardDropTableXmlList : Singleton<CardDropTableXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<CardDropTableXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -23,7 +23,7 @@ public class CardDropTableXmlList : Singleton<CardDropTableXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCardDropTableByMod(string uniqueId, List<CardDropTableXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

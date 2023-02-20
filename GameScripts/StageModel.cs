@@ -78,13 +78,13 @@ public class StageModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(StageClassInfo classInfo, LibraryModel library, bool isRebattle = false)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartWaveBattle(SephirahType sephirah)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -144,37 +144,37 @@ public class StageModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ApplyLibrarianGiftGain()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBurnKillCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddMatanKillCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddHeartKillCount()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void WinStage()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckAchievements()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -186,7 +186,7 @@ public class StageModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetStageStorgeData(string name, object value)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

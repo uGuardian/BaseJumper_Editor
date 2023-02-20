@@ -54,13 +54,13 @@ public class BattleUnitBaseModel : BattleObjectModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AfterRetargeting()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetKnockoutInsteadOfDeath(bool alter)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -72,37 +72,37 @@ public class BattleUnitBaseModel : BattleObjectModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnFixedUpdate(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void OnFixedUpdateSkill(float deltaTime)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void OnDie(bool callEvent = true)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void Damage()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void AtkStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void AtkEnd()
 	{
-		throw null;
+		
 	}
 
 	public bool IsCasting
@@ -117,13 +117,13 @@ public class BattleUnitBaseModel : BattleObjectModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void CastSkill()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void AfterAttackSuccess(bool killed, BattleUnitModel attackedUnit)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

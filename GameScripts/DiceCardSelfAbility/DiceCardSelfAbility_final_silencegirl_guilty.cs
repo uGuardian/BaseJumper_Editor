@@ -6,7 +6,7 @@ public class DiceCardSelfAbility_final_silencegirl_guilty : DiceCardSelfAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

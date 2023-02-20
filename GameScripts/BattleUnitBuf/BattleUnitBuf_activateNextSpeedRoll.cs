@@ -20,6 +20,6 @@ public class BattleUnitBuf_activateNextSpeedRoll : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRollSpeedDice()
 	{
-		throw null;
+		
 	}
 }

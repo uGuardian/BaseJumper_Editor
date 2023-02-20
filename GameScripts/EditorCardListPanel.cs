@@ -17,25 +17,25 @@ public class EditorCardListPanel : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitList(List<DiceCardXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Clear()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCard(DiceCardXmlInfo info)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ModifyInfo(DiceCardXmlInfo info)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

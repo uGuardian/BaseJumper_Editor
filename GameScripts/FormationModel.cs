@@ -55,6 +55,6 @@ public class FormationModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOwner(SephirahType sephirah)
 	{
-		throw null;
+		
 	}
 }

@@ -18,7 +18,7 @@ public class PassiveAbility_1308011 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -30,19 +30,19 @@ public class PassiveAbility_1308011 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStartAfter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCards_elena(bool minionisdead)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCards_minion()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -54,7 +54,7 @@ public class PassiveAbility_1308011 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCardsInMinion()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -72,7 +72,7 @@ public class PassiveAbility_1308011 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AddNewCard(int id)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

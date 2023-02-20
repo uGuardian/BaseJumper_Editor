@@ -17,7 +17,7 @@ public class UICenterCardVibe : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void FixedUpdate()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

@@ -93,7 +93,7 @@ public class GiftInventory : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UnEquipAll()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -141,6 +141,6 @@ public class GiftInventory : Savable
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadFromSaveData(SaveData data)
 	{
-		throw null;
+		
 	}
 }

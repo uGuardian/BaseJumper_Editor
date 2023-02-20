@@ -10,25 +10,25 @@ public class YesodAnimatorEventListener : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartDownAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndDownAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartUpAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndUpAnim()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

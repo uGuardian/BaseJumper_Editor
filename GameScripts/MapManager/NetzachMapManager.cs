@@ -11,13 +11,13 @@ public class NetzachMapManager : MapManager
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Vibe()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

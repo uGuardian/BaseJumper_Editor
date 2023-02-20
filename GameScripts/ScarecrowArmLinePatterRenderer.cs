@@ -25,7 +25,7 @@ public class ScarecrowArmLinePatterRenderer : LinePatternRenderer
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void SetLine(Vector3 pos1, Vector3 pos2)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

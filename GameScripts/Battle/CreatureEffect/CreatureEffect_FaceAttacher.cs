@@ -19,25 +19,25 @@ namespace Battle.CreatureEffect
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime = -1f)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AttachTarget(BattleUnitView target, float destroyTime = -1f)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void OnDestroy()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnChangeAnim()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

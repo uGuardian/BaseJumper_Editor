@@ -167,7 +167,7 @@ public class CustomizingResourceLoader : Singleton<CustomizingResourceLoader>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadData()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -197,7 +197,7 @@ public class CustomizingResourceLoader : Singleton<CustomizingResourceLoader>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadWorkshopCustomSkinData()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -209,7 +209,7 @@ public class CustomizingResourceLoader : Singleton<CustomizingResourceLoader>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadExternalData()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

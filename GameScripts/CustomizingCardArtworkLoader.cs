@@ -11,7 +11,7 @@ public class CustomizingCardArtworkLoader : Singleton<CustomizingCardArtworkLoad
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddArtworkData(string workshopItemID, List<ArtworkCustomizeData> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

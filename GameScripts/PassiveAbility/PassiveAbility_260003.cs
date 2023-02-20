@@ -18,19 +18,19 @@ public class PassiveAbility_260003 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnTakeBreakDamageByAttack(BattleDiceBehavior atkDice, int breakdmg)
 	{
-		throw null;
+		
 	}
 
 	public class BattleUnitBuf_resists : BattleUnitBuf
@@ -54,7 +54,7 @@ public class PassiveAbility_260003 : PassiveAbilityBase
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnRoundEnd()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

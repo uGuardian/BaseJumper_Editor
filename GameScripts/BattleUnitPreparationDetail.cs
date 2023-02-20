@@ -16,6 +16,6 @@ public class BattleUnitPreparationDetail
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Activate()
 	{
-		throw null;
+		
 	}
 }

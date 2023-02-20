@@ -8,7 +8,7 @@ public class DiceCardSelfAbility_black_4th_durandalstrong : DiceCardSelfAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

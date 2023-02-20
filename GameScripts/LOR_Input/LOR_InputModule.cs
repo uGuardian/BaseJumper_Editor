@@ -192,13 +192,13 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void UpdateModule()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void ReleaseMouse(PointerEventData pointerEvent, GameObject currentOverGo)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -216,19 +216,19 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void ActivateModule()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void DeactivateModule()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void Process()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -240,7 +240,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected void ProcessTouchPress(PointerEventData pointerEvent, bool pressed, bool released)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -270,7 +270,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected void ProcessMouseEvent()
 		{
-			throw null;
+			
 		}
 
 		[Obsolete("This method is no longer checked, overriding it with return true does nothing!")]
@@ -283,7 +283,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected void ProcessMouseEvent(int id)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -295,7 +295,7 @@ namespace LOR_Input
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected void ProcessMousePress(PointerInputModule.MouseButtonEventData data)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

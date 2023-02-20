@@ -66,19 +66,19 @@ public class CamFilterController : SingletonBehavior<CamFilterController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ClearFilter()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFilter(string filterID)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -168,6 +168,6 @@ public class CamFilterController : SingletonBehavior<CamFilterController>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		throw null;
+		
 	}
 }

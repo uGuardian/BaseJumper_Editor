@@ -12,7 +12,7 @@ public class BookDescXmlList : Singleton<BookDescXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<int, BookDesc> dictionary)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -30,7 +30,7 @@ public class BookDescXmlList : Singleton<BookDescXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBookTextByMod(string packageId, List<BookDesc> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

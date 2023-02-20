@@ -24,13 +24,13 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(string name, float per)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetActiveSlot(bool on)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

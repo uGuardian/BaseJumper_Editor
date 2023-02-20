@@ -9,13 +9,13 @@ namespace HyperCard
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void OnMouseEnter()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void OnMouseExit()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

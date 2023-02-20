@@ -19,13 +19,13 @@ public class UIEquipPageOperatingButton : Button
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void OnEnable()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected override void DoStateTransition(Selectable.SelectionState state, bool instant)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

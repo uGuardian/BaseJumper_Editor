@@ -10,7 +10,7 @@ public class GiftDescXmlList : Singleton<GiftDescXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(GiftTextRoot giftRoot)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

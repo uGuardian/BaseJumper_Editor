@@ -60,7 +60,7 @@ public class BattleUnitBuf_Jaeheon_PuppetThread : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DecreaseStack(int value)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -72,13 +72,13 @@ public class BattleUnitBuf_Jaeheon_PuppetThread : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundStart()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnDrawCard()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -90,7 +90,7 @@ public class BattleUnitBuf_Jaeheon_PuppetThread : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

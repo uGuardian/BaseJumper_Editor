@@ -7,7 +7,7 @@ public class DiceAttackEffect_EGO_ApcBird_FarLaserAtkNotWin : DiceAttackEffect
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void SetScale(float scaleFactor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

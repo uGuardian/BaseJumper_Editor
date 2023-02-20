@@ -29,7 +29,7 @@ public static class RFX4_ColorHelper
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void ChangeObjectColorByHUE(GameObject go, float hue)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

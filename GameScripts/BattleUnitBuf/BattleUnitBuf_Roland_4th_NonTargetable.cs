@@ -48,6 +48,6 @@ public class BattleUnitBuf_Roland_4th_NonTargetable : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEnd()
 	{
-		throw null;
+		
 	}
 }

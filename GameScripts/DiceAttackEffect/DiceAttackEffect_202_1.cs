@@ -17,13 +17,13 @@ namespace Battle.DiceAttackEffect
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected override void Start()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected override void Update()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

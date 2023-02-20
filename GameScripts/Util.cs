@@ -30,19 +30,19 @@ public class Util
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void PreLoadPrefab(string path)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void DebugEditorLogFormat(string format, params object[] args)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void DebugEditorLog(object message)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

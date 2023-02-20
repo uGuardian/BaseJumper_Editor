@@ -23,7 +23,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Clear()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

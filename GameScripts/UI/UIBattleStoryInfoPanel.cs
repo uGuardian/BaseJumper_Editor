@@ -43,19 +43,19 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(StageClassInfo stage)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnClickStoryButton(int index)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void ReturnFromEndStory()
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

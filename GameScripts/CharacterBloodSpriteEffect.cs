@@ -17,13 +17,13 @@ public class CharacterBloodSpriteEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(float scaleFactor)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Destroy()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -35,7 +35,7 @@ public class CharacterBloodSpriteEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

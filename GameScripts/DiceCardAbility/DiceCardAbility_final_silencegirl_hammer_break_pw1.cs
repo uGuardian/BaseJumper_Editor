@@ -6,7 +6,7 @@ public class DiceCardAbility_final_silencegirl_hammer_break_pw1 : DiceCardAbilit
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

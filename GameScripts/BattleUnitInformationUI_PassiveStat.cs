@@ -16,7 +16,7 @@ public class BattleUnitInformationUI_PassiveStat : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPassive(string title, int breakRecover, int tune, int amp)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

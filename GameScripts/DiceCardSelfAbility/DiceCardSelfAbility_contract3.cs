@@ -8,7 +8,7 @@ public class DiceCardSelfAbility_contract3 : DiceCardSelfAbility_contractBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnWinParrying_inHand(BattleUnitModel unit, BattleDiceCardModel self, BattleDiceBehavior behavior)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

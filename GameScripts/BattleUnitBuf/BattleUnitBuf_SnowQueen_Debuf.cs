@@ -40,6 +40,6 @@ public class BattleUnitBuf_SnowQueen_Debuf : BattleUnitBuf
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnRoundEndTheLast()
 	{
-		throw null;
+		
 	}
 }

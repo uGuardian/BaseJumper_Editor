@@ -6,13 +6,13 @@ public class DiceCardSelfAbility_scorchedgirl_fourthmatch : DiceCardSelfAbilityB
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnUseCardEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnSucceedAtkEvent()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

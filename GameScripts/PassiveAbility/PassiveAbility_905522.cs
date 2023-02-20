@@ -17,7 +17,7 @@ public class PassiveAbility_905522 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override void OnStartBattle()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -29,6 +29,6 @@ public class PassiveAbility_905522 : PassiveAbilityBase
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetCandidates()
 	{
-		throw null;
+		
 	}
 }

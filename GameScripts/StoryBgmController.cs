@@ -35,13 +35,13 @@ public class StoryBgmController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StopMusic(BgmMode mode)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlayMusic(AudioClip clip, BgmMode mode)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -59,7 +59,7 @@ public class StoryBgmController : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

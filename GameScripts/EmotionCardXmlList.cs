@@ -9,7 +9,7 @@ public class EmotionCardXmlList : Singleton<EmotionCardXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<EmotionCardXmlInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

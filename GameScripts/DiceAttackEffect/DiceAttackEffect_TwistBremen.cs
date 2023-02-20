@@ -8,7 +8,7 @@ namespace Battle.DiceAttackEffect
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void SetScale(float scaleFactor)
 		{
-			throw null;
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

@@ -28,7 +28,7 @@ public class StageClassInfoList : Singleton<StageClassInfoList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(List<StageClassInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -70,13 +70,13 @@ public class StageClassInfoList : Singleton<StageClassInfoList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ClassifyInvitationType(List<StageClassInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddStageByMod(string workshopId, List<StageClassInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -88,7 +88,7 @@ public class StageClassInfoList : Singleton<StageClassInfoList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ClassifyWorkshopInvitation(List<StageClassInfo> list)
 	{
-		throw null;
+		
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
