@@ -12,5 +12,6 @@
   "author": {
     "name": "uGuardian"
   },
-  "type": "tool"
+  "type": "tool",
+  "hideInEditor": false
 }
