@@ -1,0 +1,22 @@
+{
+    "name": "AssetStudio",
+    "references": [
+        "GUID:e6d2ffd7d51cef640bf81dbfb5ae10b7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "System.Memory.dll",
+        "K4os.Compression.LZ4.dll",
+        "System.Buffers.dll",
+        "System.IO.Compression.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
