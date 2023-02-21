@@ -1,13 +1,13 @@
 {
   "name": "lor.uguardian.basejumper_editor",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "displayName": "BaseJumper Editor",
   "unity": "2019.3",
   "unityRelease": "15f1",
   "dependencies": {
     "com.unity.textmeshpro": "2.0.1",
-    "com.unity.mathematics": "1.2.6",
-    "com.unity.postprocessing": "3.0.3"
+    "com.unity.mathematics": "1.1.0",
+    "com.unity.postprocessing": "2.3.0"
   },
   "author": {
     "name": "uGuardian"
