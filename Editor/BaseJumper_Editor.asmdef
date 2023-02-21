@@ -1,7 +1,7 @@
 {
     "name": "BaseJumper_Editor",
     "references": [
-        "GUID:6ed86c39a88c47e44a86e2429c389ea3",
+        "GUID:4108d67910d8c6948bad43f976a45ffb",
         "GUID:e6d2ffd7d51cef640bf81dbfb5ae10b7"
     ],
     "includePlatforms": [
