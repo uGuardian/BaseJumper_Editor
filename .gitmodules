@@ -1,4 +1,0 @@
-[submodule "Editor/AssetStudio"]
-	path = Editor/AssetStudio
-	url = ../BaseJumper_AssetStudio.git
-	update = rebase
