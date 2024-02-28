@@ -858,11 +858,12 @@ namespace BaseJumper.Editor {
         async Task BuildAllAssetBundles() {
             try {
                 string assetBundleDirectory = "Assets/AssetBundles";
+                var dir = GetAssetBundleDir(assetBundleDirectory);
                 var manifest = BuildPipeline.BuildAssetBundles(assetBundleDirectory,
                     BuildAssetBundleOptions.UncompressedAssetBundle,
                     UnityEditor.BuildTarget.StandaloneWindows64);
                 // var allBundlesDebug = manifest.GetAllAssetBundles();
-                var allBundles = GetAllFiles(assetBundleDirectory).ToList();
+                var allBundles = GetAllFilesInDir(dir).ToList();
                 Window.Show();
                 await RectifyReferences(allBundles);
                 AssetStudio_Rectify(allBundles);
@@ -911,11 +912,15 @@ namespace BaseJumper.Editor {
             }
             await Task.WhenAll(bundleTasks);
         }
-        static IEnumerable<FileInfo> GetAllFiles(string assetBundleDirectory = "Assets/AssetBundles") {
+        static DirectoryInfo GetAssetBundleDir(string assetBundleDirectory = "Assets/AssetBundles") {
             var assetBundleDirectoryInfo = new DirectoryInfo(assetBundleDirectory);
             if (!assetBundleDirectoryInfo.Exists) {
                 assetBundleDirectoryInfo.Create();
             }
+            return assetBundleDirectoryInfo;
+        }
+        static IEnumerable<FileInfo> GetAllFiles(string assetBundleDirectory = "Assets/AssetBundles") {
+            var assetBundleDirectoryInfo = GetAssetBundleDir(assetBundleDirectory);
             return GetAllFilesInDir(assetBundleDirectoryInfo);
         }
         static IEnumerable<FileInfo> GetAllFilesInDir(DirectoryInfo dir) {
