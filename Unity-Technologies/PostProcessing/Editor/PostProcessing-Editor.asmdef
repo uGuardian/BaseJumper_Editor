@@ -1,0 +1,17 @@
+{
+    "name": "PostProcessing-Editor",
+    "references": [
+        "GUID:87f622deb71901848a627334be37dd9c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
