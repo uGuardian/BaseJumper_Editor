@@ -24,41 +24,35 @@ public class AbnormalityFlavorTextEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Release()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ON_TEXT_CHANGED(UnityEngine.Object obj)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private IEnumerator AnimateVertexColors()
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AbnormalityFlavorTextEffect()
 	{
 		throw null;
 	}

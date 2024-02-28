@@ -13,13 +13,13 @@ public class BattleCardAbilityDescXmlList : Singleton<BattleCardAbilityDescXmlLi
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<string, BattleCardAbilityDesc> dictionary)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddByMode(string packageId, Dictionary<string, BattleCardAbilityDesc> dict)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -66,12 +66,6 @@ public class BattleCardAbilityDescXmlList : Singleton<BattleCardAbilityDescXmlLi
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public List<string> GetAbilityKeywords_byScript(string scriptName)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleCardAbilityDescXmlList()
 	{
 		throw null;
 	}

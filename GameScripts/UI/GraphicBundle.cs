@@ -13,31 +13,25 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetColor(Color color)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetDefault()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetHighlighted()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetDisabled()
 		{
-			
-		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public GraphicBundle()
-		{
-			throw null;
 		}
 	}
 }

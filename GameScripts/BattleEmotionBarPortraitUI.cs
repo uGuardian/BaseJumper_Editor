@@ -31,58 +31,51 @@ public class BattleEmotionBarPortraitUI : MonoBehaviour
 
 	public BattleUnitModel unit
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._unit;
 		}
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitModel unit, BattleEmotionInfoManagerUI manager)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetGrayScale()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerEnter()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerExit()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetPosDirect()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetColor(Color frame, Color linearDodge)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEmotionBarPortraitUI()
-	{
-		throw null;
 	}
 }

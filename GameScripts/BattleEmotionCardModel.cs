@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using LOR_DiceSystem;
 using LOR_XML;
 using UnityEngine;
@@ -17,484 +16,1119 @@ public class BattleEmotionCardModel
 
 	public EmotionCardXmlInfo XmlInfo
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._xmlInfo;
 		}
 	}
 
 	public List<EmotionCardAbilityBase> AbilityList
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._abilityList;
 		}
 	}
 
 	public BattleUnitModel Owner
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._owner;
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BattleEmotionCardModel(EmotionCardXmlInfo xmlInfo, BattleUnitModel owner)
 	{
-		throw null;
+		this._xmlInfo = xmlInfo;
+		this._owner = owner;
+		this._abilityList = new List<EmotionCardAbilityBase>();
+		try
+		{
+			foreach (string text in xmlInfo.Script)
+			{
+				EmotionCardAbilityBase emotionCardAbilityBase = Activator.CreateInstance(Type.GetType("EmotionCardAbility_" + text.Trim())) as EmotionCardAbilityBase;
+				emotionCardAbilityBase.SetEmotionCard(this);
+				this._abilityList.Add(emotionCardAbilityBase);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetOwner(BattleUnitModel owner)
 	{
-		
+		this._owner = owner;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public string GetTypoText(int index, params string[] param)
 	{
-		throw null;
+		AbnormalityCard abnormalityCard = Singleton<AbnormalityCardDescXmlList>.Instance.GetAbnormalityCard(this._xmlInfo.Name);
+		string result = "";
+		if (abnormalityCard != null)
+		{
+			return abnormalityCard.cardName;
+		}
+		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSelect()
 	{
-		
+		try
+		{
+			this._owner.UnitData.unitData.history.PickEmotionCard(this);
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnSelectEmotion();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSelectOnce()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnSelectEmotionOnce();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeDiceResult(BattleDiceBehavior behavior, ref int diceResult)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.ChangeDiceResult(behavior, ref diceResult);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDrawCard()
 	{
-		
+		try
+		{
+			this._abilityList.ForEach(delegate(EmotionCardAbilityBase x)
+			{
+				x.OnDrawCard();
+			});
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnWaveStart()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnWaveStart();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnRoundStart();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart_ignoreDead()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnRoundStart_ignoreDead();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart_after()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnRoundStart_after();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEnd()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnRoundEnd();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEndTheLast()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnRoundEndTheLast();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public StatBonus GetStatBonus()
 	{
-		throw null;
+		StatBonus statBonus = new StatBonus();
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				StatBonus statBonus2 = emotionCardAbilityBase.GetStatBonus();
+				if (statBonus2 != null)
+				{
+					statBonus.AddStatBonus(statBonus2);
+				}
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return statBonus;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetEmotionCoinAdder(int defaultCount)
 	{
-		throw null;
+		int result = 0;
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+			}
+		}
+		catch (Exception exception)
+		{
+			Debug.LogException(exception);
+		}
+		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUseCard(BattlePlayingCardDataInUnitModel card)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnUseCard(card);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDestroyCard(BattlePlayingCardDataInUnitModel card)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnDestroyCard(card);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnParryingStart(BattlePlayingCardDataInUnitModel card)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnParryingStart(card);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.BeforeRollDice(behavior);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRollDice(BattleDiceBehavior behavior)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnRollDice(behavior);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEnemyRollDice(BattleDiceBehavior behavior)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnEnemyRollDice(behavior);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnBattleEnd_alive()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnBattleEnd_alive();
+			}
+		}
+		catch (Exception exception)
+		{
+			Debug.LogException(exception);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BeforeGiveDamage(BattleDiceBehavior behavior)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.BeforeGiveDamage(behavior);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AfterDiceAction(BattleDiceBehavior behavior)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.AfterDiceAction(behavior);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSucceedAttack(BattleDiceBehavior behavior)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnSucceedAttack(behavior);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnWinParrying(BattleDiceBehavior behavior)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnWinParrying(behavior);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnGiveDeflect(BattleDiceBehavior behavior)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnGiveDeflect(behavior);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnLoseParrying(BattleDiceBehavior behavior)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnLoseParrying(behavior);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDiscardByAbility(List<BattleDiceCardModel> cards)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnDiscardByAbility(cards);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int OnAddKeywordBufByCard(BattleUnitBuf buf, int stack)
 	{
-		throw null;
+		int num = 0;
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				num += emotionCardAbilityBase.OnAddKeywordBufByCard(buf, stack);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int OnGiveKeywordBufByCard(BattleUnitBuf buf, int stack, BattleUnitModel target)
 	{
-		throw null;
+		int num = 0;
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				num += emotionCardAbilityBase.OnGiveKeywordBufByCard(buf, stack, target);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDieOtherUnit(BattleUnitModel unit)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnDieOtherUnit(unit);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckDmg(int dmg, BattleUnitModel target)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.CheckDmg(dmg, target);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetSpeedDiceAdder()
 	{
-		throw null;
+		int num = 0;
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				int speedDiceAdder = emotionCardAbilityBase.GetSpeedDiceAdder();
+				num += speedDiceAdder;
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetDamageReduction(BattleDiceBehavior behavior)
 	{
-		throw null;
+		int num = 0;
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				int damageReduction = emotionCardAbilityBase.GetDamageReduction(behavior);
+				num += damageReduction;
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetBreakDamageReduction(BattleDiceBehavior behavior)
 	{
-		throw null;
+		int num = 0;
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				int breakDamageReduction = emotionCardAbilityBase.GetBreakDamageReduction(behavior);
+				num += breakDamageReduction;
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsGiveDamageDouble()
 	{
-		throw null;
+		bool result = false;
+		try
+		{
+			using (List<EmotionCardAbilityBase>.Enumerator enumerator = this._abilityList.GetEnumerator())
+			{
+				while (enumerator.MoveNext())
+				{
+					if (enumerator.Current.IsGiveDamageDouble())
+					{
+						result = true;
+					}
+				}
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsTakeDamageDouble()
 	{
-		throw null;
+		bool result = false;
+		try
+		{
+			using (List<EmotionCardAbilityBase>.Enumerator enumerator = this._abilityList.GetEnumerator())
+			{
+				while (enumerator.MoveNext())
+				{
+					if (enumerator.Current.IsTakeDamageDouble())
+					{
+						result = true;
+					}
+				}
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAfterRollSpeedDice()
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				emotionCardAbilityBase.OnAfterRollSpeedDice();
+			}
+			catch (Exception exception)
+			{
+				Debug.LogException(exception);
+			}
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnTakeDamageByAttack(atkDice, dmg);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnTakeBreakDamageByAttack(BattleDiceBehavior atkDice, int dmg)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnTakeBreakDamageByAttack(atkDice, dmg);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnFriendTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnFriendTakeDamageByAttack(atkDice, dmg);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartCardAction(BattlePlayingCardDataInUnitModel curCard)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnStartCardAction(curCard);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartOneSideAction(BattlePlayingCardDataInUnitModel curCard)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnStartOneSideAction(curCard);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartTargetedOneSide(BattlePlayingCardDataInUnitModel curCard)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnStartTargetedOneSide(curCard);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool OnGetEmotionCoin(EmotionCoinType coin)
 	{
-		throw null;
+		bool flag = false;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			flag = (emotionCardAbilityBase.OnGetEmotionCoin(coin) || flag);
+		}
+		return flag;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndParrying(BattlePlayingCardDataInUnitModel curCard)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnEndParrying(curCard);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndOneSideAction(BattlePlayingCardDataInUnitModel curCard)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnEndOneSideAction(curCard);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDrawParrying(BattleDiceBehavior behavior)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnDrawParrying(behavior);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDie(BattleUnitModel killer)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			emotionCardAbilityBase.OnDie(killer);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnMakeBreakState(BattleUnitModel attacker)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnMakeBreakState(attacker);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnBreakState()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnBreakState();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnReleaseBreak()
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnReleaseBreak();
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnFixedUpdateInWaitPhase(float delta)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnFixedUpdateInWaitPhase(delta);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnKill(BattleUnitModel target)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.OnKill(target);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AfterGiveDamage(BattleUnitModel target, int dmg)
 	{
-		
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				emotionCardAbilityBase.AfterGiveDamage(target, dmg);
+			}
+		}
+		catch (Exception exception)
+		{
+			Debug.LogException(exception);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool CanForcelyAggro()
 	{
-		throw null;
+		using (List<EmotionCardAbilityBase>.Enumerator enumerator = this._abilityList.GetEnumerator())
+		{
+			while (enumerator.MoveNext())
+			{
+				if (enumerator.Current.CanForcelyAggro())
+				{
+					return true;
+				}
+			}
+		}
+		return false;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndBattlePhase()
 	{
-		
+		try
+		{
+			this._abilityList.ForEach(delegate(EmotionCardAbilityBase x)
+			{
+				x.OnEndBattlePhase();
+			});
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnLayerChanged(string layerName)
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				emotionCardAbilityBase.OnLayerChanged(layerName);
+			}
+			catch (Exception message)
+			{
+				Debug.LogError(message);
+			}
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRollDiceInRecounter()
 	{
-		
+		try
+		{
+			this._abilityList.ForEach(delegate(EmotionCardAbilityBase x)
+			{
+				x.OnRollDiceInRencounter();
+			});
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnBattleEnd()
 	{
-		
+		try
+		{
+			this._abilityList.ForEach(delegate(EmotionCardAbilityBase x)
+			{
+				x.OnBattleEnd();
+			});
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetCardCostAdder(BattleDiceCardModel card)
 	{
-		throw null;
+		int num = 0;
+		try
+		{
+			foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+			{
+				num += emotionCardAbilityBase.GetCardCostAdder(card);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public Sprite GetIcon()
 	{
-		throw null;
+		return null;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public AbnormalityCard GetAbilityOverlayDescription()
 	{
-		throw null;
+		AbnormalityCard result = null;
+		try
+		{
+			result = Singleton<AbnormalityCardDescXmlList>.Instance.GetAbnormalityCard(this.XmlInfo.Name);
+		}
+		catch (Exception message)
+		{
+			Debug.LogError(message);
+		}
+		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public AtkResist GetResistHP(AtkResist origin, BehaviourDetail detail)
 	{
-		throw null;
+		AtkResist atkResist = origin;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				atkResist = emotionCardAbilityBase.GetResistHP(atkResist, detail);
+			}
+			catch (Exception exception)
+			{
+				Debug.LogException(exception);
+			}
+		}
+		return atkResist;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public AtkResist GetResistBP(AtkResist origin, BehaviourDetail detail)
 	{
-		throw null;
+		AtkResist atkResist = origin;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				atkResist = emotionCardAbilityBase.GetResistBP(atkResist, detail);
+			}
+			catch (Exception exception)
+			{
+				Debug.LogException(exception);
+			}
+		}
+		return atkResist;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public List<EmotionCardAbilityBase> GetAbilityList()
 	{
-		throw null;
+		return this._abilityList;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartBattle()
 	{
-		
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				emotionCardAbilityBase.OnStartBattle();
+			}
+			catch (Exception exception)
+			{
+				Debug.LogException(exception);
+			}
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual bool BeforeTakeDamage(BattleUnitModel attacker, int dmg)
 	{
-		throw null;
+		bool flag = false;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				flag = (emotionCardAbilityBase.BeforeTakeDamage(attacker, dmg) || flag);
+			}
+			catch (Exception exception)
+			{
+				Debug.LogException(exception);
+			}
+		}
+		return flag;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual double ChangeDamage(BattleUnitModel attacker, double dmg)
 	{
-		throw null;
+		double num = dmg;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				num = emotionCardAbilityBase.ChangeDamage(attacker, num);
+			}
+			catch (Exception exception)
+			{
+				Debug.LogException(exception);
+			}
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int MaxPlayPointAdder()
 	{
-		throw null;
+		int num = 0;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				num += emotionCardAbilityBase.MaxPlayPointAdder();
+			}
+			catch (Exception)
+			{
+			}
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsImmune(KeywordBuf buf)
 	{
-		throw null;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				if (emotionCardAbilityBase.IsImmune(buf))
+				{
+					return true;
+				}
+			}
+			catch (Exception)
+			{
+			}
+		}
+		return false;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsImmuneDmg(DamageType type, KeywordBuf keyword = KeywordBuf.None)
 	{
-		throw null;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				if (emotionCardAbilityBase.IsImmuneDmg(type, keyword))
+				{
+					return true;
+				}
+			}
+			catch (Exception)
+			{
+			}
+		}
+		return false;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsImmuneBreakDmg(DamageType type)
 	{
-		throw null;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				if (emotionCardAbilityBase.IsImmuneBreakDmg(type))
+				{
+					return true;
+				}
+			}
+			catch (Exception)
+			{
+			}
+		}
+		return false;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public float DmgFactor(int dmg, DamageType type = DamageType.ETC, KeywordBuf keyword = KeywordBuf.None)
 	{
-		throw null;
+		float num = 1f;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				num *= emotionCardAbilityBase.DmgFactor(dmg, type, keyword);
+			}
+			catch (Exception)
+			{
+			}
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public float BreakDmgFactor(int dmg, DamageType type = DamageType.ETC, KeywordBuf keyword = KeywordBuf.None)
 	{
-		throw null;
+		float num = 1f;
+		foreach (EmotionCardAbilityBase emotionCardAbilityBase in this._abilityList)
+		{
+			try
+			{
+				num *= emotionCardAbilityBase.BreakDmgFactor(dmg, type, keyword);
+			}
+			catch (Exception)
+			{
+			}
+		}
+		return num;
 	}
 }

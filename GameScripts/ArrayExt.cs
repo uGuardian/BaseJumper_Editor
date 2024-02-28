@@ -1,11 +1,17 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 
 public static class ArrayExt
 {
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static bool Contains<T>(this T[] haystack, T needle)
 	{
-		throw null;
+		int num = haystack.Length;
+		for (int i = 0; i < num; i++)
+		{
+			if (haystack[i] != null && haystack[i].Equals(needle))
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 }

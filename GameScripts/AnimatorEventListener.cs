@@ -9,18 +9,12 @@ public class AnimatorEventListener : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Damge(int id)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Parrying()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AnimatorEventListener()
-	{
-		throw null;
 	}
 }

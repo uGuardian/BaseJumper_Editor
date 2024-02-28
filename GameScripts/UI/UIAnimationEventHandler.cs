@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 namespace UI
@@ -8,39 +7,41 @@ namespace UI
 	[RequireComponent(typeof(Animator))]
 	public class UIAnimationEventHandler : MonoBehaviour
 	{
-		private Dictionary<string, UIAnimationEventHandler.EventMethod> events;
+		private Dictionary<string, UIAnimationEventHandler.EventMethod> events = new Dictionary<string, UIAnimationEventHandler.EventMethod>();
 
 		public Animator Anim
 		{
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
 			{
-				throw null;
+				return base.gameObject.GetComponent<Animator>();
 			}
 		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void AddEvent(string key, UIAnimationEventHandler.EventMethod method)
 		{
-			
+			if (this.events.ContainsKey(key))
+			{
+				this.events[key] = method;
+				return;
+			}
+			this.events.Add(key, method);
 		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void RemoveEvent(string key)
 		{
-			
+			if (this.events.ContainsKey(key))
+			{
+				this.events.Remove(key);
+			}
 		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnCalled(string key)
 		{
-			
-		}
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public UIAnimationEventHandler()
-		{
-			throw null;
+			UIAnimationEventHandler.EventMethod eventMethod;
+			if (this.events.TryGetValue(key, out eventMethod))
+			{
+				eventMethod();
+			}
 		}
 
 		public delegate void EventMethod();

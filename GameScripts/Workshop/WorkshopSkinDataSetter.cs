@@ -32,43 +32,37 @@ namespace Workshop
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(Dictionary<ActionDetail, ClothCustomizeData> data)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(WorkshopSkinData data)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void LateInit()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetMotionData(ActionDetail motion, ClothCustomizeData data)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetOrder(CustomizedAppearance ca)
 		{
-			
-		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public WorkshopSkinDataSetter()
-		{
-			throw null;
 		}
 
 		public class PartRenderer

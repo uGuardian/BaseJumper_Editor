@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using LOR_XML;
+using Mod;
+using UnityEngine;
 
 public class AssemblyManager : Singleton<AssemblyManager>
 {
@@ -29,19 +31,19 @@ public class AssemblyManager : Singleton<AssemblyManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Initialize()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CallAllInitializer()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LoadTypesFromAssembly(Assembly assembly)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -98,38 +100,49 @@ public class AssemblyManager : Singleton<AssemblyManager>
 		throw null;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AssemblyManager()
-	{
-		throw null;
-	}
-
 	private class TypeDictionary<T> where T : class
 	{
-		private Dictionary<string, Type> _dict;
+		private Dictionary<string, Type> _dict = new Dictionary<string, Type>();
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		public bool Add(string key, Type value)
 		{
-			throw null;
+			if (this._dict.ContainsKey(key))
+			{
+				Singleton<ModContentManager>.Instance.AddErrorLog("Aleady Exists : " + key);
+				return false;
+			}
+			this._dict.Add(key, value);
+			return true;
 		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		public bool TryGetValue(string key, out Type value)
 		{
-			throw null;
+			return this._dict.TryGetValue(key, out value);
 		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		public T CreateInstance(string key)
 		{
-			throw null;
+			try
+			{
+				if (string.IsNullOrEmpty(key))
+				{
+					return default(T);
+				}
+				Type type;
+				if (this._dict.TryGetValue(key.Trim(), out type))
+				{
+					return Activator.CreateInstance(type) as T;
+				}
+			}
+			catch (Exception e)
+			{
+				Singleton<ModContentManager>.Instance.AddErrorLog(e);
+			}
+			return default(T);
 		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		public TypeDictionary()
 		{
-			throw null;
 		}
 	}
 }

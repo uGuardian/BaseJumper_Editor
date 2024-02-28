@@ -8,17 +8,11 @@ public class BattleDialogWithCreatureBattle : Singleton<BattleDialogWithCreature
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public string ReserveID(BattleUnitModel model)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleDialogWithCreatureBattle()
 	{
 		throw null;
 	}
@@ -28,11 +22,5 @@ public class BattleDialogWithCreatureBattle : Singleton<BattleDialogWithCreature
 		public string str;
 
 		public BattleUnitModel talker;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public ReserveInfo(string s)
-		{
-			throw null;
-		}
 	}
 }

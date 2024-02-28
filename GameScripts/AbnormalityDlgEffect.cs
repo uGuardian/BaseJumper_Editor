@@ -19,25 +19,25 @@ public class AbnormalityDlgEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ON_TEXT_CHANGED(UnityEngine.Object obj)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -49,13 +49,7 @@ public class AbnormalityDlgEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetEffect()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AbnormalityDlgEffect()
-	{
-		throw null;
 	}
 
 	private struct VertexAnim

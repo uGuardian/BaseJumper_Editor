@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using Battle.CreatureEffect;
 using LOR_DiceSystem;
 
@@ -10,363 +9,506 @@ public class BattleCardTotalResult
 
 	public BattleDiceCardModel usedCard;
 
-	public List<BattleDiceBehavior> usedDiceList;
+	public List<BattleDiceBehavior> usedDiceList = new List<BattleDiceBehavior>();
 
 	public BattleCardBehaviourResult.BehaviourEvent useCardEvent;
 
 	public BattleCardBehaviourResult.BehaviourEvent endCardActionEvent;
 
-	private List<BattleCardBehaviourResult> _behaviourResultList;
+	private List<BattleCardBehaviourResult> _behaviourResultList = new List<BattleCardBehaviourResult>();
 
 	private bool _didCardAction;
 
-	public List<BattleDiceBehaviourUI> prevBehaviour;
+	public List<BattleDiceBehaviourUI> prevBehaviour = new List<BattleDiceBehaviourUI>();
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BattleCardTotalResult(BattlePlayingCardDataInUnitModel playingCard)
 	{
-		throw null;
+		this.playingCard = playingCard;
+		this.usedCard = ((playingCard != null) ? playingCard.card : null);
 	}
 
 	public Queue<BattleCardBehaviourResult> BehaviourResultQueue
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			Queue<BattleCardBehaviourResult> queue = new Queue<BattleCardBehaviourResult>();
+			foreach (BattleCardBehaviourResult item in this._behaviourResultList)
+			{
+				queue.Enqueue(item);
+			}
+			return queue;
 		}
 	}
 
 	public IList<BattleCardBehaviourResult> BehaviourResultList
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._behaviourResultList;
 		}
 	}
 
 	private BattleCardBehaviourResult _curbehaviourResult
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			if (this._behaviourResultList.Count == 0)
+			{
+				this._behaviourResultList.Add(new BattleCardBehaviourResult());
+			}
+			return this._behaviourResultList[this._behaviourResultList.Count - 1];
 		}
 	}
 
 	public BattleCardBehaviourResult CurbehaviourResult
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._curbehaviourResult;
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitNextBehaviour()
 	{
-		
+		this._behaviourResultList.Add(new BattleCardBehaviourResult());
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBehaviour(BattleDiceBehavior behaviour)
 	{
-		
+		this._curbehaviourResult.hasBehaviour = (behaviour != null);
+		this._curbehaviourResult.behaviourRawData = ((behaviour != null) ? behaviour.behaviourInCard : null);
+		this._curbehaviourResult.playingCard = ((behaviour != null) ? behaviour.card : null);
+		BattleCardBehaviourResult curbehaviourResult = this._curbehaviourResult;
+		BattleDiceCardModel cardModel;
+		if (behaviour == null)
+		{
+			cardModel = null;
+		}
+		else
+		{
+			BattlePlayingCardDataInUnitModel card = behaviour.card;
+			cardModel = ((card != null) ? card.card : null);
+		}
+		curbehaviourResult.cardModel = cardModel;
+		this._curbehaviourResult.behaviourIdx = ((behaviour == null) ? -1 : behaviour.Index);
+		this._curbehaviourResult.behaviour = behaviour;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetVanillaDiceFace(int min, int max)
 	{
-		
+		this._curbehaviourResult.vanillaDiceMin = min;
+		this._curbehaviourResult.vanillaDiceFace = max;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetResultDiceFace(int min, int face)
 	{
-		
+		this._curbehaviourResult.resultDiceMin = min;
+		this._curbehaviourResult.resultDiceMax = face;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetVanillaDiceValue(int value)
 	{
-		
+		this._curbehaviourResult.vanillaDiceValue = value;
+		this._curbehaviourResult.vanillaDiceValueList.Add(value);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetResultDiceValue(int value)
 	{
-		
+		this._curbehaviourResult.resultDiceValue = value;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBufs(BattleUnitBuf buf)
 	{
-		
+		if (buf.positiveType == BufPositiveType.Positive)
+		{
+			this._curbehaviourResult.bufBeforeRoll.Add(buf.bufActivatedName);
+			return;
+		}
+		this._curbehaviourResult.debufBeforeRoll.Add(buf.bufActivatedName);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetNewBufs(BattleUnitBuf buf)
 	{
-		
+		if (buf.positiveType == BufPositiveType.Positive)
+		{
+			this._curbehaviourResult.bufAfterRoll.Add(buf.bufActivatedName);
+			this._curbehaviourResult.bufDataAfterRoll.Add(buf);
+			return;
+		}
+		this._curbehaviourResult.debufAfterRoll.Add(buf.bufActivatedName);
+		this._curbehaviourResult.bufDataAfterRoll.Add(buf);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetGift(GiftModel gift)
 	{
-		
+		this._curbehaviourResult.giftAbilityBeforeRoll.Add(gift.GetName());
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPassiveAbility(PassiveAbilityBase passive)
 	{
-		
+		this._curbehaviourResult.bookAbilityAfterRoll.Add(passive.desc);
+		this._curbehaviourResult.bookAbilityDataAfterRoll.Add(passive);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPassiveAbilityDesc(string desc)
 	{
-		
+		this._curbehaviourResult.bookAbilityAfterRoll.Add(desc);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDiceDestroyed(bool b)
 	{
-		
+		this._curbehaviourResult.isDestroyed = b;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEmotionAbility(BattleEmotionCardModel emotionPassive)
 	{
-		
+		this._curbehaviourResult.emotionAbilityBeforeRoll.Add(emotionPassive.ToString());
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEmotionAbility(bool activateByResult, BattleEmotionCardModel emotionPassive, int index, ResultOption option = ResultOption.Default, params int[] param)
 	{
-		
+		string[] array = new string[param.Length];
+		for (int i = 0; i < param.Length; i++)
+		{
+			if (option == ResultOption.Sign)
+			{
+				int num = param[i];
+				if (num > 0)
+				{
+					array[i] = "+" + num;
+				}
+				else
+				{
+					array[i] = num.ToString();
+				}
+			}
+			else
+			{
+				array[i] = param[i].ToString();
+			}
+		}
+		string typoText = emotionPassive.GetTypoText(index, array);
+		if (typoText == "")
+		{
+			return;
+		}
+		if (activateByResult)
+		{
+			this._curbehaviourResult.emotionAbilityAfterRoll.Add(typoText);
+			this._curbehaviourResult.emotionAbilityDataAfterRoll.Add(emotionPassive);
+		}
+		else
+		{
+			this._curbehaviourResult.emotionAbilityAfterRoll.Add(typoText);
+			this._curbehaviourResult.emotionAbilityDataAfterRoll.Add(emotionPassive);
+		}
+		if (!this._curbehaviourResult.activatedEmotionCardDictionary.ContainsKey(emotionPassive.XmlInfo.Name))
+		{
+			this._curbehaviourResult.activatedEmotionCardDictionary.Add(emotionPassive.XmlInfo.Name, emotionPassive);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEmotionAbilityEffect(string resPath)
 	{
-		
+		this._curbehaviourResult.addedAbnormalityEffectList.Add(resPath);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCreatureAbilityEffect(string resPath, float time = -1f)
 	{
-		
+		this._curbehaviourResult.addedCreatureEffectList.Add(new BattleCardBehaviourResult.CreatureEffectInfo
+		{
+			path = resPath,
+			time = time
+		});
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetNewCreatureAbilityEffect(string resPath, float time = -1f)
 	{
-		
+		string path = "New_IllusionCardFX/" + resPath;
+		this._curbehaviourResult.addedCreatureEffectList.Add(new BattleCardBehaviourResult.CreatureEffectInfo
+		{
+			path = path,
+			time = time
+		});
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ApplyCreatureEffect(CreatureEffect effect)
 	{
-		
+		if (this._curbehaviourResult.creatureEffects.Contains(effect))
+		{
+			return;
+		}
+		this._curbehaviourResult.creatureEffects.Add(effect);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCreatureEffectSound(string src)
 	{
-		
+		this._curbehaviourResult.craetureEffectSounds.Add(src);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAttackEffectFilter(Type filter)
 	{
-		
+		this._curbehaviourResult.addedAttackFilterList.Add(filter);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDiceBehaviourAbility(bool activateByResult, BattleDiceBehavior diceBehaviour, BattleDiceCardModel cardModel)
 	{
-		
+		LorId id = cardModel.GetID();
+		int num = cardModel.GetBehaviourList().IndexOf(diceBehaviour.behaviourInCard);
+		string value = Singleton<BattleCardAbilityDescXmlList>.Instance.GetAbilityDesc(diceBehaviour.behaviourInCard);
+		if (string.IsNullOrEmpty(value))
+		{
+			value = Singleton<BattleCardDescXmlList>.Instance.GetBehaviourDesc(id, num);
+		}
+		if (activateByResult)
+		{
+			if (!this._curbehaviourResult.behaviourAbilityAfterRoll.ContainsKey(num))
+			{
+				this._curbehaviourResult.behaviourAbilityAfterRoll.Add(num, value);
+				return;
+			}
+		}
+		else if (!this._curbehaviourResult.behaviourAbilityAfterRoll.ContainsKey(num))
+		{
+			this._curbehaviourResult.behaviourAbilityAfterRoll.Add(num, value);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBehaviourResult(DiceBehaviourResultData result)
 	{
-		
+		this._curbehaviourResult.diceBehaviourResult = result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDeathState(bool isDead)
 	{
-		
+		this._curbehaviourResult.isDead = isDead;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBreakState(bool isBreaked)
 	{
-		
+		this._curbehaviourResult.isBreaked = isBreaked;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDamageGiven(int dmg)
 	{
-		
+		this._curbehaviourResult.dmgListGiven.Add(dmg);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDamageTaken(int dmg, int maxValue, BehaviourDetail detail, AtkResist atkResist = AtkResist.Normal)
 	{
-		
+		this._curbehaviourResult.dmgListTaken.Add(new DmgTakenData(detail, dmg, maxValue, atkResist));
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBreakDmgGiven(int breakDmg)
 	{
-		
+		this._curbehaviourResult.breakListGiven.Add(breakDmg);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBreakDmgTaken(int breakDmg, BehaviourDetail detail, AtkResist atkResist)
 	{
-		
+		this._curbehaviourResult.breakListTaken.Add(new DmgTakenData(detail, breakDmg, -1, atkResist));
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetIsBlocked(bool blocked)
 	{
-		
+		this._curbehaviourResult.isBlockedDice = blocked;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetRecoveredHp(int amount)
 	{
-		
+		this._curbehaviourResult.recoveredHpList.Add(amount);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetRecoveredBp(int amount)
 	{
-		
+		this._curbehaviourResult.recoveredBpList.Add(amount);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCurrentHp(float curHp)
 	{
-		
+		this._curbehaviourResult.curHp = curHp;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCurrentBreakGauge(int breakGauge)
 	{
-		
+		this._curbehaviourResult.curBreakGauge = breakGauge;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetRecoveredLight(int amount)
 	{
-		
+		this._curbehaviourResult.recoveredLight += amount;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddEmotionCoin(EmotionCoinType coinType, int count)
 	{
-		
+		this._curbehaviourResult.SetEmotionCoinAdded(coinType, count);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBufEffect(string src)
 	{
-		
+		this._curbehaviourResult.AddBufEffect(src);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSucceedAtkEvent(BattleCardBehaviourResult.BehaviourEvent e)
 	{
-		
+		BattleCardBehaviourResult curbehaviourResult = this._curbehaviourResult;
+		curbehaviourResult.succeedAtkEvent = (BattleCardBehaviourResult.BehaviourEvent)Delegate.Combine(curbehaviourResult.succeedAtkEvent, e);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSucceedDefEvent(BattleCardBehaviourResult.BehaviourEvent e)
 	{
-		
+		BattleCardBehaviourResult curbehaviourResult = this._curbehaviourResult;
+		curbehaviourResult.succeedDefEvent = (BattleCardBehaviourResult.BehaviourEvent)Delegate.Combine(curbehaviourResult.succeedDefEvent, e);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetRolldiceEvent(BattleCardBehaviourResult.BehaviourEvent e)
 	{
-		
+		BattleCardBehaviourResult curbehaviourResult = this._curbehaviourResult;
+		curbehaviourResult.rolldiceEvent = (BattleCardBehaviourResult.BehaviourEvent)Delegate.Combine(curbehaviourResult.rolldiceEvent, e);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAfterActionEvent(BattleCardBehaviourResult.BehaviourEvent e)
 	{
-		
+		BattleCardBehaviourResult curbehaviourResult = this._curbehaviourResult;
+		curbehaviourResult.afterActionEvent = (BattleCardBehaviourResult.BehaviourEvent)Delegate.Combine(curbehaviourResult.afterActionEvent, e);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTakeDamagedEvent(BattleCardBehaviourResult.BehaviourEvent e)
 	{
-		
+		BattleCardBehaviourResult curbehaviourResult = this._curbehaviourResult;
+		curbehaviourResult.takeDamageEvent = (BattleCardBehaviourResult.BehaviourEvent)Delegate.Combine(curbehaviourResult.takeDamageEvent, e);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetUseCardEvent(BattleCardBehaviourResult.BehaviourEvent e)
 	{
-		
+		this.useCardEvent = (BattleCardBehaviourResult.BehaviourEvent)Delegate.Combine(this.useCardEvent, e);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEndCardActionEvent(BattleCardBehaviourResult.BehaviourEvent e)
 	{
-		
+		this.endCardActionEvent = (BattleCardBehaviourResult.BehaviourEvent)Delegate.Combine(this.endCardActionEvent, e);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPrintEffectEvent(BattleCardBehaviourResult.BehaviourEvent e)
 	{
-		
+		BattleCardBehaviourResult curbehaviourResult = this._curbehaviourResult;
+		curbehaviourResult.printAtkEffectEvent = (BattleCardBehaviourResult.BehaviourEvent)Delegate.Combine(curbehaviourResult.printAtkEffectEvent, e);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPrintDamagedEffectEvent(BattleCardBehaviourResult.BehaviourEvent e)
 	{
-		
+		BattleCardBehaviourResult curbehaviourResult = this._curbehaviourResult;
+		curbehaviourResult.printDamagedEffectEvent = (BattleCardBehaviourResult.BehaviourEvent)Delegate.Combine(curbehaviourResult.printDamagedEffectEvent, e);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetParam(int param)
 	{
-		
+		this._curbehaviourResult.iParam = param;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CompareDiceBehavioursUI(List<BattleDiceBehaviourUI> behaviours, CompareBehaviourUIType type)
 	{
-		
+		this.prevBehaviour.Clear();
+		switch (type)
+		{
+		case CompareBehaviourUIType.Before:
+			this.prevBehaviour.AddRange(this.GetBehavioursDiceState(CompareBehaviourUIType.Start));
+			break;
+		case CompareBehaviourUIType.End:
+		{
+			List<BattleDiceBehaviourUI> behavioursDiceState = this.GetBehavioursDiceState(CompareBehaviourUIType.Start);
+			this.prevBehaviour.AddRange(behavioursDiceState);
+			break;
+		}
+		}
+		using (List<BattleDiceBehaviourUI>.Enumerator enumerator = behaviours.GetEnumerator())
+		{
+			while (enumerator.MoveNext())
+			{
+				BattleDiceBehaviourUI b = enumerator.Current;
+				if (this.prevBehaviour.Count != 0)
+				{
+					BattleDiceBehaviourUI battleDiceBehaviourUI = this.prevBehaviour.Find((BattleDiceBehaviourUI x) => x.Index == b.Index);
+					if (battleDiceBehaviourUI != null)
+					{
+						if (battleDiceBehaviourUI.isSkip)
+						{
+							b.isRemoveInList = true;
+						}
+						else if (battleDiceBehaviourUI.isDestroyed)
+						{
+							b.isRemoveInList = true;
+						}
+					}
+				}
+			}
+		}
+		foreach (BattleDiceBehaviourUI item in behaviours.FindAll((BattleDiceBehaviourUI x) => x.isRemoveInList))
+		{
+			behaviours.Remove(item);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBehaviourDiceResultUI(CompareBehaviourUIType type)
 	{
-		
+		if (this.playingCard.currentBehavior != null)
+		{
+			List<BattleDiceBehaviourUI> behavioursDiceState = this.GetBehavioursDiceState(type);
+			behavioursDiceState.Clear();
+			foreach (BattleDiceBehavior be in this.playingCard.cardBehaviorQueue)
+			{
+				BattleDiceBehaviourUI item = new BattleDiceBehaviourUI(be);
+				behavioursDiceState.Add(item);
+			}
+			this.CompareDiceBehavioursUI(behavioursDiceState, type);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSkip(DiceUITiming timing = DiceUITiming.Start)
 	{
-		
+		List<BattleDiceBehaviourUI> behavioursDiceState = this.GetBehavioursDiceState(CompareBehaviourUIType.Start);
+		if (behavioursDiceState != null)
+		{
+			foreach (BattleDiceBehaviourUI battleDiceBehaviourUI in behavioursDiceState)
+			{
+				if (battleDiceBehaviourUI.behaviourInCard.Type == BehaviourType.Def || battleDiceBehaviourUI.behaviourInCard.Type == BehaviourType.Standby)
+				{
+					battleDiceBehaviourUI.isSkip = true;
+					battleDiceBehaviourUI.skipTiming = timing;
+				}
+			}
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public List<BattleDiceBehaviourUI> GetBehavioursDiceState(CompareBehaviourUIType type)
 	{
-		throw null;
+		List<BattleDiceBehaviourUI> result = new List<BattleDiceBehaviourUI>();
+		switch (type)
+		{
+		case CompareBehaviourUIType.Start:
+			result = this._curbehaviourResult.currentAllDiceState.StartBehaviours;
+			break;
+		case CompareBehaviourUIType.Before:
+			result = this._curbehaviourResult.currentAllDiceState.BeforeActionBehaviours;
+			break;
+		case CompareBehaviourUIType.End:
+			result = this._curbehaviourResult.currentAllDiceState.EndBehaviours;
+			break;
+		}
+		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCurrentBuf(BattleBufUIDataList bufDataList)
 	{
-		
+		this._curbehaviourResult.bufDataList.bufReadyList.Clear();
+		foreach (BattleBufUIData item in bufDataList.bufReadyList)
+		{
+			this._curbehaviourResult.bufDataList.bufReadyList.Add(item);
+		}
+		this._curbehaviourResult.bufDataList.bufActivatedList.Clear();
+		foreach (BattleBufUIData item2 in bufDataList.bufActivatedList)
+		{
+			this._curbehaviourResult.bufDataList.bufActivatedList.Add(item2);
+		}
 	}
 }

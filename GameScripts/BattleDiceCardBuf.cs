@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class BattleDiceCardBuf
 {
 	protected BattleDiceCardModel _card;
 
-	protected int _stack;
+	protected int _stack = -1;
 
-	protected int _priority;
+	protected int _priority = -1;
 
 	private bool _isDestroyed;
 
@@ -18,148 +17,135 @@ public class BattleDiceCardBuf
 
 	public virtual DiceCardBufType bufType
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return DiceCardBufType.None;
 		}
 	}
 
 	public int Stack
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._stack;
 		}
 	}
 
 	public virtual int paramInBufDesc
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._stack;
 		}
 	}
 
 	public int Priority
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._priority;
 		}
 	}
 
 	protected virtual string keywordId
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return "";
 		}
 	}
 
 	protected virtual string keywordIconId
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this.keywordId;
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public Sprite GetBufIcon()
 	{
-		throw null;
+		if (!this._iconInit)
+		{
+			try
+			{
+				if (!string.IsNullOrEmpty(this.keywordIconId))
+				{
+					this._bufIcon = Resources.Load<Sprite>("Sprites/CardAddedIcon/" + this.keywordIconId);
+				}
+			}
+			catch (Exception)
+			{
+				this._bufIcon = null;
+			}
+			this._iconInit = true;
+		}
+		return this._bufIcon;
 	}
 
 	public string bufActivatedText
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			if (string.IsNullOrEmpty(this.keywordId))
+			{
+				return "";
+			}
+			return Singleton<BattleEffectTextsXmlList>.Instance.GetEffectTextDesc("CardBuf_" + this.keywordId, this.paramInBufDesc);
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Destroy()
 	{
-		
+		this._isDestroyed = true;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsDestroyed()
 	{
-		throw null;
+		return this._isDestroyed;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleDiceCardModel card)
 	{
-		
+		this._card = card;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual int GetCost(int oldCost)
 	{
-		throw null;
+		return oldCost;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnUseCard(BattleUnitModel owner)
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnUseCard(BattleUnitModel owner, BattlePlayingCardDataInUnitModel playingCard)
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnDiscard(BattleUnitModel owner, BattleDiceCardModel card)
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundStart()
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnDrawCard()
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundEnd()
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual int OnAddKeywordBufByCard(BattleUnitBuf cardBuf, int stack)
 	{
-		throw null;
+		return 0;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual int OnGiveKeywordBufByCard(BattleUnitBuf cardBuf, int stack, BattleUnitModel target)
 	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleDiceCardBuf()
-	{
-		throw null;
+		return 0;
 	}
 }

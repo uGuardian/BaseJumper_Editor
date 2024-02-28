@@ -14,13 +14,13 @@ public class BattleDialogXmlList : Singleton<BattleDialogXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<string, BattleDialogRoot> dictionary, List<BattleDialogRelationWithBookID> list)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddDialogByMod(List<BattleDialogCharacter> list)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -55,12 +55,6 @@ public class BattleDialogXmlList : Singleton<BattleDialogXmlList>
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BattleDialog GetDialogPresetByType(DialogType type, string id)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleDialogXmlList()
 	{
 		throw null;
 	}

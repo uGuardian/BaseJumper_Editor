@@ -20,60 +20,54 @@ public class BattleEmotionInfo_AutoBtn : MonoBehaviour, IPointerEnterHandler, IE
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerDown(PointerEventData eventData)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerExit(PointerEventData eventData)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerUp(PointerEventData eventData)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPdSubmit(BaseEventData eventData)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPdCancel(BaseEventData eventData)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckAutoAlarmTutorial()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEmotionInfo_AutoBtn()
-	{
-		throw null;
 	}
 }

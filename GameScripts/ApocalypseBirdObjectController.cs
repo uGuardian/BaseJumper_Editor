@@ -19,49 +19,43 @@ public class ApocalypseBirdObjectController : MonoBehaviour
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return new List<Transform>(this._areaLaserPivotList);
 		}
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlayHandAtk(Direction handDirection, FarAreaEffect_EGO_ApcBird_PutDownAtk areaAtkScript)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Disappear()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnAnimEvent_StartAtk()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnAnimEvent_Damage()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnAnimEvent_EndAtk()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public ApocalypseBirdObjectController()
-	{
-		throw null;
 	}
 }

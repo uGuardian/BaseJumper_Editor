@@ -8,8 +8,7 @@ public class BattleDialogueModel_Sephirah : BattleDialogueModel
 
 	protected const int _stageId_RB2 = 60004;
 
-	public BattleDialogueModel_Sephirah(BattleDialogCharacter battleDlg)
-		: base(battleDlg)
+	public BattleDialogueModel_Sephirah(BattleDialogCharacter battleDlg) : base(battleDlg)
 	{
 	}
 

@@ -14,30 +14,24 @@ public class AutoDestruct : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DestroyWhenDisable()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AutoDestruct()
-	{
-		throw null;
 	}
 }

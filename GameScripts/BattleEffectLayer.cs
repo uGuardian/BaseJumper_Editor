@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class BattleEffectLayer : MonoBehaviour
@@ -9,44 +8,50 @@ public class BattleEffectLayer : MonoBehaviour
 
 	private List<TimeScalableEffect> _effectList;
 
-	private float _globalEffectTimeScale;
+	private float _globalEffectTimeScale = 1f;
 
 	public static BattleEffectLayer instance
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return BattleEffectLayer._instance;
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+		BattleEffectLayer._instance = this;
+		this._effectList = new List<TimeScalableEffect>();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnFixedUpdate(float deltaTime)
 	{
-		
+		List<TimeScalableEffect> list = new List<TimeScalableEffect>();
+		foreach (TimeScalableEffect timeScalableEffect in this._effectList)
+		{
+			timeScalableEffect.OnFixedUpdate(deltaTime);
+			if (timeScalableEffect.IsFinished())
+			{
+				list.Add(timeScalableEffect);
+			}
+		}
+		foreach (TimeScalableEffect timeScalableEffect2 in list)
+		{
+			this._effectList.Remove(timeScalableEffect2);
+			UnityEngine.Object.Destroy(timeScalableEffect2.gameObject);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetTimeScale(float timeScale)
 	{
-		
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEffectLayer()
-	{
-		throw null;
+		this._globalEffectTimeScale = timeScale;
+		foreach (TimeScalableEffect timeScalableEffect in this._effectList)
+		{
+			timeScalableEffect.SetTimeScale(timeScale);
+		}
 	}
 }

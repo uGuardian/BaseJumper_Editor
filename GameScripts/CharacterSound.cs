@@ -24,7 +24,7 @@ public class CharacterSound : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMotionSounds(List<BookSoundInfo> soundList, string path)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -36,38 +36,25 @@ public class CharacterSound : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PlaySound(LOR_DiceSystem.MotionDetail motion, bool win)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearSounds()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public CharacterSound()
-	{
-		throw null;
-	}
-
-	// Note: this type is marked as 'beforefieldinit'.
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	static CharacterSound()
-	{
-		throw null;
 	}
 
 	[Serializable]
@@ -78,12 +65,6 @@ public class CharacterSound : MonoBehaviour
 		public AudioClip winSound;
 
 		public AudioClip loseSound;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public Sound()
-		{
-			throw null;
-		}
 	}
 
 	public class ExternalSound
@@ -93,11 +74,5 @@ public class CharacterSound : MonoBehaviour
 		public string soundName;
 
 		public bool isWin;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public ExternalSound()
-		{
-			throw null;
-		}
 	}
 }

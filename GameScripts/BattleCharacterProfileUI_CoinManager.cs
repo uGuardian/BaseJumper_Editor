@@ -15,7 +15,7 @@ public class BattleCharacterProfileUI_CoinManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitModel unit)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -27,18 +27,12 @@ public class BattleCharacterProfileUI_CoinManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateCoins(BattleUnitModel unit)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDefaultCoinScale()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleCharacterProfileUI_CoinManager()
-	{
-		throw null;
 	}
 }

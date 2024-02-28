@@ -15,7 +15,7 @@ public class BattlePlayingCardDataInUnitModel
 
 	public BattleDiceCardModel card;
 
-	public List<BattlePlayingCardDataInUnitModel.SubTarget> subTargets;
+	public List<BattlePlayingCardDataInUnitModel.SubTarget> subTargets = new List<BattlePlayingCardDataInUnitModel.SubTarget>();
 
 	public DiceCardSelfAbilityBase cardAbility;
 
@@ -27,11 +27,11 @@ public class BattlePlayingCardDataInUnitModel
 
 	public int targetSlotOrder;
 
-	public Queue<BattleDiceBehavior> cardBehaviorQueue;
+	public Queue<BattleDiceBehavior> cardBehaviorQueue = new Queue<BattleDiceBehavior>();
 
 	public BattleDiceBehavior currentBehavior;
 
-	private List<int> _excludedIndies;
+	private List<int> _excludedIndies = new List<int>();
 
 	public BattleDiceBehavior currentBehaviorUI;
 
@@ -41,25 +41,24 @@ public class BattlePlayingCardDataInUnitModel
 
 	public bool ignorePower;
 
-	public int emotionMultiplier;
+	public int emotionMultiplier = 1;
 
-	private List<BattleUnitModel> _aliveOpponentListOnUse;
+	private List<BattleUnitModel> _aliveOpponentListOnUse = new List<BattleUnitModel>();
 
 	private float _elapsedAttackEnd;
 
 	public bool isDestroyed
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._bDestroyed;
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BattlePlayingCardDataInUnitModel()
 	{
-		throw null;
+		this.isKeepedCard = false;
+		this.subTargets = new List<BattlePlayingCardDataInUnitModel.SubTarget>();
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -71,7 +70,7 @@ public class BattlePlayingCardDataInUnitModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DestroyPlayingCard()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -95,25 +94,25 @@ public class BattlePlayingCardDataInUnitModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeSubTargetToMainTarget()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PrepareAction()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ActivateActionStart()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ActivateAttackActionUpdate(float deltaTime)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -179,31 +178,31 @@ public class BattlePlayingCardDataInUnitModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAllDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddExcludedDices(List<int> excludedIndies)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetExcludedDices()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetCardQueue()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetCardQueueWithoutStandby()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -215,109 +214,109 @@ public class BattlePlayingCardDataInUnitModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddDice(BattleDiceBehavior diceBehavior)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddDiceFront(BattleDiceBehavior diceBehavior)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCurBehaviorToQueueFirst()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnWinParryingAttack()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnWinParryingDefense()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AfterAction()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnLoseParrying()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDefenseWithoutParryingWin()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDrawParrying()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUseCard_before()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUseCard()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnActivateResonance()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartBattle()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartBattleAfterCreateBehaviour()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndAreaAttack()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndBattle()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BeforeRollDice(BattleDiceBehavior behavior)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BeforeGiveDamage(BattleDiceBehavior behavior)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -329,31 +328,31 @@ public class BattlePlayingCardDataInUnitModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartParrying()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnStartOneSideAction()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSucceedAttack(BattleDiceBehavior behavior)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRollDice(BattleDiceBehavior behavior)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSucceedAreaAttack(BattleUnitModel target)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -377,19 +376,19 @@ public class BattlePlayingCardDataInUnitModel
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void NextDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSucceedAtkEvent()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSucceedDefEvent()
 	{
-		
+
 	}
 
 	public delegate void ForeachAction(BattleDiceBehavior ability);
@@ -399,11 +398,5 @@ public class BattlePlayingCardDataInUnitModel
 		public BattleUnitModel target;
 
 		public int targetSlotOrder;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public SubTarget()
-		{
-			
-		}
 	}
 }

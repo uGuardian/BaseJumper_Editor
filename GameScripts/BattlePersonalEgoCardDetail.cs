@@ -14,58 +14,57 @@ public class BattlePersonalEgoCardDetail
 
 	private List<BattleDiceCardModel> _cardInReserved;
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BattlePersonalEgoCardDetail(BattleUnitModel self)
 	{
-		throw null;
+		this._self = self;
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCard(int cardId)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCard(LorId cardId)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddEgoCoolTime(int count)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveCard(int cardId)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveCard(LorId cardId)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReturnCardsInUse()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UseCard(BattleDiceCardModel card)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -77,7 +76,7 @@ public class BattlePersonalEgoCardDetail
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReturnCardToHand(BattleDiceCardModel appliedCard)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

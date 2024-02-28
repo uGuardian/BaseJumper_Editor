@@ -12,13 +12,13 @@ public class AssetBundleManagerRemake : Singleton<AssetBundleManagerRemake>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UnloadAllCharacterCache()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -36,7 +36,7 @@ public class AssetBundleManagerRemake : Singleton<AssetBundleManagerRemake>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoadCardAssetBundle()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -54,7 +54,7 @@ public class AssetBundleManagerRemake : Singleton<AssetBundleManagerRemake>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReleaseSdObject(string resourceName)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -81,12 +81,6 @@ public class AssetBundleManagerRemake : Singleton<AssetBundleManagerRemake>
 		throw null;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AssetBundleManagerRemake()
-	{
-		throw null;
-	}
-
 	public class AssetResourceCacheData
 	{
 		public AssetBundle asset;
@@ -96,11 +90,5 @@ public class AssetBundleManagerRemake : Singleton<AssetBundleManagerRemake>
 		public GameObject resObject;
 
 		public int refCount;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public AssetResourceCacheData()
-		{
-			throw null;
-		}
 	}
 }

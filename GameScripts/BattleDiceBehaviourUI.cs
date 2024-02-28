@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using LOR_DiceSystem;
 
 public class BattleDiceBehaviourUI
@@ -16,7 +15,7 @@ public class BattleDiceBehaviourUI
 
 	public DiceUITiming skipTiming;
 
-	private int _index;
+	private int _index = -1;
 
 	public bool isRemoveInList;
 
@@ -26,28 +25,35 @@ public class BattleDiceBehaviourUI
 
 	public int Index
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._index;
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BattleDiceBehaviourUI(BattleDiceBehavior be)
 	{
-		throw null;
+		this.behaviourInCard = be.behaviourInCard;
+		this._index = be.Index;
+		this.cardmodel = be.card.card;
+		this.isDestroyed = be.DiceDestroyed;
+		this.destroyedTiming = be.destroyedTiming;
+		this.isWinAgainstFarAtk = be.winAgainstFarAtk;
+		this.addedTimingWinAgainstFarAtk = DiceUITiming.AttackAfter;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BattleDiceBehaviourUI(BattleDiceBehaviourUI be)
 	{
-		throw null;
+		this.behaviourInCard = be.behaviourInCard;
+		this._index = be.Index;
+		this.cardmodel = be.cardmodel;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Copy(BattleDiceBehaviourUI b)
 	{
-		
+		this.behaviourInCard = b.behaviourInCard;
+		this.isDestroyed = b.isDestroyed;
+		this.isSkip = b.isSkip;
+		this._index = b.Index;
 	}
 }

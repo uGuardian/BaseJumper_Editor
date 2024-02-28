@@ -16,30 +16,24 @@ public class BattleCharacterProfileEmotionUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(int lv)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateEmotion(int emotionLV)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEmotionLv()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetGrayScaleColor(bool _grayScaled)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleCharacterProfileEmotionUI()
-	{
-		throw null;
 	}
 }

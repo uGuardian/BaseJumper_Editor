@@ -10,17 +10,11 @@ public class AbnormalityAbilityTextXmlList : Singleton<AbnormalityAbilityTextXml
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<string, AbnormalityAbilityText> dictionary)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public string GetAbilityText(string id, int index)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AbnormalityAbilityTextXmlList()
 	{
 		throw null;
 	}

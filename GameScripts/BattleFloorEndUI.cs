@@ -33,47 +33,41 @@ public class BattleFloorEndUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndBattleInFloor(bool victory, StageType stageType, BattleFloorEndUI.AfterAnimationEvent endFunc)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAppearAnimEnd()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnTypoAnim()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDisappearAnimEnd()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSubmit()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private IEnumerator asd()
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleFloorEndUI()
 	{
 		throw null;
 	}

@@ -70,13 +70,13 @@ public class BattleEmotionCoinUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Acquisition(BattleUnitModel unit, Vector3 unitWorldPosition, bool positive)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -88,37 +88,37 @@ public class BattleEmotionCoinUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Test_Gen()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void TestShoot()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void TestPos()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AppearTest()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Test(int index)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAcquireCoin(BattleUnitModel unit, EmotionCoinType coinType, int count)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -130,31 +130,25 @@ public class BattleEmotionCoinUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckGeneration()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDestroy()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEmotionCoinUI()
-	{
-		throw null;
 	}
 
 	[Serializable]
@@ -165,11 +159,5 @@ public class BattleEmotionCoinUI : MonoBehaviour
 		public float sinFactor;
 
 		public RectTransform target;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public BattleEmotionCoinData()
-		{
-			throw null;
-		}
 	}
 }

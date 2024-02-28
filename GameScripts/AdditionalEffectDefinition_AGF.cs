@@ -9,7 +9,7 @@ public static class AdditionalEffectDefinition_AGF
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void InitDictionary()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -24,13 +24,6 @@ public static class AdditionalEffectDefinition_AGF
 		throw null;
 	}
 
-	// Note: this type is marked as 'beforefieldinit'.
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	static AdditionalEffectDefinition_AGF()
-	{
-		throw null;
-	}
-
 	public class SoundEffectInfo
 	{
 		public int chapterID;
@@ -38,11 +31,5 @@ public static class AdditionalEffectDefinition_AGF
 		public int episodeIdx;
 
 		public Dictionary<int, string> soundEffectDic;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public SoundEffectInfo()
-		{
-			throw null;
-		}
 	}
 }

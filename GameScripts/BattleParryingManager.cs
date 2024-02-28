@@ -35,61 +35,61 @@ public class BattleParryingManager : Singleton<BattleParryingManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartParrying(BattlePlayingCardDataInUnitModel cardEnemy, BattlePlayingCardDataInUnitModel cardLibrarian)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void FirstApproachPhase()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Decision()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ActionPhase()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ActionPhaseAtkVSAtk()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ActionPhaseAtkVSAtkDraw()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ActionPhaseAtkVSDfn()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ActionPhaseAtkVSDfnDraw()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ActionPhaseDfnVSDfn()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ActionPhaseDfnVSDfnDraw()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -101,73 +101,67 @@ public class BattleParryingManager : Singleton<BattleParryingManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckParryingEnd()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndParrying()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckStandyDiceBeforeEndParrying(BattleParryingManager.ParryingTeam team)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void RollDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndAction()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void BeforeRollDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AfterRollDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetAbilityDataBeforeRoll(BattleUnitModel model, BattleCardTotalResult result)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetAbilityDataAfterRoll(BattleUnitModel model, BattleCardTotalResult result)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetBehaviourResultData(BattleParryingManager.ParryingTeam team, BattleParryingManager.ParryingTeam opponentTeam, BattleCardTotalResult result)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDiceResultData(BattleDiceBehavior diceBehavior, BattleCardTotalResult result, BattleDiceBehavior diceBehaviorforUI = null)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleParryingManager()
-	{
-		throw null;
 	}
 
 	public enum ParryingDiceType
@@ -195,19 +189,19 @@ public class BattleParryingManager : Singleton<BattleParryingManager>
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init(BattleUnitModel unit, BattlePlayingCardDataInUnitModel playingCard)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetOpponent(BattleParryingManager.ParryingTeam opponent)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void NextDice()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -267,32 +261,19 @@ public class BattleParryingManager : Singleton<BattleParryingManager>
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void BeforeRollDice(BattleDiceBehavior targetDice)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void RollDice()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void UpdateDiceFinalValue()
 		{
-			
-		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public ParryingTeam()
-		{
-			throw null;
-		}
-
-		// Note: this type is marked as 'beforefieldinit'.
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		static ParryingTeam()
-		{
-			throw null;
 		}
 	}
 

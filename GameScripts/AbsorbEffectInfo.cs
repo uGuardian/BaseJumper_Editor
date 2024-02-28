@@ -11,12 +11,13 @@ public class AbsorbEffectInfo
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public AbsorbEffectInfo(GameObject effectObj, Vector3 src, Vector3 dst)
 	{
-		throw null;
+		this.effectObj = effectObj;
+		this.curve = new SimpleBezier(src, dst);
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPos(float t)
 	{
-		
+
 	}
 }

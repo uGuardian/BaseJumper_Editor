@@ -18,18 +18,12 @@ public class _2DC_ShaderLerpDemo : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public _2DC_ShaderLerpDemo()
-	{
-		throw null;
 	}
 }

@@ -72,25 +72,25 @@ public class BattleEmotionCoinSlotUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Vector2 inital, AnimationCurve cos, AnimationCurve sin, BattleEmotionCoinUI.BattleEmotionCoinData data, Camera pivotCamera, RectTransform canvasRect, bool isPositive, float duration, BattleUnitModel unit, float cameraFactor)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCoinTexture(bool isPositive)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -102,30 +102,24 @@ public class BattleEmotionCoinSlotUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartMoving(float duration)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAppeared()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnCompeleteAcquire()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEmotionCoinSlotUI()
-	{
-		throw null;
 	}
 }

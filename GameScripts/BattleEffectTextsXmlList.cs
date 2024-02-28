@@ -10,7 +10,7 @@ public class BattleEffectTextsXmlList : Singleton<BattleEffectTextsXmlList>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(Dictionary<string, BattleEffectText> dictionary)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -39,12 +39,6 @@ public class BattleEffectTextsXmlList : Singleton<BattleEffectTextsXmlList>
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public string GetEffectTextDesc(string id)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEffectTextsXmlList()
 	{
 		throw null;
 	}

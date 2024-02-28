@@ -89,77 +89,72 @@ public class ActionManager : SingletonBehavior<ActionManager>
 
 	public bool IsPosArranged
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._bAPosArranged;
 		}
 	}
 
 	public bool IsActionEnd
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._bActionEnd;
 		}
 	}
 
 	public bool IsReadyAction
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this.unitA.isReadyAction && this.unitB.isReadyAction;
 		}
 	}
 
 	public bool IsActionEndOnce
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._bActionEndOnce;
 		}
 	}
 
 	public bool IsInitialized
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._bInitialized;
 		}
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitData(BattleUnitView leftView, BattleUnitView rightView)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBattleResult(ResultData enemyResult, ResultData allyResult)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DoAction()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void WaitRolling(bool b)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CreateDamageText(int dmg, ActionCharacter actionView, bool isAdditionalDmg)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -177,13 +172,13 @@ public class ActionManager : SingletonBehavior<ActionManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndAction()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndActionForcely()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -213,18 +208,12 @@ public class ActionManager : SingletonBehavior<ActionManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public ActionManager()
-	{
-		throw null;
 	}
 }

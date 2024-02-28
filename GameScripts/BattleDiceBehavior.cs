@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using LOR_DiceSystem;
+using UnityEngine;
 
 public class BattleDiceBehavior
 {
 	public DiceBehaviour behaviourInCard;
 
-	public List<DiceCardAbilityBase> abilityList;
+	public List<DiceCardAbilityBase> abilityList = new List<DiceCardAbilityBase>();
 
 	public BattlePlayingCardDataInUnitModel card;
 
@@ -47,159 +48,143 @@ public class BattleDiceBehavior
 
 	public bool passingEvasion;
 
-	private DiceStatBonus _statBonus;
+	private DiceStatBonus _statBonus = new DiceStatBonus();
 
 	private DiceStatBonus _firstStatBonus;
 
-	public List<DiceFlag> _flags;
+	public List<DiceFlag> _flags = new List<DiceFlag>();
 
-	private List<BattleUnitModel> _aliveOpponentList;
+	private List<BattleUnitModel> _aliveOpponentList = new List<BattleUnitModel>();
 
 	private int _index;
 
-	private DiceEffectType _effectType;
+	private DiceEffectType _effectType = DiceEffectType.None;
 
 	public BattleUnitModel owner
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this.card.owner;
 		}
 	}
 
 	public BehaviourType Type
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this.behaviourInCard.Type;
 		}
 	}
 
 	public BehaviourDetail Detail
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this.behaviourInCard.Detail;
 		}
 	}
 
 	public int DiceResultValue
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._diceFinalResultValue;
 		}
 	}
 
 	public int DiceVanillaValue
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._diceResultValue;
 		}
 	}
 
 	public bool DiceDestroyed
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._diceDestroyed;
 		}
 	}
 
 	public int DiceResultDamage
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._diceResultDamage;
 		}
 	}
 
 	public BattleDiceBehavior TargetDice
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._targetDice;
 		}
 	}
 
 	public int DiceFaceAdder
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._statBonus.face;
 		}
 	}
 
 	public int DamageAdder
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._statBonus.dmg;
 		}
 	}
 
 	public int BreakAdder
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._statBonus.breakDmg;
 		}
 	}
 
 	public int PowerAdder
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._statBonus.power;
 		}
 	}
 
 	public int GuardBreakAdder
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._statBonus.guardBreakAdder;
 		}
 	}
 
 	public int GuardBreakMultiplier
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._statBonus.guardBreakMultiplier;
 		}
 	}
 
 	public bool IsBlocked
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._isBlocked;
 		}
 	}
 
 	public int Index
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._index;
 		}
 	}
 
@@ -212,19 +197,19 @@ public class BattleDiceBehavior
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetIndex(int index)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddAbility(DiceCardAbilityBase ability)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateDiceFinalValue()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -254,19 +239,19 @@ public class BattleDiceBehavior
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BeforeRollDice(BattleDiceBehavior targetDice)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CopyAbilityAndStat(BattleDiceBehavior behavior)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RollDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -278,19 +263,19 @@ public class BattleDiceBehavior
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDamageRedution(int value)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBlocked(bool b)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddDiceFace(int value)
 	{
-		
+
 	}
 
 	public DiceEffectType EffectType
@@ -305,25 +290,25 @@ public class BattleDiceBehavior
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDiceEffect(DiceEffectType type)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DestroyDice(DiceUITiming timing)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ApplyDiceStatBonus(DiceStatBonus bonus)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddFlag(DiceFlag flag)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -335,31 +320,31 @@ public class BattleDiceBehavior
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void GiveDamage(BattleUnitModel target)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void GiveDeflectDamage(BattleDiceBehavior targetDice)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndFarAreaBehaviourAtk(List<BattleUnitModel> damagedList, List<BattleUnitModel> defensedList)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SaveBeforeRollDiceStateForAchievements()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEventDiceAbility(DiceCardAbilityBase.DiceCardPassiveType dicePassiveType, BattleUnitModel target = null)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -370,12 +355,6 @@ public class BattleDiceBehavior
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private bool IsAttackDice(BehaviourDetail diceDetail)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleDiceBehavior()
 	{
 		throw null;
 	}

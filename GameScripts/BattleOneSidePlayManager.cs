@@ -18,7 +18,7 @@ public class BattleOneSidePlayManager : Singleton<BattleOneSidePlayManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartOneSidePlay(BattlePlayingCardDataInUnitModel card)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -30,79 +30,73 @@ public class BattleOneSidePlayManager : Singleton<BattleOneSidePlayManager>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void NextDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void PreDecision()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Decision()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Action()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void CheckEndAction()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void EndCardAction()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void BeforeRollDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void AfterRollDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetAbilityDataBeforeRoll(BattleUnitModel model, BattleCardTotalResult result)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetAbilityDataAfterRoll(BattleUnitModel model, BattleCardTotalResult result)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetBehaviourResultData(BattleDiceBehavior behaviour, BattleDiceBehavior opponentBehaviour, BattleCardTotalResult result, BattleDiceBehavior behaviorForDiceUI = null)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDiceResultData(BattleDiceBehavior diceBehavior, BattleCardTotalResult result, BattleDiceBehavior diceBehaviorforUI = null)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleOneSidePlayManager()
-	{
-		throw null;
 	}
 
 	private enum OneSidePlayPhase

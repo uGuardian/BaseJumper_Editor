@@ -16,13 +16,13 @@ public class AwakeEgoEffect : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void CreateEffect(BattleUnitModel model)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static void EndEffect()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -33,12 +33,6 @@ public class AwakeEgoEffect : MonoBehaviour
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	internal IEnumerator ChangeIntensity(float time = 3.40282347E+38f)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AwakeEgoEffect()
 	{
 		throw null;
 	}

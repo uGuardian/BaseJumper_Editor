@@ -7,10 +7,4 @@ public class AttackEffectPathInfoRoot
 {
 	[XmlElement("Info")]
 	public List<AttackEffectPathXmlInfo> list;
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AttackEffectPathInfoRoot()
-	{
-		throw null;
-	}
 }

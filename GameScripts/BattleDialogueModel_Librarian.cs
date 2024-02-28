@@ -27,9 +27,19 @@ public class BattleDialogueModel_Librarian : BattleDialogueModel
 
 	private Dictionary<DialogType, List<BattleDialog>> _dlgDictionaryInBattle;
 
-	public BattleDialogueModel_Librarian(BattleDialogCharacter battleDlg)
-		: base(battleDlg)
-	{}
+	public BattleDialogueModel_Librarian(BattleDialogCharacter battleDlg) : base(battleDlg)
+	{
+		if (BattleDialogueModel_Librarian.librarianIndex.Count == 0)
+		{
+			BattleDialogueModel_Librarian.librarianIndex.Add(1);
+			BattleDialogueModel_Librarian.librarianIndex.Add(2);
+			BattleDialogueModel_Librarian.librarianIndex.Add(3);
+			BattleDialogueModel_Librarian.librarianIndex.Add(4);
+		}
+		this._index = RandomUtil.SelectOne<int>(BattleDialogueModel_Librarian.librarianIndex);
+		BattleDialogueModel_Librarian.librarianIndex.Remove(this._index);
+		this._dlgDictionaryInBattle = null;
+	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public override string GetBattleDlg(DialogType dlgType)
@@ -39,13 +49,6 @@ public class BattleDialogueModel_Librarian : BattleDialogueModel
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual string GetBattleDlg_BS(DialogType dlgType, SephirahType sephirah, string sephirahName)
-	{
-		throw null;
-	}
-
-	// Note: this type is marked as 'beforefieldinit'.
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	static BattleDialogueModel_Librarian()
 	{
 		throw null;
 	}

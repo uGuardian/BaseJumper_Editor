@@ -9,10 +9,4 @@ public class AttackEffectPathXmlInfo
 
 	[XmlElement("FilePath")]
 	public string filepath;
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AttackEffectPathXmlInfo()
-	{
-		throw null;
-	}
 }

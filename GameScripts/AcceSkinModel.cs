@@ -13,10 +13,4 @@ public class AcceSkinModel : ItemModel
 	{
 		throw null;
 	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AcceSkinModel()
-	{
-		throw null;
-	}
 }

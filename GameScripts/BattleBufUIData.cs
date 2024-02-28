@@ -23,10 +23,4 @@ public class BattleBufUIData
 	public BufPositiveType bufPositiveType;
 
 	public BattleUnitBuf buf;
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleBufUIData()
-	{
-		throw null;
-	}
 }

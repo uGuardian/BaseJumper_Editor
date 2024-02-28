@@ -44,49 +44,43 @@ public class BattleFinalEndUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndFinalBattle(bool victory, BattleFinalEndUI.AfterAnimEvent endFunc)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnTypoAnim(int idx)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDisableUI()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSubmit()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleFinalEndUI()
-	{
-		throw null;
 	}
 
 	public delegate void AfterAnimEvent(bool param);

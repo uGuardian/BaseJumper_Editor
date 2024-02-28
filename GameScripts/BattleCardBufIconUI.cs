@@ -9,12 +9,6 @@ public class BattleCardBufIconUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattlePlayingCardDataInUnitModel model)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleCardBufIconUI()
-	{
-		throw null;
 	}
 }

@@ -29,7 +29,7 @@ public class CamRootRotator : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateBorder(float ortho, float yOffsetLv)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -41,18 +41,12 @@ public class CamRootRotator : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public CamRootRotator()
-	{
-		throw null;
 	}
 }

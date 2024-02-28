@@ -8,10 +8,5 @@ namespace UI
 	[Serializable]
 	public class UnityEventBasedata : UnityEvent<BaseEventData>
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public UnityEventBasedata()
-		{
-			throw null;
-		}
 	}
 }

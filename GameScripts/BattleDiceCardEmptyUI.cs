@@ -4,9 +4,4 @@ using UnityEngine;
 
 public class BattleDiceCardEmptyUI : MonoBehaviour
 {
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleDiceCardEmptyUI()
-	{
-		throw null;
-	}
 }

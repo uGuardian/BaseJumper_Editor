@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class BattleCamera
@@ -16,33 +15,26 @@ public class BattleCamera
 
 	private float _elapsedTime;
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReturnCameraState(float time)
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StopZoom()
 	{
-		
+		this._on = false;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsZoomOn()
 	{
-		throw null;
+		return this._on;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUpdate()
 	{
-		
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleCamera()
-	{
-		throw null;
+		this._elapsedTime += Time.unscaledDeltaTime;
+		if (this._elapsedTime >= this._zoomTime)
+		{
+			this._on = false;
+		}
 	}
 }

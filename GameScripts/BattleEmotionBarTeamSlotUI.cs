@@ -27,55 +27,49 @@ public class BattleEmotionBarTeamSlotUI : MonoBehaviour, IPointerEnterHandler, I
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return _currentTeam;
 		}
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitEnemyTeamIcon(EmotionBattleTeamModel team, BattleEmotionInfoManagerUI manager)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitPlayerTeamIcon(EmotionBattleTeamModel team, BattleEmotionInfoManagerUI manager)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetPosDirect()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetColor(Color frame, Color linearDodge)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerExit(PointerEventData eventData)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEmotionBarTeamSlotUI()
-	{
-		throw null;
 	}
 }

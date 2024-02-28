@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class BattleMapScratch : MonoBehaviour
@@ -8,27 +7,28 @@ public class BattleMapScratch : MonoBehaviour
 
 	private float _elapsed;
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+		this._renderer = base.GetComponent<SpriteRenderer>();
+		Color color = this._renderer.color;
+		color.a = 0f;
+		this._renderer.color = color;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleMapScratch()
-	{
-		throw null;
+		if (this._elapsed <= 1f)
+		{
+			this._elapsed += Time.deltaTime * 5f;
+			Color color = this._renderer.color;
+			color.a = this._elapsed;
+			this._renderer.color = color;
+			return;
+		}
+		this._elapsed = 2f;
 	}
 }

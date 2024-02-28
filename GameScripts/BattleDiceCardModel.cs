@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using LOR_DiceSystem;
 using UnityEngine;
 
@@ -12,11 +11,11 @@ public class BattleDiceCardModel
 
 	private CardDirection _cardDirection;
 
-	private List<BattleDiceCardBuf> _bufList;
+	private List<BattleDiceCardBuf> _bufList = new List<BattleDiceCardBuf>();
 
-	private List<BattleDiceCardModel.CardIcon> _addedIcons;
+	private List<BattleDiceCardModel.CardIcon> _addedIcons = new List<BattleDiceCardModel.CardIcon>();
 
-	private string _iconAdder;
+	private string _iconAdder = "";
 
 	private int _costAdder;
 
@@ -44,422 +43,596 @@ public class BattleDiceCardModel
 
 	public DiceCardXmlInfo XmlData
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._xmlData;
 		}
 	}
 
 	public int CurCost
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._curCost;
 		}
 	}
 
 	public float MaxCooltimeValue
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this.maxCooltimeValue;
 		}
 	}
 
 	public float CurrentCooltimeValue
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this.currentCooltimeValue;
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool CanAddedEgoCard()
 	{
-		throw null;
+		return this.currentCooltimeValue >= this.maxCooltimeValue;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetMaxCooltime()
 	{
-		
+		this.maxCooltimeValue = (float)this.XmlData.EgoMaxCooltimeValue;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCurrentCostMax()
 	{
-		
+		this.currentCooltimeValue = this.maxCooltimeValue;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCoolTime(float value)
 	{
-		
+		this.currentCooltimeValue += value;
+		if (this.currentCooltimeValue >= this.maxCooltimeValue)
+		{
+			this.currentCooltimeValue = this.maxCooltimeValue;
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetCoolTime()
 	{
-		
+		this.currentCooltimeValue = 0f;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleDiceCardModel()
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ReserveExhaust()
 	{
-		
+		this.exhaust = true;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CopySelf()
 	{
-		
+		this._originalXmlData = this._xmlData;
+		this._xmlData = this._originalXmlData.Copy(true);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetToOriginalData()
 	{
-		
+		if (this._originalXmlData != null)
+		{
+			this._xmlData = this._originalXmlData.Copy(false);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public string GetName()
 	{
-		throw null;
+		if (LorId.IsModId(this._xmlData.workshopID))
+		{
+			return this._xmlData.workshopName;
+		}
+		return Singleton<BattleCardDescXmlList>.Instance.GetCardDesc(this._xmlData.TextId).cardName;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public LorId GetID()
 	{
-		throw null;
+		return this._xmlData.id;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public LorId GetTextId()
 	{
-		throw null;
+		return this._xmlData.TextId;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public Rarity GetRarity()
 	{
-		throw null;
+		return this._xmlData.Rarity;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetGrade()
 	{
-		throw null;
+		return 1;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public DiceCardSpec GetSpec()
 	{
-		throw null;
+		return this._xmlData.Spec;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsExhaustOnUse()
 	{
-		throw null;
+		return this._xmlData.IsExhaustOnUse();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeFarToNearForMyo()
 	{
-		
+		if (this._xmlData.Spec.Ranged != CardRange.Far)
+		{
+			return;
+		}
+		DiceCardSpec diceCardSpec = this._xmlData.Spec.Copy();
+		diceCardSpec.Ranged = CardRange.Near;
+		this._xmlData.Spec = diceCardSpec;
+		List<DiceBehaviour> list = new List<DiceBehaviour>();
+		foreach (DiceBehaviour diceBehaviour in this._xmlData.DiceBehaviourList)
+		{
+			DiceBehaviour diceBehaviour2 = diceBehaviour.Copy();
+			diceBehaviour2.EffectRes = "RCorp_Z";
+			list.Add(diceBehaviour2);
+		}
+		this._xmlData.DiceBehaviourList = list;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public string GetSkin()
 	{
-		throw null;
+		return this._xmlData.SkinChange;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public CardSkinType GetSkinType()
 	{
-		throw null;
+		return this._xmlData.SkinChangeType;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetSkinHeight()
 	{
-		throw null;
+		return this._xmlData.SkinHeight;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public string GetMap()
 	{
-		throw null;
+		return this._xmlData.MapChange;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetPriority(int speed = 0)
 	{
-		throw null;
+		int num = this._xmlData.Priority;
+		if (this.owner != null && this._xmlData.PriorityScript != "")
+		{
+			try
+			{
+				DiceCardPriorityBase diceCardPriorityBase = Singleton<AssemblyManager>.Instance.CreateInstance_DiceCardPriority(this._xmlData.PriorityScript);
+				if (diceCardPriorityBase != null)
+				{
+					num += diceCardPriorityBase.GetPriorityBonus(this.owner);
+					if (speed != 0)
+					{
+						num += diceCardPriorityBase.GetPriorityBonus(this.owner, speed);
+					}
+				}
+				else
+				{
+					Debug.LogError("script not found : " + this._xmlData.PriorityScript.Trim());
+				}
+			}
+			catch (Exception exception)
+			{
+				Debug.LogException(exception);
+			}
+		}
+		return num + this._priorityAdder;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPriorityAdder(int v)
 	{
-		
+		this._priorityAdder = v;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetPriorityAdder()
 	{
-		throw null;
+		return this._priorityAdder;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetCost()
 	{
-		throw null;
+		if (this._script != null && this._script.IsFixedCost())
+		{
+			return this._xmlData.Spec.Cost;
+		}
+		int num = this._curCost;
+		if (this._costZero)
+		{
+			num = 0;
+		}
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList)
+		{
+			num = battleDiceCardBuf.GetCost(num);
+		}
+		int num2 = 0;
+		if (this.owner != null)
+		{
+			num2 += this.owner.emotionDetail.GetCardCostAdder(this);
+			num2 += this.owner.bufListDetail.GetCardCostAdder(this);
+			if (this._script != null)
+			{
+				num2 += this._script.GetCostAdder(this.owner, this);
+			}
+		}
+		int num3 = num + this._costAdder + num2;
+		if (this.owner != null && this._script != null && this._script != null)
+		{
+			num3 = this._script.GetCostLast(this.owner, this, num3);
+		}
+		return Mathf.Max(0, num3);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCurrentCost(int cost)
 	{
-		
+		this._curCost = cost;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int GetOriginCost()
 	{
-		throw null;
+		return this._xmlData.Spec.Cost;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public List<DiceBehaviour> GetBehaviourList()
 	{
-		throw null;
+		return this._xmlData.DiceBehaviourList;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public string GetArtworkSrc()
 	{
-		throw null;
+		return this._xmlData.Artwork;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BookCategory GetCategory()
 	{
-		throw null;
+		return this._xmlData.category;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAddedIcon(string resName, int priority = 0)
 	{
-		
+		this._iconAdder = resName;
+		Sprite spr = Resources.Load<Sprite>("Sprites/CardAddedIcon/" + resName);
+		if (this._addedIcons.Find((BattleDiceCardModel.CardIcon x) => x.Icon == spr) == null)
+		{
+			BattleDiceCardModel.CardIcon item = new BattleDiceCardModel.CardIcon(spr, priority);
+			this._addedIcons.Add(item);
+			this._addedIcons.Sort((BattleDiceCardModel.CardIcon x, BattleDiceCardModel.CardIcon y) => y.Priority - x.Priority);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveAddedIcon(string resName, int priority = 0)
 	{
-		
+		this._iconAdder = resName;
+		Sprite spr = Resources.Load<Sprite>("Sprites/CardAddedIcon/" + resName);
+		BattleDiceCardModel.CardIcon cardIcon = this._addedIcons.Find((BattleDiceCardModel.CardIcon x) => x.Icon == spr);
+		if (cardIcon != null)
+		{
+			this._addedIcons.Remove(cardIcon);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public Sprite GetAddedIcon(int idx)
 	{
-		throw null;
+		Sprite result = null;
+		if (idx < this._addedIcons.Count)
+		{
+			result = this._addedIcons[idx].Icon;
+		}
+		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BattleDiceCardBuf GetBufWithMostPriority()
 	{
-		throw null;
+		BattleDiceCardBuf result = null;
+		int num = -1;
+		int num2 = -1;
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList)
+		{
+			if (battleDiceCardBuf.Priority > num2)
+			{
+				num = battleDiceCardBuf.Stack;
+				num2 = battleDiceCardBuf.Priority;
+				result = battleDiceCardBuf;
+			}
+			else if (battleDiceCardBuf.Priority == num2 && battleDiceCardBuf.Stack > num)
+			{
+				num = battleDiceCardBuf.Stack;
+				result = battleDiceCardBuf;
+			}
+		}
+		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsOnlyAllyUnit()
 	{
-		throw null;
+		return this._script != null && this._script.IsOnlyAllyUnit();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsTargetableSelf()
 	{
-		throw null;
+		return this._script != null && this._script.IsTargetableSelf();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsTargetableAllUnit()
 	{
-		throw null;
+		return this._script != null && this._script.IsTargetableAllUnit();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsValidTarget(BattleUnitModel unit, BattleDiceCardModel self, BattleUnitModel targetUnit)
 	{
-		throw null;
+		bool result = true;
+		if (this._script != null)
+		{
+			result = this._script.IsValidTarget(unit, self, targetUnit);
+		}
+		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUseOtherCard_inHand(BattleUnitModel unit, BattlePlayingCardDataInUnitModel curCard)
 	{
-		
+		if (this._script != null)
+		{
+			this._script.OnUseOtherCard_inHand(unit, this, curCard);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnLoseParrying_inHand(BattleUnitModel unit, BattleDiceBehavior behavior)
 	{
-		
+		if (this._script != null)
+		{
+			this._script.OnLoseParrying_inHand(unit, this, behavior);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnWinParrying_inHand(BattleUnitModel unit, BattleDiceBehavior behavior)
 	{
-		
+		if (this._script != null)
+		{
+			this._script.OnWinParrying_inHand(unit, this, behavior);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEnd(BattleUnitModel unit)
 	{
-		
+		if (this._script != null)
+		{
+			this._script.OnRoundEnd(unit, this);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEnd_inHand(BattleUnitModel unit)
 	{
-		
+		if (this._script != null)
+		{
+			this._script.OnRoundEnd_inHand(unit, this);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart_inHand(BattleUnitModel unit)
 	{
-		
+		if (this._script != null)
+		{
+			this._script.OnRoundStart_inHand(unit, this);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnBreakState_inHand(BattleUnitModel unit)
 	{
-		
+		if (this._script != null)
+		{
+			this._script.OnBreakState_inHand(unit, this);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public DiceCardSelfAbilityBase CreateDiceCardSelfAbilityScript()
 	{
-		throw null;
+		return Singleton<AssemblyManager>.Instance.CreateInstance_DiceCardSelfAbility(this._xmlData.Script);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public List<BattleDiceBehavior> CreateDiceCardBehaviorList()
 	{
-		throw null;
+		List<BattleDiceBehavior> list = new List<BattleDiceBehavior>();
+		int num = 0;
+		foreach (DiceBehaviour diceBehaviour in this._xmlData.DiceBehaviourList)
+		{
+			string script = diceBehaviour.Script;
+			BattleDiceBehavior battleDiceBehavior = new BattleDiceBehavior();
+			battleDiceBehavior.behaviourInCard = diceBehaviour.Copy();
+			battleDiceBehavior.SetIndex(num);
+			list.Add(battleDiceBehavior);
+			if (script != string.Empty)
+			{
+				DiceCardAbilityBase diceCardAbilityBase = Singleton<AssemblyManager>.Instance.CreateInstance_DiceCardAbility(script);
+				if (diceCardAbilityBase != null)
+				{
+					battleDiceBehavior.AddAbility(diceCardAbilityBase);
+				}
+				else
+				{
+					Debug.LogError("");
+				}
+			}
+			num++;
+		}
+		return list;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static BattleDiceCardModel CreatePlayingCard(DiceCardXmlInfo cardInfo)
 	{
-		throw null;
+		BattleDiceCardModel battleDiceCardModel = new BattleDiceCardModel();
+		battleDiceCardModel._xmlData = cardInfo.Copy(false);
+		battleDiceCardModel._curCost = cardInfo.Spec.Cost;
+		battleDiceCardModel._script = battleDiceCardModel.CreateDiceCardSelfAbilityScript();
+		return battleDiceCardModel;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool HasBuf<T>()
 	{
-		throw null;
+		return this._bufList.Exists((BattleDiceCardBuf x) => x is T);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBuf(BattleDiceCardBuf buf)
 	{
-		
+		this._bufList.Add(buf);
+		buf.Init(this);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveBuf(BattleDiceCardBuf buf)
 	{
-		
+		if (this._bufList.Contains(buf))
+		{
+			this._bufList.Remove(buf);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveBuf<T>()
 	{
-		
+		BattleDiceCardBuf battleDiceCardBuf = this._bufList.Find((BattleDiceCardBuf x) => x is T);
+		if (battleDiceCardBuf != null)
+		{
+			this._bufList.Remove(battleDiceCardBuf);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public List<BattleDiceCardBuf> GetBufList()
 	{
-		throw null;
+		return new List<BattleDiceCardBuf>(this._bufList);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddBufWithoutDuplication(BattleDiceCardBuf buf)
 	{
-		
+		if (buf.bufType != DiceCardBufType.None)
+		{
+			this._bufList.RemoveAll((BattleDiceCardBuf x) => x.bufType == buf.bufType);
+		}
+		this.AddBuf(buf);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddCost(int cost)
 	{
-		
+		this._costAdder += cost;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetCostToZero(bool zero = true)
 	{
-		
+		this._costZero = zero;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnUseCard(BattleUnitModel owner, BattlePlayingCardDataInUnitModel playingCard)
 	{
-		
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList.ToArray())
+		{
+			if (!battleDiceCardBuf.IsDestroyed())
+			{
+				battleDiceCardBuf.OnUseCard(owner);
+				battleDiceCardBuf.OnUseCard(owner, playingCard);
+			}
+		}
+		this.CheckDestroyedBuf();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDiscard(BattleUnitModel owner, BattleDiceCardModel card)
 	{
-		
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList.ToArray())
+		{
+			if (!battleDiceCardBuf.IsDestroyed())
+			{
+				battleDiceCardBuf.OnDiscard(owner, card);
+			}
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int OnAddKeywordBufByCard(BattleUnitBuf targetBuf, int stack)
 	{
-		throw null;
+		int num = 0;
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList.ToArray())
+		{
+			if (!battleDiceCardBuf.IsDestroyed())
+			{
+				num += battleDiceCardBuf.OnAddKeywordBufByCard(targetBuf, stack);
+			}
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public int OnGiveKeywordBufByCard(BattleUnitBuf targetBuf, int stack, BattleUnitModel target)
 	{
-		throw null;
+		int num = 0;
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList.ToArray())
+		{
+			if (!battleDiceCardBuf.IsDestroyed())
+			{
+				num += battleDiceCardBuf.OnGiveKeywordBufByCard(targetBuf, stack, target);
+			}
+		}
+		return num;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CheckDestroyedBuf()
 	{
-		
+		List<BattleDiceCardBuf> list = new List<BattleDiceCardBuf>();
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList.ToArray())
+		{
+			try
+			{
+				if (battleDiceCardBuf.IsDestroyed())
+				{
+					list.Add(battleDiceCardBuf);
+				}
+			}
+			catch (Exception exception)
+			{
+				Debug.LogException(exception);
+			}
+		}
+		foreach (BattleDiceCardBuf buf in list)
+		{
+			this.RemoveBuf(buf);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundStart()
 	{
-		
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList.ToArray())
+		{
+			if (!battleDiceCardBuf.IsDestroyed())
+			{
+				battleDiceCardBuf.OnRoundStart();
+			}
+		}
+		this.CheckDestroyedBuf();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDrawCard()
 	{
-		
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList.ToArray())
+		{
+			if (!battleDiceCardBuf.IsDestroyed())
+			{
+				battleDiceCardBuf.OnDrawCard();
+			}
+		}
+		this.CheckDestroyedBuf();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRoundEnd()
 	{
-		
+		foreach (BattleDiceCardBuf battleDiceCardBuf in this._bufList.ToArray())
+		{
+			if (!battleDiceCardBuf.IsDestroyed())
+			{
+				battleDiceCardBuf.OnRoundEnd();
+			}
+		}
+		this.CheckDestroyedBuf();
 	}
 
 	public class CardIcon
@@ -470,26 +643,24 @@ public class BattleDiceCardModel
 
 		public Sprite Icon
 		{
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
 			{
-				throw null;
+				return this._icon;
 			}
 		}
 
 		public int Priority
 		{
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
 			{
-				throw null;
+				return this._priority;
 			}
 		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		public CardIcon(Sprite spr, int pri)
 		{
-			throw null;
+			this._icon = spr;
+			this._priority = pri;
 		}
 	}
 }

@@ -16,18 +16,12 @@ public class BattleDiceCardBufUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEnable(bool b)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetBufIcon(BattleDiceCardBuf cardBuf)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleDiceCardBufUI()
-	{
-		throw null;
 	}
 }

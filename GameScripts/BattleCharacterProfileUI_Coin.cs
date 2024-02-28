@@ -12,18 +12,12 @@ public class BattleCharacterProfileUI_Coin : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Set(float width, Color color)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDefaultImgScale()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleCharacterProfileUI_Coin()
-	{
-		throw null;
 	}
 }

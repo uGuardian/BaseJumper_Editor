@@ -18,34 +18,38 @@ public class ActionCharacter : MonoBehaviour
 
 	public Direction direction
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			if (base.transform.localScale.x > 0f)
+			{
+				return Direction.LEFT;
+			}
+			return Direction.RIGHT;
 		}
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		set
 		{
-			throw null;
+			Vector3 localScale = base.transform.localScale;
+			localScale.x = Mathf.Abs(localScale.x) * (float)((value == Direction.RIGHT) ? -1 : 1);
+			base.transform.localScale = localScale;
 		}
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Initialize(CharacterAppearance cloneAppearance)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetAction()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void BeforeAction(ResultData r)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -57,17 +61,11 @@ public class ActionCharacter : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DoAction(ResultData r, Vector3 dstPos)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private IEnumerator AfterAction(ResultData r)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public ActionCharacter()
 	{
 		throw null;
 	}

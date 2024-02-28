@@ -24,40 +24,44 @@ public class BattleCoin
 
 	public bool enhanced;
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public BattleCoin(RWBPType rwbp, RWBPType cardRwbpType, int lv = 1)
 	{
-		throw null;
+		this.rwbp = rwbp;
+		this.enhanced = false;
+		this.bufSlotList = new List<BattleSlot>();
+		this.rwbpDefault = rwbp;
+		this.level = lv;
+		this.cardRwbp = cardRwbpType;
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetPcoinAbility(RWBPType targetCoinType)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void IncreaseLevel(int add)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DecreaseLevel(int sub)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void IncreaseDamageBonus(float v)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void IncreaseMessinessDamageBonus(float v)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -69,12 +73,12 @@ public class BattleCoin
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Enhance()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Change(RWBPType rwbp)
 	{
-		
+
 	}
 }

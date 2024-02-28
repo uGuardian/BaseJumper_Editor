@@ -15,10 +15,4 @@ public class BattleCardBehaviourStack
 	public List<BattleDiceBehaviourUI> EndBehaviours;
 
 	public bool setEndBehavior;
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleCardBehaviourStack()
-	{
-		throw null;
-	}
 }

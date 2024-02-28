@@ -22,13 +22,13 @@ public class BattleEmotionInfo_TargetToggles : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetDefault()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -40,54 +40,48 @@ public class BattleEmotionInfo_TargetToggles : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetToggle(int idx, bool on)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowEnemyArrowInToggle(bool show)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowParryingArrowInToggle(bool show)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowAllyArrowInToggle(bool show)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPdSumbit_Enemy(BaseEventData data)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPdSumbit_Parrying(BaseEventData data)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPdSumbit_Ally(BaseEventData data)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPdCancel(BaseEventData data)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEmotionInfo_TargetToggles()
-	{
-		throw null;
 	}
 }

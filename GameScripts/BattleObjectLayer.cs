@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UI;
 using UnityEngine;
 
@@ -18,56 +17,95 @@ public class BattleObjectLayer : MonoBehaviour
 
 	public static BattleObjectLayer instance
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return BattleObjectLayer._instance;
 		}
 	}
 
 	public List<BattleUnitView> UnitViewList
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._unitList;
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+		BattleObjectLayer._instance = this;
+		this._unitList = new List<BattleUnitView>();
+		this.unitViewportList = new List<BattleObjectLayer.UnitViewportPosInfo>();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Clear()
 	{
-		
+		foreach (BattleUnitView battleUnitView in this._unitList)
+		{
+			if (battleUnitView != null)
+			{
+				string resourceName = "";
+				if (battleUnitView.charAppearance != null)
+				{
+					resourceName = battleUnitView.charAppearance.resourceName;
+				}
+				UnityEngine.Object.Destroy(battleUnitView.gameObject);
+				Singleton<AssetBundleManagerRemake>.Instance.ReleaseSdObject(resourceName);
+			}
+		}
+		this._unitList.Clear();
+		this.unitViewportList.Clear();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddUnit(BattleUnitModel model)
 	{
-		
+		BattleUnitView battleUnitView = UnityEngine.Object.Instantiate<BattleUnitView>(this.battleUnitPrefab);
+		model.view = battleUnitView;
+		battleUnitView.model = model;
+		battleUnitView.CreateSkin();
+		battleUnitView.model.UpdateDirection(Vector3.zero);
+		battleUnitView.transform.SetParent(base.transform, false);
+		battleUnitView.transform.localPosition = SingletonBehavior<HexagonalMapManager>.Instance.CellToWorldPos(model.formationCellPos + SingletonBehavior<HexagonalMapManager>.Instance.CenterCell);
+		battleUnitView.gameObject.SetActive(true);
+		battleUnitView.abCardSelector.selectable.parentSelectable = this.selectablePanel;
+		this._unitList.Add(battleUnitView);
+		BattleObjectLayer.UnitViewportPosInfo unitViewportPosInfo = new BattleObjectLayer.UnitViewportPosInfo();
+		unitViewportPosInfo.view = battleUnitView;
+		this.unitViewportList.Add(unitViewportPosInfo);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void RemoveUnit(BattleUnitModel model)
 	{
-		
+		string resourceName = "";
+		BattleUnitView removal = null;
+		foreach (BattleUnitView battleUnitView in this._unitList)
+		{
+			if (battleUnitView != null && battleUnitView.model == model)
+			{
+				removal = battleUnitView;
+				if (removal.charAppearance != null)
+				{
+					resourceName = removal.charAppearance.resourceName;
+				}
+				UnityEngine.Object.Destroy(battleUnitView.gameObject);
+				Singleton<AssetBundleManagerRemake>.Instance.ReleaseSdObject(resourceName);
+			}
+		}
+		this._unitList.Remove(removal);
+		BattleObjectLayer.UnitViewportPosInfo unitViewportPosInfo = this.unitViewportList.Find((BattleObjectLayer.UnitViewportPosInfo x) => x.view == removal);
+		if (unitViewportPosInfo != null)
+		{
+			this.unitViewportList.Remove(unitViewportPosInfo);
+		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void FixedUpdate()
 	{
-		
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleObjectLayer()
-	{
-		throw null;
+		foreach (BattleObjectLayer.UnitViewportPosInfo unitViewportPosInfo in this.unitViewportList)
+		{
+			Vector3 viewportPos = SingletonBehavior<BattleCamManager>.Instance.mainCam.WorldToViewportPoint(unitViewportPosInfo.view.WorldPosition);
+			unitViewportPosInfo.viewportPos = viewportPos;
+		}
 	}
 
 	public class UnitViewportPosInfo
@@ -75,11 +113,5 @@ public class BattleObjectLayer : MonoBehaviour
 		public BattleUnitView view;
 
 		public Vector3 viewportPos;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public UnitViewportPosInfo()
-		{
-			throw null;
-		}
 	}
 }

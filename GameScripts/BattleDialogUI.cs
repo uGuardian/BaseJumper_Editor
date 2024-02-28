@@ -30,29 +30,28 @@ public class BattleDialogUI : MonoBehaviour
 
 	public bool IsEndedDisplay
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return this._bEndedDisplay;
 		}
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableCanvas(bool b)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void TurnOnAbnormalityDlg(EmotionCardXmlInfo card)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void TurnOffAbnormalityDlg()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -70,13 +69,13 @@ public class BattleDialogUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void TurnOnDialog(string dlg, float duration)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void TurnOffDialog()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -88,18 +87,12 @@ public class BattleDialogUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleDialogUI()
-	{
-		throw null;
 	}
 }

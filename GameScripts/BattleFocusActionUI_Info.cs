@@ -73,103 +73,103 @@ public class BattleFocusActionUI_Info : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisableCurDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ResetUI()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattlePlayingCardDataInUnitModel playingCard, float speed = 1f)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateDiceState(BattlePlayingCardDataInUnitModel playingCard)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnFailDice(BattlePlayingCardDataInUnitModel playingCard)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndAppearAnimation()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartActionAnimation()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartMainSlotAnimationBeforeResult()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartMainDiceSlotAnimation()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartVibeAnimation()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndVibeAnimation()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndRollingDiceAnimation()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndVanillaActionAnimation()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DuringActionAnimation()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndActionAnimation()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetPreRollData(BattlePlayingCardDataInUnitModel playingCard)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetResultData(BattlePlayingCardDataInUnitModel playingCard)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -187,49 +187,43 @@ public class BattleFocusActionUI_Info : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ResetFrameImg()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ResetDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ResetCard()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void ResetText()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleFocusActionUI_Info()
-	{
-		throw null;
 	}
 
 	[Serializable]
@@ -242,13 +236,7 @@ public class BattleFocusActionUI_Info : MonoBehaviour
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Enable(bool b)
 		{
-			
-		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public PassiveUI()
-		{
-			throw null;
 		}
 	}
 }

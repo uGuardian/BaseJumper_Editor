@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class BattleEffectSound : MonoBehaviour
@@ -10,51 +9,49 @@ public class BattleEffectSound : MonoBehaviour
 
 	private float elapsed;
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(AudioClip ac, float volume = 1f, bool loop = false)
 	{
-		
+		if (Singleton<StageController>.Instance.argaliaFinalMapChanged)
+		{
+			volume *= 0.5f;
+		}
+		this._audioSrc.clip = ac;
+		this._audioSrc.volume = volume;
+		this._audioSrc.Play();
+		this._audioSrc.loop = loop;
+		this.length = ac.length;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool IsPlaying()
 	{
-		throw null;
+		return !(this._audioSrc == null) && this._audioSrc.isPlaying;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ChangeVolume(float volume)
 	{
-		
+		this._audioSrc.volume = volume;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Release()
 	{
-		
+		UnityEngine.Object.Destroy(base.gameObject);
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+		this._audioSrc = base.GetComponent<AudioSource>();
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEffectSound()
-	{
-		throw null;
+		this.elapsed += Time.deltaTime;
+		if (this.elapsed > this.length + 1f && !this._audioSrc.loop)
+		{
+			UnityEngine.Object.Destroy(base.gameObject);
+		}
 	}
 }

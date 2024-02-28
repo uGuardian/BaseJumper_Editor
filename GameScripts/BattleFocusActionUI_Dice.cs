@@ -78,61 +78,61 @@ public class BattleFocusActionUI_Dice : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableDetailIcon(bool b)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetAlpha(float alpha)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EnableImgs(bool e)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AppearDestroyIcon()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void PrepareDiceUI(BattleDiceBehavior diceBehaviour)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateFace(int face)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void LoseDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFaceSprite(int face)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetVanillaValue(int value)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetFinalValue(int value, DiceBehaviour behaviour)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -144,25 +144,25 @@ public class BattleFocusActionUI_Dice : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDicesColor(DiceBehaviour behaviour)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDicesFinalColor(DiceBehaviour behaviour)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDicesColor(BehaviourType behaviourType)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetDicesFinalColor(BehaviourType behaviourType)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -186,19 +186,13 @@ public class BattleFocusActionUI_Dice : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void LateUpdate()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleFocusActionUI_Dice()
-	{
-		throw null;
 	}
 
 	[Serializable]
@@ -224,11 +218,5 @@ public class BattleFocusActionUI_Dice : MonoBehaviour
 
 		[SerializeField]
 		internal Vector2 detailIconOffset;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public DiceSprite()
-		{
-			throw null;
-		}
 	}
 }

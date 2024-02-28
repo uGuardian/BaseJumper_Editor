@@ -9,10 +9,4 @@ public class BattleBufUIDataList
 	public List<BattleBufUIData> bufReadyReadyList;
 
 	public List<BattleBufUIData> bufActivatedList;
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleBufUIDataList()
-	{
-		throw null;
-	}
 }

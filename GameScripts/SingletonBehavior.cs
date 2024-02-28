@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class SingletonBehavior<T> : MonoBehaviour where T : MonoBehaviour
@@ -10,29 +9,19 @@ public class SingletonBehavior<T> : MonoBehaviour where T : MonoBehaviour
 
 	public static T Instance
 	{
-		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			if (SingletonBehavior<T>._instance == null)
+			{
+				SingletonBehavior<T>._instance = (UnityEngine.Object.FindObjectOfType(typeof(T)) as T);
+			}
+			return SingletonBehavior<T>._instance;
 		}
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void OnApplicationQuit()
 	{
-		
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public SingletonBehavior()
-	{
-		throw null;
-	}
-
-	// Note: this type is marked as 'beforefieldinit'.
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	static SingletonBehavior()
-	{
-		throw null;
+		SingletonBehavior<T>._isQuit = true;
+		base.StopAllCoroutines();
 	}
 }

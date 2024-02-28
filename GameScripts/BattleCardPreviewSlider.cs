@@ -19,36 +19,30 @@ public class BattleCardPreviewSlider : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnClickHideShowCardPreview()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEnterHideShowButton()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnExitHideShowButton()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndCardPreview()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetActive(bool b)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleCardPreviewSlider()
-	{
-		throw null;
 	}
 }

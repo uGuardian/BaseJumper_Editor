@@ -29,13 +29,13 @@ public class ActionText : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(string text, BattleUnitView view, ActionTextMode mode = ActionTextMode.None)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -46,12 +46,6 @@ public class ActionText : MonoBehaviour
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private IEnumerator FadeOut(bool moveY = true, float fadeSpeed = 1f)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public ActionText()
 	{
 		throw null;
 	}

@@ -41,10 +41,8 @@ public class BattleManagerUI : SingletonBehavior<BattleManagerUI>
 
 	public SpeedDiceUI focusedDice;
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected BattleManagerUI()
 	{
-		throw null;
 	}
 
 	public SpeedDiceUI selectedAllyDice
@@ -78,24 +76,24 @@ public class BattleManagerUI : SingletonBehavior<BattleManagerUI>
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnEndBattle()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearEffects()
 	{
-		
+
 	}
 }

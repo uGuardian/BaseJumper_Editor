@@ -34,18 +34,12 @@ public class BattleEmotionRewardSlotUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetData(UnitBattleDataModel unit, Faction faction)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSizeByText(TextMeshProUGUI txtslot)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEmotionRewardSlotUI()
-	{
-		throw null;
 	}
 }

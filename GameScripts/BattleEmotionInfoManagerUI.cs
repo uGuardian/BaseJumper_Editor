@@ -106,49 +106,49 @@ public class BattleEmotionInfoManagerUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void InitTeam()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(IList<BattleUnitModel> librarians, IList<BattleUnitModel> enemies)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetSephirahFrameImgColor(Color c)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ShowRewardInfo(bool isover, BattleEmotionBarTeamSlotUI teamportrait = null)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetLibrarianRewardInfo(bool isover, BattleEmotionBarPortraitUI pointeredUI)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetEnemyRewardInfo(bool isover, BattleEmotionBarPortraitUI pointeredUI)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DropBook(List<string> dropBooks)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void UpdateCardsStateUI()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -166,72 +166,60 @@ public class BattleEmotionInfoManagerUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetEmotionBars(List<BattleUnitModel> list, BattleEmotionBar[] bars)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void SetEmotionBarsByTeam(EmotionBattleTeamModel team, BattleEmotionBar[] bars)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FocusLeftPanel()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void FocusRightPanel()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnLTButton()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnRTButton()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSelectPanel()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDeselectPanel()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEmotionInfoManagerUI()
-	{
-		throw null;
 	}
 
 	[Serializable]
 	public class ColorSet
 	{
 		public Color[] color;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public ColorSet()
-		{
-			throw null;
-		}
 	}
 }

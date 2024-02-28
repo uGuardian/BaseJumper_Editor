@@ -1,24 +1,22 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class BattleDirectingManager : SingletonBehavior<BattleDirectingManager>
 {
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Add(GameObject g)
 	{
-		
+		g.transform.parent = base.transform;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Clear()
 	{
-		
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleDirectingManager()
-	{
-		throw null;
+		Transform[] componentsInChildren = base.GetComponentsInChildren<Transform>(true);
+		if (componentsInChildren != null)
+		{
+			for (int i = 1; i < componentsInChildren.Length; i++)
+			{
+				UnityEngine.Object.Destroy(componentsInChildren[i].gameObject);
+			}
+		}
 	}
 }

@@ -36,7 +36,7 @@ public class AbCardSelector : MonoBehaviour
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return _view;
 		}
 	}
 
@@ -45,61 +45,55 @@ public class AbCardSelector : MonoBehaviour
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		get
 		{
-			throw null;
+			return _initialized;
 		}
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void Init(BattleUnitModel model, int emotionLv = 1)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnClickSelectButton()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerEnter(BaseEventData data)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerExit(BaseEventData data)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Over()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Unover()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void DisplaySelectionDialog(EmotionCardXmlInfo card)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void TurnOffUI()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public AbCardSelector()
-	{
-		throw null;
 	}
 }

@@ -36,31 +36,31 @@ public class BattleActUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void StartAct(int actLv, List<BattleUnitModel> unitList)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnAppearAnimEnd()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDisappearAnimEnd()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -72,17 +72,11 @@ public class BattleActUI : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void EndActAnim(int actLv, List<BattleUnitModel> unitList)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private IEnumerator FadeAct(int actLv, List<BattleUnitModel> unitList)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleActUI()
 	{
 		throw null;
 	}

@@ -16,24 +16,18 @@ public class BattleEmotionBar : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetColor(Color c)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public BattleEmotionBar()
-	{
-		throw null;
 	}
 }
