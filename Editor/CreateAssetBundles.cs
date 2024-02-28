@@ -1,6 +1,8 @@
 ﻿using System;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UIElements;
+using UnityEditor.UIElements;
 using System.IO;
 using System.Text;
 using System.Threading;
@@ -15,7 +17,7 @@ using BaseJumper.Editor;
 #pragma warning disable CS0051
 
 namespace BaseJumper.Editor {
-    public class BaseJumper_Editor : EditorWindow, IDisposable {
+    public partial class BaseJumper_Editor : EditorWindow, IDisposable {
         public BaseJumper_Editor() : base() {
             totalProgress = new Progress(DisplayProgressBar, ClearProgressBar);
         }
@@ -51,10 +53,12 @@ namespace BaseJumper.Editor {
             isRunning = false;
             instance = null;
         }
+        /*
         [MenuItem("BaseJumper/Debug/OpenWindow")]
         static void OpenWindow_Static() {
             Window.Show();
         }
+        */
         [MenuItem("BaseJumper/Debug/DebuggerPause")]
         static void DebuggerPause() {
             var instance = Instance;
@@ -114,27 +118,39 @@ namespace BaseJumper.Editor {
             Window.Close();
 		}
         void AssetStudio_Rectify(IEnumerable<FileInfo> bundles) {
+            if (!VerifyLocation()) {throw new InvalidOperationException("Invalid LoR folder setting");}
             AssetStudio.Logger.Default = new SpecialLogger();
             Window.Show();
             // const string tempPath = "F:/Temp/LoR_Extract/Temp";
 			var mainManager = new AssetsManager {
 				ProgressManager = totalProgress,
-				LoRPath = "E:/Program Files (x86)/Steam/steamapps/common/Library Of Ruina"
+				LoRPath = LocationString
 			};
-            string vanillaDirectory = "E:/Program Files (x86)/Steam/steamapps/common/Library Of Ruina";
-            string vanillaAssetBundleDirectory = vanillaDirectory+"/LibraryOfRuina_Data";
-            var vanillaAssetBundleDirectoryInfo = new DirectoryInfo(vanillaAssetBundleDirectory);
-            var coreVanillaAdditionalBundleDirectory = vanillaAssetBundleDirectory+"/Resources";
-            var coreVanillaAdditionalBundleDirectoryInfo = new DirectoryInfo(coreVanillaAdditionalBundleDirectory);
-            var nonCoreVanillaBundleDirectory = vanillaAssetBundleDirectory+"/StreamingAssets";
-            var nonCoreVanillaBundleDirectoryInfo = new DirectoryInfo(nonCoreVanillaBundleDirectory);
+            var vanillaDirectory = Location;
+            var vanillaAssetBundleDirectoryInfo = vanillaDirectory.EnumerateDirectories("LibraryOfRuina_Data").First();
+            DirectoryInfo coreVanillaAdditionalBundleDirectoryInfo = null;
+            DirectoryInfo nonCoreVanillaBundleDirectoryInfo = null;
+            foreach (var dir in vanillaAssetBundleDirectoryInfo.EnumerateDirectories()) {
+                switch (dir.Name) {
+                    case "Resources":
+                        coreVanillaAdditionalBundleDirectoryInfo = dir;
+                        break;
+                    case "StreamingAssets":
+                        nonCoreVanillaBundleDirectoryInfo = dir;
+                        break;
+                }
+            }
             var coreVanillaBundlesQuery = vanillaAssetBundleDirectoryInfo
                 .EnumerateFiles()
                 .Where(IsValidVanillaBundle);
-            coreVanillaBundlesQuery = coreVanillaBundlesQuery
-                .Append(new FileInfo(coreVanillaAdditionalBundleDirectory+"/unity default resources"));
-            coreVanillaBundlesQuery = coreVanillaBundlesQuery
-                .Append(new FileInfo(coreVanillaAdditionalBundleDirectory+"/unity_builtin_extra"));
+            foreach (var file in coreVanillaAdditionalBundleDirectoryInfo.EnumerateFiles()) {
+                switch (file.Name) {
+                    case "unity default resources":
+                    case "unity_builtin_extra":
+                        coreVanillaBundlesQuery = coreVanillaBundlesQuery.Append(file);
+                        break;
+                }
+            }
             var coreVanillaBundles = coreVanillaBundlesQuery.ToList();
             var coreVanillaBundleNames = coreVanillaBundles
                 .ToDictionary(x => x.Name, x => x.FullName, StringComparer.OrdinalIgnoreCase);
@@ -148,7 +164,7 @@ namespace BaseJumper.Editor {
             AssetsManager NewManager() {
                 return new AssetsManager {
 				    ProgressManager = totalProgress,
-                    LoRPath = "E:/Program Files (x86)/Steam/steamapps/common/Library Of Ruina"
+                    LoRPath = LocationString
                 };
             }
             var vanillaManagers = new Dictionary<string, AssetsManager>();
@@ -224,7 +240,7 @@ namespace BaseJumper.Editor {
                     });
                     return temp3;
                 });
-                
+
                 var pptrsAll = mainManager_assetsFileList_NoCompressed.ToDictionary(x => x, x =>
 				{
                     try {
@@ -842,8 +858,8 @@ namespace BaseJumper.Editor {
         async Task BuildAllAssetBundles() {
             try {
                 string assetBundleDirectory = "Assets/AssetBundles";
-                var manifest = BuildPipeline.BuildAssetBundles(assetBundleDirectory, 
-                    BuildAssetBundleOptions.UncompressedAssetBundle, 
+                var manifest = BuildPipeline.BuildAssetBundles(assetBundleDirectory,
+                    BuildAssetBundleOptions.UncompressedAssetBundle,
                     UnityEditor.BuildTarget.StandaloneWindows64);
                 // var allBundlesDebug = manifest.GetAllAssetBundles();
                 var allBundles = GetAllFiles(assetBundleDirectory).ToList();
