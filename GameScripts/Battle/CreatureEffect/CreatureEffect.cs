@@ -36,67 +36,61 @@ namespace Battle.CreatureEffect
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetEmotionCardAbility(EmotionCardAbilityBase abilityBase)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetBattleDiceBehavior(BattleDiceBehavior behavior)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime = -1f)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void Update()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetLayer(string layerName)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void ManualDestroy()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void OnPrintEffect()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void AttachEffectLayer()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void StartAudioClip()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void OnEnable()
 		{
-			
-		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public CreatureEffect()
-		{
-			throw null;
 		}
 	}
 }
