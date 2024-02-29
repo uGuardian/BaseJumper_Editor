@@ -82,54 +82,48 @@ public class _2dxFX_Distortion : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Awake()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Start()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void CallUpdate()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void XUpdate()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDestroy()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnDisable()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void OnEnable()
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public _2dxFX_Distortion()
-	{
-		throw null;
 	}
 }

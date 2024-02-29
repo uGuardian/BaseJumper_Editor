@@ -70,85 +70,85 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected override void OnDisable()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		protected override void Awake()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnPointerEnter(PointerEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnPointerExit(PointerEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnPointerDown(PointerEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnPointerUp(PointerEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnSelect(BaseEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public override void OnDeselect(BaseEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void DeselectForcely()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnSubmit(BaseEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnCancel(BaseEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void OnXEvent(BaseEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public virtual void OnYEvent(BaseEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetHighlightFrameActive(bool isTrue)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -184,13 +184,7 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetNavigationObject(NavigationDir dir, UICustomSelectable selectableObject)
 		{
-			
-		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public UICustomSelectable()
-		{
-			throw null;
 		}
 	}
 }

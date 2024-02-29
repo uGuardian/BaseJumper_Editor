@@ -85,43 +85,43 @@ public class MapManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void EndRunningStateForcely(float delay)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void SetRunningState(bool b)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void InitializeMap()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void ResetMap()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void ActiveMap(bool b)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void PlayMapChangedSound()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void EnableMap(bool b)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -139,84 +139,78 @@ public class MapManager : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnStartRollSpeedDice()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnStartUnitMoving()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundStart()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void AfterCheckMap()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundEnd()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void Awake()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void LateUpdate()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void FixedUpdate()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void ReviseFilterTransform(SpriteRenderer r)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void ReviseTransform(Transform t, float stdScaleFactor = 1f)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnWaveStart()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void OnRoundEndTheLast()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected void DestroyObject(GameObject go)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public MapManager()
-	{
-		throw null;
 	}
 }

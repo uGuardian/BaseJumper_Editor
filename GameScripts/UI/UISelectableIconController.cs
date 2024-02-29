@@ -19,31 +19,25 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void ShowIcon()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void HideIcon()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetIcon(GameObject go)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetParent(List<UISelectableIconController> parent)
 		{
-			
-		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public UISelectableIconController()
-		{
-			throw null;
 		}
 	}
 }

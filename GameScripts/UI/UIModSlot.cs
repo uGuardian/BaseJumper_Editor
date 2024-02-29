@@ -42,85 +42,79 @@ namespace UI
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void Init(UIModPopup popup)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetData(ModSlotData data)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetEmpty()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetDeactive()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnToggleValueChanged(bool b)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnScroll(BaseEventData eventData)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnXEvent()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnSelect()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnDeselect()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnSubmit()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void OnCancel()
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void SetHighlighted(bool b)
 		{
-			
+
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void SetColor(Color c)
 		{
-			
-		}
 
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public UIModSlot()
-		{
-			throw null;
 		}
 	}
 }

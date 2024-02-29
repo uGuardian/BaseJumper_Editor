@@ -44,72 +44,66 @@ public class UICustomScrollBar : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnSelectBar()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnDeselectBar()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	private void Update()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetScrollRectSize(float x, float y)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetWindowPosition(float x, float y)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void SetScrollVector(Vector2 vec)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClampBarSize()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerDownUpButton()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerDownDownButton()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnPointerExitOrUp()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void OnExitEvent(BaseEventData eventData)
 	{
-		
-	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public UICustomScrollBar()
-	{
-		throw null;
 	}
 }

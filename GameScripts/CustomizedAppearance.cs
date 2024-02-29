@@ -54,71 +54,65 @@ public class CustomizedAppearance : MonoBehaviour
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void AddRefreshEvent(CustomizedAppearance.OnRefreshAppearance e)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public void ClearRefreshEvent()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void ChangeLayer(string layerName)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void SetOriginalColor()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void SetColor(Color c)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void InitCustomData(UnitCustomizingData data, CharacterAppearance appearance)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void SetScaleFactor(float scale)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void RefreshAppearanceByMotion(CharacterMotion motion)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual void SetSpriteByGift(CharacterAppearanceType appearanceType, bool enable)
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	protected virtual void Awake()
 	{
-		
+
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public virtual int GetRendererOrder(CharacterAppearanceType type, ActionDetail motion)
-	{
-		throw null;
-	}
-
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	public CustomizedAppearance()
 	{
 		throw null;
 	}
@@ -129,12 +123,6 @@ public class CustomizedAppearance : MonoBehaviour
 		public GiftPosition giftPos;
 
 		public Transform pivot;
-
-		[MethodImpl(MethodImplOptions.NoInlining)]
-		public GiftPivot()
-		{
-			throw null;
-		}
 	}
 
 	public delegate void OnRefreshAppearance(CustomizedAppearance appearance);
